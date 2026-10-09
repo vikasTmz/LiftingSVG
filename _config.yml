@@ -1,0 +1,37 @@
+title: Lifting SVGs to 3D
+description: Research on lifting SVG artwork into 3D scenes.
+
+# Configure these when choosing a public hosting address. Local serving
+# overrides baseurl, keeping / and /svg_to_3D/ available on localhost.
+url: ""
+baseurl: ""
+encoding: utf-8
+destination: _site
+host: 127.0.0.1
+port: 4000
+
+# The existing HTML has no front matter and is copied unchanged. Markdown in
+# svg_to_3D/content stays raw so Marked and MathJax can render it in the browser.
+plugins: []
+include:
+  - svg_to_3D/assets/vendor
+
+exclude:
+  - _site
+  - Gemfile
+  - Gemfile.lock
+  - setup.sh
+  - README.md
+  - .bundle
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - "**/.DS_Store"
+  - "**/__pycache__"
+  - svg_to_3D/EDITING.md
+  - svg_to_3D/instructions.md
+  - svg_to_3D/prepare_viewer_assets.py
+  - svg_to_3D/visualize_svg.py
+

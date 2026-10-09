@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" fill="none" height="300" width="300" viewBox="0 0 300 300" data-layer-depth="2" style="mask: none !important; clip-path: none !important;">
+  <title style="mask: none !important; clip-path: none !important;">Flying bird — semantic layers</title>
+  <desc style="mask: none !important; clip-path: none !important;">Ten semantic layers in original paint order. Wing pose groups retain the original discrete visibility switches and path morphs. All geometry, styling, transforms, and animation timing are preserved.</desc>
+  <g transform="matrix(3.85072537816 0 0 3.85072537816 -218.370284711 -501.938067446)" data-export-normalized="true"><g id="rear-wing" ns1:groupmode="layer" ns1:label="01 · Rear wing" data-layer="rear-wing" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g transform="matrix(1,0,0,1,-897.196,-540.658)" visibility="visible" id="rear-wing-part-05" data-pose="1" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="visible; hidden; hidden" keyTimes="0; 0.133; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-07" transform="matrix(1,0,0,1,898.917,547.677)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1418.416,-740.826)" visibility="hidden" id="rear-wing-part-10" data-pose="2" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.133; 0.267; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-12" transform="matrix(1,0,0,1,1409.588,754.425)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1240.351,-748.887)" visibility="hidden" id="rear-wing-part-15" data-pose="3" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.267; 0.4; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-17" transform="matrix(1,0,0,1,0,0)" style="mask: none !important; clip-path: none !important;">
+              <g id="rear-wing-part-18" transform="matrix(1,0,0,1,1242.631,796.442)" style="mask: none !important; clip-path: none !important;">
+                
+              </g>
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1067.787,-756.894)" visibility="hidden" id="rear-wing-part-21" data-pose="4" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.4; 0.533; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-23" transform="matrix(1,0,0,1,1069.493,802.33)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-896.696,-762.94)" visibility="hidden" id="rear-wing-part-26" data-pose="5" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.533; 0.667; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-28" transform="matrix(1,0,0,1,894.462,807.342)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1417.107,-557.076)" visibility="hidden" id="rear-wing-part-31" data-pose="6" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.667; 0.867; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-33" transform="matrix(1,0,0,1,1417.709,599.438)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1067.507,-545.611)" visibility="hidden" id="rear-wing-part-36" data-pose="7" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; visible" keyTimes="0; 0.867; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="rear-wing-part-38" transform="matrix(1,0,0,1,1062.96,552.72)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="tail" ns1:groupmode="layer" ns1:label="02 · Tail feathers" data-layer="tail" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="tail-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="tail-part-09" transform="matrix(1,0,0,1,0,0)" style="mask: none !important; clip-path: none !important;">
+                  <g id="tail-part-10" transform="matrix(1,0,0,1,844.666,568.326)" style="mask: none !important; clip-path: none !important;">
+                    <path d="M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z" stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#422724" fill="#f46a5b" style="mask: none !important; clip-path: none !important;">
+                      <animate repeatCount="indefinite" attributeName="d" dur="1s" begin="0s" calcMode="spline" values="M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C13.031,0.428,-4.171,-4.471,-18.92,-3.819C-22.122,-3.677,-26.199,-3.017,-26.911,0.121C-27.388,2.224,-25.805,4.373,-23.821,5.229C-21.837,6.085,-19.586,5.944,-17.437,5.675C-2.952,3.864,8.781,5.428,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C13.031,0.428,-4.171,-4.471,-18.92,-3.819C-22.122,-3.677,-26.199,-3.017,-26.911,0.121C-27.388,2.224,-25.805,4.373,-23.821,5.229C-21.837,6.085,-19.586,5.944,-17.437,5.675C-2.952,3.864,8.781,5.428,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C13.031,0.428,-4.171,-4.471,-18.92,-3.819C-22.122,-3.677,-26.199,-3.017,-26.911,0.121C-27.388,2.224,-25.805,4.373,-23.821,5.229C-21.837,6.085,-19.586,5.944,-17.437,5.675C-2.952,3.864,8.781,5.428,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C13.031,0.428,-4.171,-4.471,-18.92,-3.819C-22.122,-3.677,-26.199,-3.017,-26.911,0.121C-27.388,2.224,-25.805,4.373,-23.821,5.229C-21.837,6.085,-19.586,5.944,-17.437,5.675C-2.952,3.864,8.781,5.428,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C13.031,0.428,-4.171,-4.471,-18.92,-3.819C-22.122,-3.677,-26.199,-3.017,-26.911,0.121C-27.388,2.224,-25.805,4.373,-23.821,5.229C-21.837,6.085,-19.586,5.944,-17.437,5.675C-2.952,3.864,8.781,5.428,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z; M25.944,6.164C11.254,4.624,-3.116,0.074,-16.016,-7.106C-18.816,-8.666,-22.636,-10.246,-24.886,-7.946C-26.396,-6.406,-26.176,-3.746,-24.936,-1.976C-23.696,-0.206,-21.706,0.854,-19.736,1.754C-6.456,7.814,8.454,9.044,23.554,9.104C24.234,8.124,24.914,7.164,25.944,6.164Z" keyTimes="0; 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                    </path>
+                  </g>
+                  <g id="tail-part-13" transform="matrix(1,0,0,1,843.447,574.784)" style="mask: none !important; clip-path: none !important;">
+                    <path d="M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z" stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#422724" fill="#f46a5b" style="mask: none !important; clip-path: none !important;">
+                      <animate repeatCount="indefinite" attributeName="d" dur="1s" begin="0s" calcMode="spline" values="M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-2.597,-1.704,-14.587,-6.144C-16.947,-7.014,-19.887,-7.864,-21.737,-6.154C-23.267,-4.744,-23.117,-2.144,-21.927,-0.444C-20.737,1.266,-18.787,2.256,-16.867,3.056C-4.677,8.116,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-2.597,-1.704,-14.587,-6.144C-16.947,-7.014,-19.887,-7.864,-21.737,-6.154C-23.267,-4.744,-23.117,-2.144,-21.927,-0.444C-20.737,1.266,-18.787,2.256,-16.867,3.056C-4.677,8.116,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-2.597,-1.704,-14.587,-6.144C-16.947,-7.014,-19.887,-7.864,-21.737,-6.154C-23.267,-4.744,-23.117,-2.144,-21.927,-0.444C-20.737,1.266,-18.787,2.256,-16.867,3.056C-4.677,8.116,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-2.597,-1.704,-14.587,-6.144C-16.947,-7.014,-19.887,-7.864,-21.737,-6.154C-23.267,-4.744,-23.117,-2.144,-21.927,-0.444C-20.737,1.266,-18.787,2.256,-16.867,3.056C-4.677,8.116,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-2.597,-1.704,-14.587,-6.144C-16.947,-7.014,-19.887,-7.864,-21.737,-6.154C-23.267,-4.744,-23.117,-2.144,-21.927,-0.444C-20.737,1.266,-18.787,2.256,-16.867,3.056C-4.677,8.116,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z; M22.853,1.456C10.083,0.866,-5.888,-6.543,-18.08,-2.693C-20.478,-1.936,-23.32,-0.806,-23.739,1.678C-24.085,3.73,-22.373,5.688,-20.393,6.309C-18.405,6.932,-16.256,6.523,-14.249,5.977C-1.513,2.513,9.073,7.666,22.173,6.006C22.323,4.596,22.473,3.176,22.853,1.456Z" keyTimes="0; 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                    </path>
+                  </g>
+                  <g id="tail-part-16" transform="matrix(1,0,0,1,848.407,581.728)" style="mask: none !important; clip-path: none !important;">
+                    <path d="M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z" stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="#422724" fill="#f46a5b" style="mask: none !important; clip-path: none !important;">
+                      <animate repeatCount="indefinite" attributeName="d" dur="1s" begin="0s" calcMode="spline" values="M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C8.04,-4.974,-6.523,-6.161,-16.36,-1.159C-17.111,-0.777,-17.901,-0.36,-18.356,0.352C-19.304,1.837,-18.268,3.956,-16.677,4.712C-15.086,5.468,-13.213,5.22,-11.501,4.807C-1.436,2.378,7.602,0.776,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C8.04,-4.974,-6.523,-6.161,-16.36,-1.159C-17.111,-0.777,-17.901,-0.36,-18.356,0.352C-19.304,1.837,-18.268,3.956,-16.677,4.712C-15.086,5.468,-13.213,5.22,-11.501,4.807C-1.436,2.378,7.602,0.776,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C8.04,-4.974,-6.523,-6.161,-16.36,-1.159C-17.111,-0.777,-17.901,-0.36,-18.356,0.352C-19.304,1.837,-18.268,3.956,-16.677,4.712C-15.086,5.468,-13.213,5.22,-11.501,4.807C-1.436,2.378,7.602,0.776,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C8.04,-4.974,-6.523,-6.161,-16.36,-1.159C-17.111,-0.777,-17.901,-0.36,-18.356,0.352C-19.304,1.837,-18.268,3.956,-16.677,4.712C-15.086,5.468,-13.213,5.22,-11.501,4.807C-1.436,2.378,7.602,0.776,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C8.04,-4.974,-6.523,-6.161,-16.36,-1.159C-17.111,-0.777,-17.901,-0.36,-18.356,0.352C-19.304,1.837,-18.268,3.956,-16.677,4.712C-15.086,5.468,-13.213,5.22,-11.501,4.807C-1.436,2.378,7.602,0.776,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z; M17.983,-2.258C7.293,-3.038,-3.397,-3.808,-14.087,-4.588C-14.927,-4.648,-15.817,-4.698,-16.577,-4.328C-18.157,-3.548,-18.367,-1.198,-17.397,0.272C-16.427,1.742,-14.697,2.502,-13.017,3.032C-3.147,6.162,7.533,4.082,17.683,1.982C17.823,0.502,17.973,-0.968,17.983,-2.258Z" keyTimes="0; 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="rear-foot" ns1:groupmode="layer" ns1:label="03 · Rear foot" data-layer="rear-foot" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="rear-foot-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="rear-foot-part-09" transform="matrix(1,0,0,1,872.257,602.725)" style="mask: none !important; clip-path: none !important;">
+                  
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="torso" ns1:groupmode="layer" ns1:label="04 · Torso" data-layer="torso" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="torso-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="torso-part-09" transform="matrix(1,0,0,1,892.294,589.162)" style="mask: none !important; clip-path: none !important;">
+                  
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="front-foot" ns1:groupmode="layer" ns1:label="05 · Front foot" data-layer="front-foot" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="front-foot-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="front-foot-part-09" transform="matrix(1,0,0,1,867.232,601.951)" style="mask: none !important; clip-path: none !important;">
+                  
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="beak" ns1:groupmode="layer" ns1:label="06 · Beak" data-layer="beak" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="beak-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="beak-part-09" style="mask: none !important; clip-path: none !important;">
+                  <g transform="translate(914.715,576.09)" style="mask: none !important; clip-path: none !important;">
+                    <g transform="rotate(0)" style="mask: none !important; clip-path: none !important;">
+                      <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="0; 10; -10; 0" keyTimes="0; 0.266667; 0.733333; 1" keySplines="0.167 0.167 0.667 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                      <g transform="scale(1,1) translate(-914.715,-576.09)" style="mask: none !important; clip-path: none !important;">
+                        <g id="beak-part-14" transform="matrix(1,0,0,1,962.805,566.5)" style="mask: none !important; clip-path: none !important;">
+                          
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="head" ns1:groupmode="layer" ns1:label="07 · Head" data-layer="head" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="head-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="head-part-09" style="mask: none !important; clip-path: none !important;">
+                  <g transform="translate(914.715,576.09)" style="mask: none !important; clip-path: none !important;">
+                    <g transform="rotate(0)" style="mask: none !important; clip-path: none !important;">
+                      <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="0; 10; -10; 0" keyTimes="0; 0.266667; 0.733333; 1" keySplines="0.167 0.167 0.667 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                      <g transform="scale(1,1) translate(-914.715,-576.09)" style="mask: none !important; clip-path: none !important;">
+                        <g id="head-part-14" transform="matrix(1,0,0,1,929.04,553.84)" style="mask: none !important; clip-path: none !important;">
+                          
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="eye" ns1:groupmode="layer" ns1:label="08 · Eye" data-layer="eye" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="eye-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="eye-part-09" style="mask: none !important; clip-path: none !important;">
+                  <g transform="translate(914.715,576.09)" style="mask: none !important; clip-path: none !important;">
+                    <g transform="rotate(0)" style="mask: none !important; clip-path: none !important;">
+                      <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="0; 10; -10; 0" keyTimes="0; 0.266667; 0.733333; 1" keySplines="0.167 0.167 0.667 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                      <g transform="scale(1,1) translate(-914.715,-576.09)" style="mask: none !important; clip-path: none !important;">
+                        <g id="eye-part-14" transform="matrix(1,0,0,1,947.14,564.64)" style="mask: none !important; clip-path: none !important;">
+                          
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="crest" ns1:groupmode="layer" ns1:label="09 · Crest feathers" data-layer="crest" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g id="crest-part-05" style="mask: none !important; clip-path: none !important;">
+            <g transform="translate(-26.441,43.449)" style="mask: none !important; clip-path: none !important;">
+              <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="-26.441 43.449; -26.441 14.949; -26.441 43.449" keyTimes="0; 0.533333; 1" keySplines="0.333 0 0.667 1; 0.333 0 0.667 1" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+              <g transform="scale(1,1) translate(-870.756,-584.107)" style="mask: none !important; clip-path: none !important;">
+                <g id="crest-part-09" style="mask: none !important; clip-path: none !important;">
+                  <g transform="translate(914.715,576.09)" style="mask: none !important; clip-path: none !important;">
+                    <g transform="rotate(0)" style="mask: none !important; clip-path: none !important;">
+                      <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="0; 10; -10; 0" keyTimes="0; 0.266667; 0.733333; 1" keySplines="0.167 0.167 0.667 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+                      <g transform="scale(1,1) translate(-914.715,-576.09)" style="mask: none !important; clip-path: none !important;">
+                        <g id="crest-part-14" style="mask: none !important; clip-path: none !important;">
+                          
+                        </g>
+                        <g id="crest-part-17" style="mask: none !important; clip-path: none !important;">
+                          
+                        </g>
+                        <g id="crest-part-20" style="mask: none !important; clip-path: none !important;">
+                          
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="front-wing" ns1:groupmode="layer" ns1:label="10 · Front wing" data-layer="front-wing" style="mask: none !important; clip-path: none !important;">
+    <g transform="translate(150,150)" style="mask: none !important; clip-path: none !important;">
+      <g transform="scale(1,1)" style="mask: none !important; clip-path: none !important;">
+        <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="1s" begin="0s" calcMode="spline" values="1 1; 0.95 1.05; 1.05 0.9; 1 1" keyTimes="0; 0.2; 0.666667; 1" keySplines="0 0 1 1; 0.333 0 0.667 1; 0.333 0 0.833 0.833" fill="freeze" style="mask: none !important; clip-path: none !important;" />
+        <g transform="translate(0,0)" style="mask: none !important; clip-path: none !important;">
+          <g transform="matrix(1,0,0,1,-897.196,-540.658)" visibility="visible" id="front-wing-part-05" data-pose="1" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="visible; hidden; hidden" keyTimes="0; 0.133; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-07" transform="matrix(1,0,0,1,878.157,546.994)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1418.416,-740.826)" visibility="hidden" id="front-wing-part-10" data-pose="2" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.133; 0.267; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-12" transform="matrix(1,0,0,1,1397.041,755.953)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1240.351,-748.887)" visibility="hidden" id="front-wing-part-15" data-pose="3" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.267; 0.4; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-17" transform="matrix(1,0,0,1,0,0)" style="mask: none !important; clip-path: none !important;">
+              <g id="front-wing-part-18" transform="matrix(1,0,0,1,1223.052,798.602)" style="mask: none !important; clip-path: none !important;">
+                
+              </g>
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1067.787,-756.894)" visibility="hidden" id="front-wing-part-21" data-pose="4" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.4; 0.533; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-23" transform="matrix(1,0,0,1,1050.405,805.474)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-896.696,-762.94)" visibility="hidden" id="front-wing-part-26" data-pose="5" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.533; 0.667; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-28" transform="matrix(1,0,0,1,880.382,811.139)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1417.107,-557.076)" visibility="hidden" id="front-wing-part-31" data-pose="6" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; hidden; hidden" keyTimes="0; 0.667; 0.867; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-33" transform="matrix(1,0,0,1,1397.283,604.631)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+          <g transform="matrix(1,0,0,1,-1067.507,-545.611)" visibility="hidden" id="front-wing-part-36" data-pose="7" style="mask: none !important; clip-path: none !important;">
+            <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="1s" values="hidden; visible; visible" keyTimes="0; 0.867; 1" attributeName="visibility" style="mask: none !important; clip-path: none !important;" />
+            <g id="front-wing-part-38" transform="matrix(1,0,0,1,1047.199,553.635)" style="mask: none !important; clip-path: none !important;">
+              
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g></svg>

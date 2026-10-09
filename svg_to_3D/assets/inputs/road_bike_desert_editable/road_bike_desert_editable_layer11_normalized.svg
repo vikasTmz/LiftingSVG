@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="1536" height="1024" viewBox="0 0 1536 1024" data-layer-depth="11" style="mask: none !important; clip-path: none !important;">
+<title style="mask: none !important; clip-path: none !important;">Lime racing bicycle in a desert sunset</title><desc style="mask: none !important; clip-path: none !important;">Editable geometric reconstruction. Named layers, individual spokes, frame tubes, drivetrain, cockpit and landscape paths. No embedded raster artwork.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffdabd" /><stop offset=".47" stop-color="#f1d3d9" /><stop offset="1" stop-color="#d9cef6" /></linearGradient>
+<linearGradient id="sand" x2="0.15" y2="1"><stop stop-color="#ffa5a7" /><stop offset="1" stop-color="#ffdac5" /></linearGradient>
+<linearGradient id="mountain" x2="0.8" y2="1"><stop stop-color="#cc7896" /><stop offset="1" stop-color="#e88c9b" /></linearGradient>
+<linearGradient id="blue-hills" x2="0" y2="1"><stop stop-color="#6b8cb7" /><stop offset="1" stop-color="#5973a3" /></linearGradient>
+<linearGradient id="lime" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#dbff0a" /><stop offset=".46" stop-color="#c4f400" /><stop offset="1" stop-color="#97ce00" /></linearGradient>
+<linearGradient id="metal" x2="0.2" y2="1"><stop stop-color="#35445f" /><stop offset=".5" stop-color="#172237" /><stop offset="1" stop-color="#080f20" /></linearGradient>
+<linearGradient id="tire" x2="0.5" y2="1"><stop stop-color="#26334d" /><stop offset=".55" stop-color="#0a1224" /><stop offset="1" stop-color="#1b2940" /></linearGradient>
+</defs>
+<g transform="matrix(2.34409638554 0 0 2.34409638554 -704.09253012 -1145.86216867)" data-export-normalized="true"><g id="sky-layer" ns1:groupmode="layer" ns1:label="01 · Sunset sky" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="distant-landscape" ns1:groupmode="layer" ns1:label="02 · Distant mountains" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="desert-layer" ns1:groupmode="layer" ns1:label="03 · Sand and rolling dunes" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="ground-shadow" ns1:groupmode="layer" ns1:label="04 · Bicycle ground shadow" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="wheels-layer" ns1:groupmode="layer" ns1:label="05 · Wheels / rims / individual spokes" style="mask: none !important; clip-path: none !important;">
+<g id="rear-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="rear-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+<g id="front-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="front-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+</g>
+<g id="rear-drivetrain" ns1:groupmode="layer" ns1:label="06 · Cassette and rear derailleur" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="frame-layer" ns1:groupmode="layer" ns1:label="07 · Lime frame / individual tubes" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="saddle-layer" ns1:groupmode="layer" ns1:label="08 · Saddle / seatpost / rails" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+</g>
+<g id="cockpit-layer" ns1:groupmode="layer" ns1:label="09 · Stem / drop bars / brake levers / cables" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="brakes-layer" ns1:groupmode="layer" ns1:label="10 · Rim brakes and cable housings" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+</g>
+<g id="crankset-layer" ns1:groupmode="layer" ns1:label="11 · Chainrings / crank / chain links" style="mask: none !important; clip-path: none !important;">
+<circle id="chainring-outer" cx="713" cy="726" r="78" fill="none" stroke="#0a1427" stroke-width="17" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-outer-face" cx="713" cy="726" r="73" fill="none" stroke="#293850" stroke-width="9" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-inner" cx="713" cy="726" r="57" fill="none" stroke="#0b1528" stroke-width="9" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-00" cx="794.0" cy="726.0" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-01" cx="793.4094188019424" cy="735.7634711006812" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-02" cx="791.6462872115102" cy="745.3845688072922" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-03" cx="788.7363156575186" cy="754.7229958504454" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-04" cx="784.72193807791" cy="763.6425769355452" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-05" cx="779.6616931373861" cy="772.0132444852236" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-06" cx="773.6293706018591" cy="779.7129353175044" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-07" cx="766.7129353175044" cy="786.6293706018591" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-08" cx="759.0132444852236" cy="792.6616931373861" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-09" cx="750.6425769355452" cy="797.72193807791" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-10" cx="741.7229958504454" cy="801.7363156575186" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-11" cx="732.3845688072922" cy="804.6462872115102" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-12" cx="722.7634711006812" cy="806.4094188019424" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-13" cx="713.0" cy="807.0" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-14" cx="703.2365288993188" cy="806.4094188019424" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-15" cx="693.6154311927079" cy="804.6462872115102" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-16" cx="684.2770041495546" cy="801.7363156575186" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-17" cx="675.3574230644548" cy="797.72193807791" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-18" cx="666.9867555147764" cy="792.6616931373862" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-19" cx="659.2870646824956" cy="786.6293706018593" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-20" cx="652.3706293981409" cy="779.7129353175044" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-21" cx="646.3383068626139" cy="772.0132444852236" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-22" cx="641.27806192209" cy="763.6425769355453" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-23" cx="637.2636843424814" cy="754.7229958504454" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-24" cx="634.3537127884898" cy="745.3845688072922" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-25" cx="632.5905811980576" cy="735.7634711006812" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-26" cx="632.0" cy="726.0" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-27" cx="632.5905811980576" cy="716.2365288993188" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-28" cx="634.3537127884898" cy="706.6154311927079" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-29" cx="637.2636843424814" cy="697.2770041495546" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-30" cx="641.2780619220899" cy="688.3574230644548" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-31" cx="646.3383068626138" cy="679.9867555147764" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-32" cx="652.3706293981407" cy="672.2870646824956" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-33" cx="659.2870646824956" cy="665.3706293981409" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-34" cx="666.9867555147764" cy="659.3383068626139" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-35" cx="675.3574230644547" cy="654.27806192209" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-36" cx="684.2770041495546" cy="650.2636843424814" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-37" cx="693.6154311927078" cy="647.3537127884898" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-38" cx="703.2365288993188" cy="645.5905811980576" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-39" cx="713.0" cy="645.0" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-40" cx="722.7634711006812" cy="645.5905811980576" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-41" cx="732.3845688072921" cy="647.3537127884898" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-42" cx="741.7229958504454" cy="650.2636843424814" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-43" cx="750.6425769355452" cy="654.2780619220899" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-44" cx="759.0132444852236" cy="659.3383068626138" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-45" cx="766.7129353175044" cy="665.3706293981409" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-46" cx="773.6293706018591" cy="672.2870646824956" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-47" cx="779.6616931373861" cy="679.9867555147764" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-48" cx="784.72193807791" cy="688.3574230644548" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-49" cx="788.7363156575186" cy="697.2770041495546" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-50" cx="791.6462872115102" cy="706.6154311927078" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-tooth-51" cx="793.4094188019424" cy="716.2365288993188" r="3" fill="#142138" style="mask: none !important; clip-path: none !important;" />
+<path id="chainring-arm-0" d="M732.9000833055605 727.9966683329366 L777.6752707430717 732.4891720820439" fill="none" stroke="#0c172b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-bolt-0" cx="761.7552040986233" cy="730.8918374156946" r="4" fill="#41506a" stroke="#0b1425" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<path id="chainring-arm-1" d="M717.2505195019759 745.5431083495774 L726.8141883814216 789.5151021361266" fill="none" stroke="#0c172b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-bolt-1" cx="723.4137727798409" cy="773.8806154564647" r="4" fill="#41506a" stroke="#0b1425" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<path id="chainring-arm-2" d="M695.7268822165048 736.0816368729242 L656.8623672036408 758.7653198370035" fill="none" stroke="#0c172b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-bolt-2" cx="670.6808614304368" cy="750.7000103386641" r="4" fill="#41506a" stroke="#0b1425" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<path id="chainring-arm-3" d="M698.0741066161439 712.6876859001239 L664.4908465024675 682.7349791754027" fill="none" stroke="#0c172b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-bolt-3" cx="676.4315612095525" cy="693.3848304553036" r="4" fill="#41506a" stroke="#0b1425" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<path id="chainring-arm-4" d="M721.0484083598149 707.6909005444379 L739.1573271693983 666.4954267694234" fill="none" stroke="#0c172b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="chainring-bolt-4" cx="732.7186004815464" cy="681.142706333873" r="4" fill="#41506a" stroke="#0b1425" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<path id="chain-route" d="M390 648 L713 648 A78 78 0 0 1 713 804 L382 801" fill="none" stroke="#142139" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-00" cx="408.00" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-01" cx="417.93" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-02" cx="427.87" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-03" cx="437.80" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-04" cx="447.73" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-05" cx="457.67" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-06" cx="467.60" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-07" cx="477.53" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-08" cx="487.47" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-09" cx="497.40" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-10" cx="507.33" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-11" cx="517.27" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-12" cx="527.20" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-13" cx="537.13" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-14" cx="547.07" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-15" cx="557.00" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-16" cx="566.93" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-17" cx="576.87" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-18" cx="586.80" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-19" cx="596.73" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-20" cx="606.67" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-21" cx="616.60" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-22" cx="626.53" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-23" cx="636.47" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-24" cx="646.40" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-25" cx="656.33" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-26" cx="666.27" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-27" cx="676.20" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-28" cx="686.13" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-29" cx="696.07" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-upper-30" cx="706.00" cy="648.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-00" cx="385.00" cy="801.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-01" cx="394.65" cy="801.12" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-02" cx="404.29" cy="801.24" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-03" cx="413.94" cy="801.35" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-04" cx="423.59" cy="801.47" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-05" cx="433.24" cy="801.59" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-06" cx="442.88" cy="801.71" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-07" cx="452.53" cy="801.82" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-08" cx="462.18" cy="801.94" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-09" cx="471.82" cy="802.06" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-10" cx="481.47" cy="802.18" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-11" cx="491.12" cy="802.29" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-12" cx="500.76" cy="802.41" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-13" cx="510.41" cy="802.53" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-14" cx="520.06" cy="802.65" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-15" cx="529.71" cy="802.76" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-16" cx="539.35" cy="802.88" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-17" cx="549.00" cy="803.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-18" cx="558.65" cy="803.12" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-19" cx="568.29" cy="803.24" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-20" cx="577.94" cy="803.35" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-21" cx="587.59" cy="803.47" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-22" cx="597.24" cy="803.59" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-23" cx="606.88" cy="803.71" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-24" cx="616.53" cy="803.82" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-25" cx="626.18" cy="803.94" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-26" cx="635.82" cy="804.06" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-27" cx="645.47" cy="804.18" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-28" cx="655.12" cy="804.29" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-29" cx="664.76" cy="804.41" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-30" cx="674.41" cy="804.53" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-31" cx="684.06" cy="804.65" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-32" cx="693.71" cy="804.76" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-33" cx="703.35" cy="804.88" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<ellipse id="chain-lower-34" cx="713.00" cy="805.00" rx="4.5" ry="2.7" fill="#36465e" stroke="#111d32" stroke-width="1.5" style="mask: none !important; clip-path: none !important;" />
+<path id="crank-arm" d="M704 711 Q712 705 733 717 L861 735 Q877 738 872 751 Q869 763 855 760 L725 743 Q709 742 698 736 Z" fill="url(#metal)" stroke="#071123" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="crank-highlight" d="M734 721 L858 740" fill="none" stroke="#40506a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="crank-spindle" cx="713" cy="727" r="10" fill="#121e35" stroke="#071022" stroke-width="3" style="mask: none !important; clip-path: none !important;" />
+<circle id="pedal-eye" cx="859" cy="747" r="7" fill="#ffd2be" stroke="#091629" stroke-width="3" style="mask: none !important; clip-path: none !important;" />
+<path id="front-derailleur" d="M657 608 L684 604 L698 644 L674 650 Z" fill="url(#metal)" stroke="#0a1529" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="front-derailleur-clamp" d="M678 617 L687 615" fill="none" stroke="#071227" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+</g>
+</g></svg>

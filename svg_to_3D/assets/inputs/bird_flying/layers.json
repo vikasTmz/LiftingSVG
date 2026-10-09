@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "sets": {
+    "bird_flying": {
+      "variants": [
+        "artwork",
+        "_withCPs"
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer1.svg",
+              "canonical": "bird_flying_layer1_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer1_normalized_withCPs.svg",
+              "default": "bird_flying_layer1_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer2.svg",
+              "canonical": "bird_flying_layer2_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer2_normalized_withCPs.svg",
+              "default": "bird_flying_layer2_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer3.svg",
+              "canonical": "bird_flying_layer3_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer3_normalized_withCPs.svg",
+              "default": "bird_flying_layer3_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer4.svg",
+              "canonical": "bird_flying_layer4_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer4_normalized_withCPs.svg",
+              "default": "bird_flying_layer4_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer5.svg",
+              "canonical": "bird_flying_layer5_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer5_normalized_withCPs.svg",
+              "default": "bird_flying_layer5_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer6.svg",
+              "canonical": "bird_flying_layer6_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer6_normalized_withCPs.svg",
+              "default": "bird_flying_layer6_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer7.svg",
+              "canonical": "bird_flying_layer7_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer7_normalized_withCPs.svg",
+              "default": "bird_flying_layer7_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 8,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer8.svg",
+              "canonical": "bird_flying_layer8_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer8_normalized_withCPs.svg",
+              "default": "bird_flying_layer8_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer9.svg",
+              "canonical": "bird_flying_layer9_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer9_normalized_withCPs.svg",
+              "default": "bird_flying_layer9_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "files": {
+            "artwork": {
+              "default": "bird_flying_layer10.svg",
+              "canonical": "bird_flying_layer10_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "bird_flying_layer10_normalized_withCPs.svg",
+              "default": "bird_flying_layer10_withCPs.svg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

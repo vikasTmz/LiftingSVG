@@ -1,0 +1,47 @@
+{
+  "inputs/wine_scene_2.mp4": {
+    "fingerprint": "948cff14a74a4dee",
+    "seconds": 6.0,
+    "poster": "assets/viewer-previews/948cff14a74a4dee.jpg"
+  },
+  "outputs/bird_flying_turntable.mp4": {
+    "fingerprint": "b3b3ec799058c2b9",
+    "seconds": 8.0,
+    "poster": "assets/viewer-previews/b3b3ec799058c2b9.jpg"
+  },
+  "outputs/bird_flying_turntable_wireframe.mp4": {
+    "fingerprint": "52f783c8d377edfb",
+    "seconds": 8.0,
+    "poster": "assets/viewer-previews/52f783c8d377edfb.jpg"
+  },
+  "outputs/character_running_dribbling_throwing_1.mp4": {
+    "fingerprint": "00a00ec2765b6546",
+    "seconds": 19.043,
+    "poster": "assets/viewer-previews/00a00ec2765b6546.jpg"
+  },
+  "outputs/character_running_dribbling_throwing_2.mp4": {
+    "fingerprint": "7b5c0adbe47a9297",
+    "seconds": 27.043,
+    "poster": "assets/viewer-previews/7b5c0adbe47a9297.jpg"
+  },
+  "outputs/pingpong_splash_turntable.mp4": {
+    "fingerprint": "8c162a9d6a5941fb",
+    "seconds": 7.041667,
+    "poster": "assets/viewer-previews/8c162a9d6a5941fb.jpg"
+  },
+  "outputs/pingpong_splash_turntable_wireframe.mp4": {
+    "fingerprint": "31a01d4a6d626de0",
+    "seconds": 7.041667,
+    "poster": "assets/viewer-previews/31a01d4a6d626de0.jpg"
+  },
+  "outputs/road_bike_desert_dolly_zoom.mp4": {
+    "fingerprint": "f5c5f0c3a6669975",
+    "seconds": 4.5,
+    "poster": "assets/viewer-previews/f5c5f0c3a6669975.jpg"
+  },
+  "outputs/road_bike_desert_editable.mp4": {
+    "fingerprint": "963a0d928e1be178",
+    "seconds": 5.043,
+    "poster": "assets/viewer-previews/963a0d928e1be178.jpg"
+  }
+}

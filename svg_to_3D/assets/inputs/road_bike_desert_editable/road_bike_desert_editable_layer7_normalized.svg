@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="1536" height="1024" viewBox="0 0 1536 1024" data-layer-depth="7" style="mask: none !important; clip-path: none !important;">
+<title style="mask: none !important; clip-path: none !important;">Lime racing bicycle in a desert sunset</title><desc style="mask: none !important; clip-path: none !important;">Editable geometric reconstruction. Named layers, individual spokes, frame tubes, drivetrain, cockpit and landscape paths. No embedded raster artwork.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffdabd" /><stop offset=".47" stop-color="#f1d3d9" /><stop offset="1" stop-color="#d9cef6" /></linearGradient>
+<linearGradient id="sand" x2="0.15" y2="1"><stop stop-color="#ffa5a7" /><stop offset="1" stop-color="#ffdac5" /></linearGradient>
+<linearGradient id="mountain" x2="0.8" y2="1"><stop stop-color="#cc7896" /><stop offset="1" stop-color="#e88c9b" /></linearGradient>
+<linearGradient id="blue-hills" x2="0" y2="1"><stop stop-color="#6b8cb7" /><stop offset="1" stop-color="#5973a3" /></linearGradient>
+<linearGradient id="lime" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#dbff0a" /><stop offset=".46" stop-color="#c4f400" /><stop offset="1" stop-color="#97ce00" /></linearGradient>
+<linearGradient id="metal" x2="0.2" y2="1"><stop stop-color="#35445f" /><stop offset=".5" stop-color="#172237" /><stop offset="1" stop-color="#080f20" /></linearGradient>
+<linearGradient id="tire" x2="0.5" y2="1"><stop stop-color="#26334d" /><stop offset=".55" stop-color="#0a1224" /><stop offset="1" stop-color="#1b2940" /></linearGradient>
+</defs>
+<g transform="matrix(1.38971428571 0 0 1.38971428571 -327.094857143 -204.397714286)" data-export-normalized="true"><g id="sky-layer" ns1:groupmode="layer" ns1:label="01 · Sunset sky" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="distant-landscape" ns1:groupmode="layer" ns1:label="02 · Distant mountains" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="desert-layer" ns1:groupmode="layer" ns1:label="03 · Sand and rolling dunes" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="ground-shadow" ns1:groupmode="layer" ns1:label="04 · Bicycle ground shadow" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="wheels-layer" ns1:groupmode="layer" ns1:label="05 · Wheels / rims / individual spokes" style="mask: none !important; clip-path: none !important;">
+<g id="rear-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="rear-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+<g id="front-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="front-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+</g>
+<g id="rear-drivetrain" ns1:groupmode="layer" ns1:label="06 · Cassette and rear derailleur" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="frame-layer" ns1:groupmode="layer" ns1:label="07 · Lime frame / individual tubes" style="mask: none !important; clip-path: none !important;">
+<path id="far-chainstay" d="M388 668 L711 742 L722 720 L398 657 Z" fill="#8ebd00" style="mask: none !important; clip-path: none !important;" />
+<path id="far-seatstay" d="M388 668 L602 366 L597 342 L377 654 Z" fill="#88b900" style="mask: none !important; clip-path: none !important;" />
+<path id="seat-tube" d="M597 359 Q606 366 614 393 L700 714 L669 724 L586 395 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="seat-tube-highlight" d="M601 400 L681 703" fill="none" stroke="#e7ff59" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="top-tube" d="M583 337 Q601 339 609 346 Q620 351 642 345 L1006 303 Q1029 302 1044 291 L1056 321 Q1021 337 985 337 L652 372 Q624 376 611 397 L592 389 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="top-tube-shadow" d="M620 356 Q669 351 737 344 L1021 313 Q1041 317 1038 337 Q1020 331 980 338 L650 372 Q621 374 612 396 L606 380 Q607 365 620 356 Z" fill="#98cf00" style="mask: none !important; clip-path: none !important;" />
+<path id="top-tube-highlight" d="M610 348 Q619 353 644 348 L1014 306 Q1031 304 1043 298" fill="none" stroke="#ecff74" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="down-tube" d="M1056 316 L1093 407 Q1073 407 1055 428 L768 706 L739 678 L1011 399 Q1038 372 1031 350 Q1027 338 1006 337 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="down-tube-shadow" d="M1083 399 Q1064 395 1048 414 L748 688 L769 705 L1058 428 Q1076 411 1093 412 Z" fill="#91c800" style="mask: none !important; clip-path: none !important;" />
+<path id="down-tube-highlight" d="M1010 399 L752 677" fill="none" stroke="#e5ff4f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="head-tube" d="M1044 295 L1058 289 L1098 407 L1069 417 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="head-tube-highlight" d="M1056 299 L1088 398" fill="none" stroke="#eaff61" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="near-seatstay" d="M596 383 L403 659 Q397 672 389 676 L375 669 L579 397 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="seatstay-highlight" d="M586 399 L389 654" fill="none" stroke="#deff4f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="near-chainstay" d="M383 653 Q389 665 401 667 L707 708 L703 736 L385 683 Q368 677 383 653 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="chainstay-highlight" d="M404 674 L690 718" fill="none" stroke="#e7ff68" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="front-fork" d="M1065 415 Q1071 400 1089 412 Q1102 420 1109 449 L1203 667 Q1208 684 1192 687 Q1180 686 1175 670 L1081 456 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="fork-shadow" d="M1085 416 Q1100 416 1108 449 L1201 667 L1188 675 L1089 449 Z" fill="#a2d500" style="mask: none !important; clip-path: none !important;" />
+<path id="fork-highlight" d="M1095 432 L1189 656" fill="none" stroke="#e8ff60" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="rear-dropout" cx="385" cy="670" r="12" fill="#94c800" style="mask: none !important; clip-path: none !important;" />
+<circle id="rear-dropout-hole" cx="385" cy="670" r="7" fill="#081329" stroke="#3b5264" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<circle id="front-dropout" cx="1191" cy="669" r="12" fill="#94c800" style="mask: none !important; clip-path: none !important;" />
+<circle id="front-dropout-hole" cx="1191" cy="669" r="7" fill="#081329" stroke="#3b5264" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+</g>
+<g id="saddle-layer" ns1:groupmode="layer" ns1:label="08 · Saddle / seatpost / rails" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+</g>
+<g id="cockpit-layer" ns1:groupmode="layer" ns1:label="09 · Stem / drop bars / brake levers / cables" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="brakes-layer" ns1:groupmode="layer" ns1:label="10 · Rim brakes and cable housings" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+</g>
+<g id="crankset-layer" ns1:groupmode="layer" ns1:label="11 · Chainrings / crank / chain links" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+</g></svg>

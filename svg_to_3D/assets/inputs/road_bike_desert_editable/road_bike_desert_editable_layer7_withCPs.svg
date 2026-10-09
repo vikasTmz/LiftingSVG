@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="1536" height="1024" viewBox="0 0 1536 1024" data-layer-depth="7" style="mask: none !important; clip-path: none !important;">
+<title style="mask: none !important; clip-path: none !important;">Lime racing bicycle in a desert sunset</title><desc style="mask: none !important; clip-path: none !important;">Editable geometric reconstruction. Named layers, individual spokes, frame tubes, drivetrain, cockpit and landscape paths. No embedded raster artwork.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffdabd" /><stop offset=".47" stop-color="#f1d3d9" /><stop offset="1" stop-color="#d9cef6" /></linearGradient>
+<linearGradient id="sand" x2="0.15" y2="1"><stop stop-color="#ffa5a7" /><stop offset="1" stop-color="#ffdac5" /></linearGradient>
+<linearGradient id="mountain" x2="0.8" y2="1"><stop stop-color="#cc7896" /><stop offset="1" stop-color="#e88c9b" /></linearGradient>
+<linearGradient id="blue-hills" x2="0" y2="1"><stop stop-color="#6b8cb7" /><stop offset="1" stop-color="#5973a3" /></linearGradient>
+<linearGradient id="lime" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#dbff0a" /><stop offset=".46" stop-color="#c4f400" /><stop offset="1" stop-color="#97ce00" /></linearGradient>
+<linearGradient id="metal" x2="0.2" y2="1"><stop stop-color="#35445f" /><stop offset=".5" stop-color="#172237" /><stop offset="1" stop-color="#080f20" /></linearGradient>
+<linearGradient id="tire" x2="0.5" y2="1"><stop stop-color="#26334d" /><stop offset=".55" stop-color="#0a1224" /><stop offset="1" stop-color="#1b2940" /></linearGradient>
+</defs>
+<g opacity="0.45" data-export-artwork="true"><g id="sky-layer" ns1:groupmode="layer" ns1:label="01 · Sunset sky" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="distant-landscape" ns1:groupmode="layer" ns1:label="02 · Distant mountains" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="desert-layer" ns1:groupmode="layer" ns1:label="03 · Sand and rolling dunes" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="ground-shadow" ns1:groupmode="layer" ns1:label="04 · Bicycle ground shadow" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="wheels-layer" ns1:groupmode="layer" ns1:label="05 · Wheels / rims / individual spokes" style="mask: none !important; clip-path: none !important;">
+<g id="rear-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="rear-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+<g id="front-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="front-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+</g>
+<g id="rear-drivetrain" ns1:groupmode="layer" ns1:label="06 · Cassette and rear derailleur" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="frame-layer" ns1:groupmode="layer" ns1:label="07 · Lime frame / individual tubes" style="mask: none !important; clip-path: none !important;">
+<path id="far-chainstay" d="M388 668 L711 742 L722 720 L398 657 Z" fill="#8ebd00" style="mask: none !important; clip-path: none !important;" />
+<path id="far-seatstay" d="M388 668 L602 366 L597 342 L377 654 Z" fill="#88b900" style="mask: none !important; clip-path: none !important;" />
+<path id="seat-tube" d="M597 359 Q606 366 614 393 L700 714 L669 724 L586 395 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="seat-tube-highlight" d="M601 400 L681 703" fill="none" stroke="#e7ff59" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="top-tube" d="M583 337 Q601 339 609 346 Q620 351 642 345 L1006 303 Q1029 302 1044 291 L1056 321 Q1021 337 985 337 L652 372 Q624 376 611 397 L592 389 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="top-tube-shadow" d="M620 356 Q669 351 737 344 L1021 313 Q1041 317 1038 337 Q1020 331 980 338 L650 372 Q621 374 612 396 L606 380 Q607 365 620 356 Z" fill="#98cf00" style="mask: none !important; clip-path: none !important;" />
+<path id="top-tube-highlight" d="M610 348 Q619 353 644 348 L1014 306 Q1031 304 1043 298" fill="none" stroke="#ecff74" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="down-tube" d="M1056 316 L1093 407 Q1073 407 1055 428 L768 706 L739 678 L1011 399 Q1038 372 1031 350 Q1027 338 1006 337 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="down-tube-shadow" d="M1083 399 Q1064 395 1048 414 L748 688 L769 705 L1058 428 Q1076 411 1093 412 Z" fill="#91c800" style="mask: none !important; clip-path: none !important;" />
+<path id="down-tube-highlight" d="M1010 399 L752 677" fill="none" stroke="#e5ff4f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="head-tube" d="M1044 295 L1058 289 L1098 407 L1069 417 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="head-tube-highlight" d="M1056 299 L1088 398" fill="none" stroke="#eaff61" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="near-seatstay" d="M596 383 L403 659 Q397 672 389 676 L375 669 L579 397 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="seatstay-highlight" d="M586 399 L389 654" fill="none" stroke="#deff4f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="near-chainstay" d="M383 653 Q389 665 401 667 L707 708 L703 736 L385 683 Q368 677 383 653 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="chainstay-highlight" d="M404 674 L690 718" fill="none" stroke="#e7ff68" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="front-fork" d="M1065 415 Q1071 400 1089 412 Q1102 420 1109 449 L1203 667 Q1208 684 1192 687 Q1180 686 1175 670 L1081 456 Z" fill="url(#lime)" style="mask: none !important; clip-path: none !important;" />
+<path id="fork-shadow" d="M1085 416 Q1100 416 1108 449 L1201 667 L1188 675 L1089 449 Z" fill="#a2d500" style="mask: none !important; clip-path: none !important;" />
+<path id="fork-highlight" d="M1095 432 L1189 656" fill="none" stroke="#e8ff60" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="rear-dropout" cx="385" cy="670" r="12" fill="#94c800" style="mask: none !important; clip-path: none !important;" />
+<circle id="rear-dropout-hole" cx="385" cy="670" r="7" fill="#081329" stroke="#3b5264" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+<circle id="front-dropout" cx="1191" cy="669" r="12" fill="#94c800" style="mask: none !important; clip-path: none !important;" />
+<circle id="front-dropout-hole" cx="1191" cy="669" r="7" fill="#081329" stroke="#3b5264" stroke-width="2" style="mask: none !important; clip-path: none !important;" />
+</g>
+<g id="saddle-layer" ns1:groupmode="layer" ns1:label="08 · Saddle / seatpost / rails" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+</g>
+<g id="cockpit-layer" ns1:groupmode="layer" ns1:label="09 · Stem / drop bars / brake levers / cables" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="brakes-layer" ns1:groupmode="layer" ns1:label="10 · Rim brakes and cable housings" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+</g>
+<g id="crankset-layer" ns1:groupmode="layer" ns1:label="11 · Chainrings / crank / chain links" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+</g><g data-export-controls="true" fill="none" pointer-events="none" style="opacity:1;visibility:visible;display:inline"><g data-control-kind="anchors" data-path-key="6/0" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="388" cy="668" /></g><g data-control-kind="anchors" data-path-key="6/0" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="711" cy="742" /></g><g data-control-kind="anchors" data-path-key="6/0" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="722" cy="720" /></g><g data-control-kind="anchors" data-path-key="6/0" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="398" cy="657" /></g><g data-control-kind="anchors" data-path-key="6/0" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="388" cy="668" /></g><g data-control-kind="anchors" data-path-key="6/1" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="388" cy="668" /></g><g data-control-kind="anchors" data-path-key="6/1" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="602" cy="366" /></g><g data-control-kind="anchors" data-path-key="6/1" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="597" cy="342" /></g><g data-control-kind="anchors" data-path-key="6/1" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="377" cy="654" /></g><g data-control-kind="anchors" data-path-key="6/1" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="388" cy="668" /></g><g data-control-kind="anchors" data-path-key="6/10" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1044" cy="295" /></g><g data-control-kind="anchors" data-path-key="6/10" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1058" cy="289" /></g><g data-control-kind="anchors" data-path-key="6/10" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1098" cy="407" /></g><g data-control-kind="anchors" data-path-key="6/10" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1069" cy="417" /></g><g data-control-kind="anchors" data-path-key="6/10" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1044" cy="295" /></g><g data-control-kind="anchors" data-path-key="6/11" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1056" cy="299" /></g><g data-control-kind="anchors" data-path-key="6/11" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1088" cy="398" /></g><g data-control-kind="handles" data-path-key="6/12" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="403" y1="659" x2="397" y2="672" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="397" cy="672" /></g><g data-control-kind="handles" data-path-key="6/12" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="389" y1="676" x2="397" y2="672" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="397" cy="672" /></g><g data-control-kind="anchors" data-path-key="6/12" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="596" cy="383" /></g><g data-control-kind="anchors" data-path-key="6/12" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="403" cy="659" /></g><g data-control-kind="anchors" data-path-key="6/12" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="389" cy="676" /></g><g data-control-kind="anchors" data-path-key="6/12" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="375" cy="669" /></g><g data-control-kind="anchors" data-path-key="6/12" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="579" cy="397" /></g><g data-control-kind="anchors" data-path-key="6/12" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="596" cy="383" /></g><g data-control-kind="anchors" data-path-key="6/13" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="586" cy="399" /></g><g data-control-kind="anchors" data-path-key="6/13" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="389" cy="654" /></g><g data-control-kind="handles" data-path-key="6/14" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="383" y1="653" x2="389" y2="665" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="389" cy="665" /></g><g data-control-kind="handles" data-path-key="6/14" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="401" y1="667" x2="389" y2="665" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="389" cy="665" /></g><g data-control-kind="handles" data-path-key="6/14" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="683" x2="368" y2="677" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="368" cy="677" /></g><g data-control-kind="handles" data-path-key="6/14" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="383" y1="653" x2="368" y2="677" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="368" cy="677" /></g><g data-control-kind="anchors" data-path-key="6/14" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="383" cy="653" /></g><g data-control-kind="anchors" data-path-key="6/14" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="401" cy="667" /></g><g data-control-kind="anchors" data-path-key="6/14" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="707" cy="708" /></g><g data-control-kind="anchors" data-path-key="6/14" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="703" cy="736" /></g><g data-control-kind="anchors" data-path-key="6/14" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="385" cy="683" /></g><g data-control-kind="anchors" data-path-key="6/14" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="383" cy="653" /></g><g data-control-kind="anchors" data-path-key="6/15" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="404" cy="674" /></g><g data-control-kind="anchors" data-path-key="6/15" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="690" cy="718" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1065" y1="415" x2="1071" y2="400" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1071" cy="400" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1089" y1="412" x2="1071" y2="400" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1071" cy="400" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1089" y1="412" x2="1102" y2="420" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1102" cy="420" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1109" y1="449" x2="1102" y2="420" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1102" cy="420" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1203" y1="667" x2="1208" y2="684" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1208" cy="684" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1192" y1="687" x2="1208" y2="684" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1208" cy="684" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1192" y1="687" x2="1180" y2="686" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1180" cy="686" /></g><g data-control-kind="handles" data-path-key="6/16" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1175" y1="670" x2="1180" y2="686" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1180" cy="686" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1065" cy="415" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1089" cy="412" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1109" cy="449" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1203" cy="667" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1192" cy="687" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1175" cy="670" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1081" cy="456" /></g><g data-control-kind="anchors" data-path-key="6/16" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1065" cy="415" /></g><g data-control-kind="handles" data-path-key="6/17" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1085" y1="416" x2="1100" y2="416" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1100" cy="416" /></g><g data-control-kind="handles" data-path-key="6/17" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1108" y1="449" x2="1100" y2="416" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1100" cy="416" /></g><g data-control-kind="anchors" data-path-key="6/17" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1085" cy="416" /></g><g data-control-kind="anchors" data-path-key="6/17" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1108" cy="449" /></g><g data-control-kind="anchors" data-path-key="6/17" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1201" cy="667" /></g><g data-control-kind="anchors" data-path-key="6/17" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1188" cy="675" /></g><g data-control-kind="anchors" data-path-key="6/17" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1089" cy="449" /></g><g data-control-kind="anchors" data-path-key="6/17" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1085" cy="416" /></g><g data-control-kind="anchors" data-path-key="6/18" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1095" cy="432" /></g><g data-control-kind="anchors" data-path-key="6/18" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1189" cy="656" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="373" y1="670" x2="373" y2="673.181377" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="373" cy="673.181377" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="376.514719" y1="678.485281" x2="374.265145" y2="676.235708" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="374.265145" cy="676.235708" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="376.514719" y1="678.485281" x2="378.764292" y2="680.734855" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="378.764292" cy="680.734855" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="682" x2="381.818623" y2="682" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="381.818623" cy="682" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="682" x2="388.181377" y2="682" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="388.181377" cy="682" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="393.485281" y1="678.485281" x2="391.235708" y2="680.734855" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="391.235708" cy="680.734855" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="393.485281" y1="678.485281" x2="395.734855" y2="676.235708" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="395.734855" cy="676.235708" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="397" y1="670" x2="397" y2="673.181377" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="397" cy="673.181377" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="397" y1="670" x2="397" y2="666.818623" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="397" cy="666.818623" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="393.485281" y1="661.514719" x2="395.734855" y2="663.764292" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="395.734855" cy="663.764292" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="393.485281" y1="661.514719" x2="391.235708" y2="659.265145" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="391.235708" cy="659.265145" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="658" x2="388.181377" y2="658" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="388.181377" cy="658" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="658" x2="381.818623" y2="658" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="381.818623" cy="658" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="376.514719" y1="661.514719" x2="378.764292" y2="659.265145" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="378.764292" cy="659.265145" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="376.514719" y1="661.514719" x2="374.265145" y2="663.764292" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="374.265145" cy="663.764292" /></g><g data-control-kind="handles" data-path-key="6/19" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="373" y1="670" x2="373" y2="666.818623" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="373" cy="666.818623" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="373" cy="670" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="376.514719" cy="678.485281" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="385" cy="682" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="393.485281" cy="678.485281" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="397" cy="670" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="393.485281" cy="661.514719" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="385" cy="658" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="376.514719" cy="661.514719" /></g><g data-control-kind="anchors" data-path-key="6/19" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="373" cy="670" /></g><g data-control-kind="handles" data-path-key="6/2" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="597" y1="359" x2="606" y2="366" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="606" cy="366" /></g><g data-control-kind="handles" data-path-key="6/2" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="614" y1="393" x2="606" y2="366" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="606" cy="366" /></g><g data-control-kind="anchors" data-path-key="6/2" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="597" cy="359" /></g><g data-control-kind="anchors" data-path-key="6/2" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="614" cy="393" /></g><g data-control-kind="anchors" data-path-key="6/2" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="700" cy="714" /></g><g data-control-kind="anchors" data-path-key="6/2" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="669" cy="724" /></g><g data-control-kind="anchors" data-path-key="6/2" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="586" cy="395" /></g><g data-control-kind="anchors" data-path-key="6/2" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="597" cy="359" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="378" y1="670" x2="378" y2="671.855803" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="378" cy="671.855803" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="380.050253" y1="674.949747" x2="378.738001" y2="673.637496" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="378.738001" cy="673.637496" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="380.050253" y1="674.949747" x2="381.362504" y2="676.261999" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="381.362504" cy="676.261999" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="677" x2="383.144197" y2="677" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="383.144197" cy="677" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="677" x2="386.855803" y2="677" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="386.855803" cy="677" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="389.949747" y1="674.949747" x2="388.637496" y2="676.261999" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="388.637496" cy="676.261999" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="389.949747" y1="674.949747" x2="391.261999" y2="673.637496" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="391.261999" cy="673.637496" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="392" y1="670" x2="392" y2="671.855803" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="392" cy="671.855803" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="392" y1="670" x2="392" y2="668.144197" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="392" cy="668.144197" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="389.949747" y1="665.050253" x2="391.261999" y2="666.362504" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="391.261999" cy="666.362504" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="389.949747" y1="665.050253" x2="388.637496" y2="663.738001" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="388.637496" cy="663.738001" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="663" x2="386.855803" y2="663" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="386.855803" cy="663" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="385" y1="663" x2="383.144197" y2="663" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="383.144197" cy="663" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="380.050253" y1="665.050253" x2="381.362504" y2="663.738001" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="381.362504" cy="663.738001" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="380.050253" y1="665.050253" x2="378.738001" y2="666.362504" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="378.738001" cy="666.362504" /></g><g data-control-kind="handles" data-path-key="6/20" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="378" y1="670" x2="378" y2="668.144197" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="378" cy="668.144197" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="378" cy="670" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="380.050253" cy="674.949747" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="385" cy="677" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="389.949747" cy="674.949747" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="392" cy="670" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="389.949747" cy="665.050253" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="385" cy="663" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="380.050253" cy="665.050253" /></g><g data-control-kind="anchors" data-path-key="6/20" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="378" cy="670" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1179" y1="669" x2="1179" y2="672.181377" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1179" cy="672.181377" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1182.51472" y1="677.485281" x2="1180.26515" y2="675.235708" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1180.26515" cy="675.235708" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1182.51472" y1="677.485281" x2="1184.76429" y2="679.734855" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1184.76429" cy="679.734855" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="681" x2="1187.81862" y2="681" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1187.81862" cy="681" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="681" x2="1194.18138" y2="681" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1194.18138" cy="681" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1199.48528" y1="677.485281" x2="1197.23571" y2="679.734855" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1197.23571" cy="679.734855" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1199.48528" y1="677.485281" x2="1201.73485" y2="675.235708" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1201.73485" cy="675.235708" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1203" y1="669" x2="1203" y2="672.181377" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1203" cy="672.181377" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1203" y1="669" x2="1203" y2="665.818623" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1203" cy="665.818623" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1199.48528" y1="660.514719" x2="1201.73485" y2="662.764292" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1201.73485" cy="662.764292" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1199.48528" y1="660.514719" x2="1197.23571" y2="658.265145" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1197.23571" cy="658.265145" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="657" x2="1194.18138" y2="657" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1194.18138" cy="657" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="657" x2="1187.81862" y2="657" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1187.81862" cy="657" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1182.51472" y1="660.514719" x2="1184.76429" y2="658.265145" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1184.76429" cy="658.265145" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1182.51472" y1="660.514719" x2="1180.26515" y2="662.764292" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1180.26515" cy="662.764292" /></g><g data-control-kind="handles" data-path-key="6/21" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1179" y1="669" x2="1179" y2="665.818623" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1179" cy="665.818623" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1179" cy="669" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1182.51472" cy="677.485281" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1191" cy="681" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1199.48528" cy="677.485281" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1203" cy="669" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1199.48528" cy="660.514719" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1191" cy="657" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1182.51472" cy="660.514719" /></g><g data-control-kind="anchors" data-path-key="6/21" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1179" cy="669" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1184" y1="669" x2="1184" y2="670.855803" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1184" cy="670.855803" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1186.05025" y1="673.949747" x2="1184.738" y2="672.637496" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1184.738" cy="672.637496" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1186.05025" y1="673.949747" x2="1187.3625" y2="675.261999" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1187.3625" cy="675.261999" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="676" x2="1189.1442" y2="676" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1189.1442" cy="676" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="676" x2="1192.8558" y2="676" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1192.8558" cy="676" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1195.94975" y1="673.949747" x2="1194.6375" y2="675.261999" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1194.6375" cy="675.261999" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1195.94975" y1="673.949747" x2="1197.262" y2="672.637496" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1197.262" cy="672.637496" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1198" y1="669" x2="1198" y2="670.855803" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1198" cy="670.855803" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1198" y1="669" x2="1198" y2="667.144197" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1198" cy="667.144197" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1195.94975" y1="664.050253" x2="1197.262" y2="665.362504" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1197.262" cy="665.362504" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1195.94975" y1="664.050253" x2="1194.6375" y2="662.738001" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1194.6375" cy="662.738001" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="662" x2="1192.8558" y2="662" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1192.8558" cy="662" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1191" y1="662" x2="1189.1442" y2="662" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1189.1442" cy="662" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1186.05025" y1="664.050253" x2="1187.3625" y2="662.738001" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1187.3625" cy="662.738001" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1186.05025" y1="664.050253" x2="1184.738" y2="665.362504" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1184.738" cy="665.362504" /></g><g data-control-kind="handles" data-path-key="6/22" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1184" y1="669" x2="1184" y2="667.144197" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1184" cy="667.144197" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1184" cy="669" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1186.05025" cy="673.949747" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1191" cy="676" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1195.94975" cy="673.949747" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1198" cy="669" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1195.94975" cy="664.050253" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1191" cy="662" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1186.05025" cy="664.050253" /></g><g data-control-kind="anchors" data-path-key="6/22" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1184" cy="669" /></g><g data-control-kind="anchors" data-path-key="6/3" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="601" cy="400" /></g><g data-control-kind="anchors" data-path-key="6/3" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="681" cy="703" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="583" y1="337" x2="601" y2="339" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="601" cy="339" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="609" y1="346" x2="601" y2="339" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="601" cy="339" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="609" y1="346" x2="620" y2="351" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="620" cy="351" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="642" y1="345" x2="620" y2="351" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="620" cy="351" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1006" y1="303" x2="1029" y2="302" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1029" cy="302" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1044" y1="291" x2="1029" y2="302" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1029" cy="302" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1056" y1="321" x2="1021" y2="337" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1021" cy="337" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="985" y1="337" x2="1021" y2="337" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1021" cy="337" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="652" y1="372" x2="624" y2="376" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="624" cy="376" /></g><g data-control-kind="handles" data-path-key="6/4" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="611" y1="397" x2="624" y2="376" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="624" cy="376" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="583" cy="337" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="609" cy="346" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="642" cy="345" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1006" cy="303" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1044" cy="291" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1056" cy="321" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="985" cy="337" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="652" cy="372" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="611" cy="397" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="592" cy="389" /></g><g data-control-kind="anchors" data-path-key="6/4" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="583" cy="337" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="620" y1="356" x2="669" y2="351" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="669" cy="351" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="737" y1="344" x2="669" y2="351" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="669" cy="351" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1021" y1="313" x2="1041" y2="317" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1041" cy="317" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1038" y1="337" x2="1041" y2="317" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1041" cy="317" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1038" y1="337" x2="1020" y2="331" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1020" cy="331" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="980" y1="338" x2="1020" y2="331" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1020" cy="331" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="650" y1="372" x2="621" y2="374" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="621" cy="374" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="612" y1="396" x2="621" y2="374" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="621" cy="374" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="606" y1="380" x2="607" y2="365" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="607" cy="365" /></g><g data-control-kind="handles" data-path-key="6/5" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="620" y1="356" x2="607" y2="365" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="607" cy="365" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="620" cy="356" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="737" cy="344" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1021" cy="313" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1038" cy="337" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="980" cy="338" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="650" cy="372" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="612" cy="396" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="606" cy="380" /></g><g data-control-kind="anchors" data-path-key="6/5" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="620" cy="356" /></g><g data-control-kind="handles" data-path-key="6/6" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="610" y1="348" x2="619" y2="353" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="619" cy="353" /></g><g data-control-kind="handles" data-path-key="6/6" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="644" y1="348" x2="619" y2="353" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="619" cy="353" /></g><g data-control-kind="handles" data-path-key="6/6" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1014" y1="306" x2="1031" y2="304" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1031" cy="304" /></g><g data-control-kind="handles" data-path-key="6/6" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1043" y1="298" x2="1031" y2="304" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1031" cy="304" /></g><g data-control-kind="anchors" data-path-key="6/6" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="610" cy="348" /></g><g data-control-kind="anchors" data-path-key="6/6" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="644" cy="348" /></g><g data-control-kind="anchors" data-path-key="6/6" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1014" cy="306" /></g><g data-control-kind="anchors" data-path-key="6/6" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1043" cy="298" /></g><g data-control-kind="handles" data-path-key="6/7" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1093" y1="407" x2="1073" y2="407" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1073" cy="407" /></g><g data-control-kind="handles" data-path-key="6/7" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1055" y1="428" x2="1073" y2="407" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1073" cy="407" /></g><g data-control-kind="handles" data-path-key="6/7" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1011" y1="399" x2="1038" y2="372" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1038" cy="372" /></g><g data-control-kind="handles" data-path-key="6/7" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1031" y1="350" x2="1038" y2="372" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1038" cy="372" /></g><g data-control-kind="handles" data-path-key="6/7" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1031" y1="350" x2="1027" y2="338" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1027" cy="338" /></g><g data-control-kind="handles" data-path-key="6/7" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1006" y1="337" x2="1027" y2="338" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1027" cy="338" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1056" cy="316" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1093" cy="407" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1055" cy="428" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="768" cy="706" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="739" cy="678" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1011" cy="399" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1031" cy="350" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1006" cy="337" /></g><g data-control-kind="anchors" data-path-key="6/7" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1056" cy="316" /></g><g data-control-kind="handles" data-path-key="6/8" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1083" y1="399" x2="1064" y2="395" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1064" cy="395" /></g><g data-control-kind="handles" data-path-key="6/8" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1048" y1="414" x2="1064" y2="395" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1064" cy="395" /></g><g data-control-kind="handles" data-path-key="6/8" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1058" y1="428" x2="1076" y2="411" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1076" cy="411" /></g><g data-control-kind="handles" data-path-key="6/8" visibility="visible"><line style="stroke:#e38900;stroke-width:2.56;fill:none" x1="1093" y1="412" x2="1076" y2="411" /><circle r="2.4" style="fill:#ffab26;stroke:#6b4300;stroke-width:1.12" cx="1076" cy="411" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1083" cy="399" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1048" cy="414" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="748" cy="688" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="769" cy="705" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1058" cy="428" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1093" cy="412" /></g><g data-control-kind="anchors" data-path-key="6/8" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1083" cy="399" /></g><g data-control-kind="anchors" data-path-key="6/9" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="1010" cy="399" /></g><g data-control-kind="anchors" data-path-key="6/9" visibility="visible"><circle r="3.2" style="fill:#00a7d8;stroke:#00334d;stroke-width:1.28" cx="752" cy="677" /></g></g></svg>

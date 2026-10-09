@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "sets": {
+    "road_bike_desert_editable": {
+      "variants": [
+        "artwork",
+        "_withCPs"
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer1.svg",
+              "canonical": "road_bike_desert_editable_layer1_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer1_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer1_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer2.svg",
+              "canonical": "road_bike_desert_editable_layer2_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer2_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer2_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer3.svg",
+              "canonical": "road_bike_desert_editable_layer3_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer3_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer3_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer4.svg",
+              "canonical": "road_bike_desert_editable_layer4_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer4_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer4_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer5.svg",
+              "canonical": "road_bike_desert_editable_layer5_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer5_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer5_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer6.svg",
+              "canonical": "road_bike_desert_editable_layer6_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer6_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer6_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer7.svg",
+              "canonical": "road_bike_desert_editable_layer7_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer7_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer7_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 8,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer8.svg",
+              "canonical": "road_bike_desert_editable_layer8_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer8_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer8_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer9.svg",
+              "canonical": "road_bike_desert_editable_layer9_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer9_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer9_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer10.svg",
+              "canonical": "road_bike_desert_editable_layer10_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer10_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer10_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 11,
+          "files": {
+            "artwork": {
+              "default": "road_bike_desert_editable_layer11.svg",
+              "canonical": "road_bike_desert_editable_layer11_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "road_bike_desert_editable_layer11_normalized_withCPs.svg",
+              "default": "road_bike_desert_editable_layer11_withCPs.svg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

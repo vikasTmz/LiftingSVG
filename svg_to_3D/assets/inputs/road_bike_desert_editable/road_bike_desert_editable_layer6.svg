@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="1536" height="1024" viewBox="0 0 1536 1024" data-layer-depth="6" style="mask: none !important; clip-path: none !important;">
+<title style="mask: none !important; clip-path: none !important;">Lime racing bicycle in a desert sunset</title><desc style="mask: none !important; clip-path: none !important;">Editable geometric reconstruction. Named layers, individual spokes, frame tubes, drivetrain, cockpit and landscape paths. No embedded raster artwork.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffdabd" /><stop offset=".47" stop-color="#f1d3d9" /><stop offset="1" stop-color="#d9cef6" /></linearGradient>
+<linearGradient id="sand" x2="0.15" y2="1"><stop stop-color="#ffa5a7" /><stop offset="1" stop-color="#ffdac5" /></linearGradient>
+<linearGradient id="mountain" x2="0.8" y2="1"><stop stop-color="#cc7896" /><stop offset="1" stop-color="#e88c9b" /></linearGradient>
+<linearGradient id="blue-hills" x2="0" y2="1"><stop stop-color="#6b8cb7" /><stop offset="1" stop-color="#5973a3" /></linearGradient>
+<linearGradient id="lime" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#dbff0a" /><stop offset=".46" stop-color="#c4f400" /><stop offset="1" stop-color="#97ce00" /></linearGradient>
+<linearGradient id="metal" x2="0.2" y2="1"><stop stop-color="#35445f" /><stop offset=".5" stop-color="#172237" /><stop offset="1" stop-color="#080f20" /></linearGradient>
+<linearGradient id="tire" x2="0.5" y2="1"><stop stop-color="#26334d" /><stop offset=".55" stop-color="#0a1224" /><stop offset="1" stop-color="#1b2940" /></linearGradient>
+</defs>
+<g id="sky-layer" ns1:groupmode="layer" ns1:label="01 · Sunset sky" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="distant-landscape" ns1:groupmode="layer" ns1:label="02 · Distant mountains" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="desert-layer" ns1:groupmode="layer" ns1:label="03 · Sand and rolling dunes" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+</g>
+<g id="ground-shadow" ns1:groupmode="layer" ns1:label="04 · Bicycle ground shadow" style="mask: none !important; clip-path: none !important;">
+
+</g>
+<g id="wheels-layer" ns1:groupmode="layer" ns1:label="05 · Wheels / rims / individual spokes" style="mask: none !important; clip-path: none !important;">
+<g id="rear-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="rear-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+<g id="front-wheel" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+<g id="front-spokes" stroke="#111c29" stroke-width="1.8" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+</g>
+</g>
+<g id="rear-drivetrain" ns1:groupmode="layer" ns1:label="06 · Cassette and rear derailleur" style="mask: none !important; clip-path: none !important;">
+<circle id="cassette-cog-0" cx="385" cy="671" r="53" fill="#17253d" stroke="#071023" stroke-width="4" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-0" cx="438.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-1" cx="435.4059953636431" cy="687.3779007018722" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-2" cx="427.8779007018722" cy="702.152618371501" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-3" cx="416.1526183715011" cy="713.8779007018722" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-4" cx="401.3779007018722" cy="721.4059953636431" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-5" cx="385.0" cy="724.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-6" cx="368.6220992981278" cy="721.4059953636431" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-7" cx="353.8473816284989" cy="713.8779007018722" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-8" cx="342.1220992981278" cy="702.152618371501" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-9" cx="334.5940046363569" cy="687.3779007018722" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-10" cx="332.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-11" cx="334.59400463635683" cy="654.6220992981279" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-12" cx="342.1220992981278" cy="639.847381628499" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-13" cx="353.8473816284989" cy="628.1220992981278" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-14" cx="368.62209929812775" cy="620.5940046363569" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-15" cx="385.0" cy="618.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-16" cx="401.3779007018722" cy="620.5940046363569" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-17" cx="416.15261837150103" cy="628.1220992981278" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-18" cx="427.8779007018722" cy="639.847381628499" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-0-19" cx="435.4059953636431" cy="654.6220992981278" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-cog-1" cx="385" cy="671" r="46" fill="#17253d" stroke="#071023" stroke-width="4" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-0" cx="431.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-1" cx="428.74859974957707" cy="685.2147817412476" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-2" cx="422.2147817412476" cy="698.0381216054537" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-3" cx="412.03812160545374" cy="708.2147817412476" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-4" cx="399.2147817412476" cy="714.748599749577" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-5" cx="385.0" cy="717.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-6" cx="370.7852182587524" cy="714.7485997495771" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-7" cx="357.96187839454626" cy="708.2147817412476" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-8" cx="347.7852182587524" cy="698.0381216054537" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-9" cx="341.25140025042293" cy="685.2147817412476" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-10" cx="339.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-11" cx="341.25140025042293" cy="656.7852182587525" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-12" cx="347.7852182587524" cy="643.9618783945463" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-13" cx="357.9618783945462" cy="633.7852182587524" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-14" cx="370.7852182587524" cy="627.251400250423" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-15" cx="385.0" cy="625.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-16" cx="399.2147817412476" cy="627.2514002504229" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-17" cx="412.03812160545374" cy="633.7852182587524" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-18" cx="422.2147817412476" cy="643.9618783945463" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-1-19" cx="428.74859974957707" cy="656.7852182587524" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-cog-2" cx="385" cy="671" r="39" fill="#17253d" stroke="#071023" stroke-width="4" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-0" cx="424.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-1" cx="422.09120413551096" cy="683.0516627806229" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-2" cx="416.55166278062296" cy="693.9236248394064" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-3" cx="407.92362483940644" cy="702.5516627806229" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-4" cx="397.05166278062296" cy="708.091204135511" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-5" cx="385.0" cy="710.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-6" cx="372.94833721937704" cy="708.091204135511" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-7" cx="362.07637516059356" cy="702.5516627806229" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-8" cx="353.44833721937704" cy="693.9236248394064" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-9" cx="347.90879586448904" cy="683.0516627806229" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-10" cx="346.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-11" cx="347.908795864489" cy="658.9483372193771" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-12" cx="353.44833721937704" cy="648.0763751605936" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-13" cx="362.07637516059356" cy="639.4483372193771" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-14" cx="372.94833721937704" cy="633.908795864489" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-15" cx="385.0" cy="632.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-16" cx="397.05166278062296" cy="633.908795864489" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-17" cx="407.92362483940644" cy="639.4483372193771" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-18" cx="416.55166278062296" cy="648.0763751605936" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-2-19" cx="422.09120413551096" cy="658.9483372193771" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-cog-3" cx="385" cy="671" r="32" fill="#17253d" stroke="#071023" stroke-width="4" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-0" cx="417.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-1" cx="415.4338085214449" cy="680.8885438199983" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-2" cx="410.8885438199983" cy="689.8091280733591" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-3" cx="403.80912807335915" cy="696.8885438199983" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-4" cx="394.8885438199983" cy="701.4338085214449" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-5" cx="385.0" cy="703.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-6" cx="375.1114561800017" cy="701.4338085214449" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-7" cx="366.19087192664085" cy="696.8885438199983" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-8" cx="359.1114561800017" cy="689.8091280733591" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-9" cx="354.5661914785551" cy="680.8885438199983" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-10" cx="353.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-11" cx="354.5661914785551" cy="661.1114561800017" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-12" cx="359.1114561800017" cy="652.1908719266409" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-13" cx="366.19087192664085" cy="645.1114561800017" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-14" cx="375.11145618000165" cy="640.5661914785551" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-15" cx="385.0" cy="639.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-16" cx="394.8885438199983" cy="640.5661914785551" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-17" cx="403.80912807335915" cy="645.1114561800017" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-18" cx="410.8885438199983" cy="652.1908719266409" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-3-19" cx="415.4338085214449" cy="661.1114561800017" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-cog-4" cx="385" cy="671" r="25" fill="#17253d" stroke="#071023" stroke-width="4" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-0" cx="410.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-1" cx="408.7764129073788" cy="678.7254248593737" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-2" cx="405.2254248593737" cy="685.6946313073119" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-3" cx="399.69463130731185" cy="691.2254248593737" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-4" cx="392.7254248593737" cy="694.7764129073788" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-5" cx="385.0" cy="696.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-6" cx="377.2745751406263" cy="694.7764129073788" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-7" cx="370.30536869268815" cy="691.2254248593737" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-8" cx="364.7745751406263" cy="685.6946313073119" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-9" cx="361.2235870926212" cy="678.7254248593737" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-10" cx="360.0" cy="671.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-11" cx="361.22358709262113" cy="663.2745751406263" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-12" cx="364.7745751406263" cy="656.3053686926881" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-13" cx="370.30536869268815" cy="650.7745751406263" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-14" cx="377.2745751406263" cy="647.2235870926212" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-15" cx="385.0" cy="646.0" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-16" cx="392.7254248593737" cy="647.2235870926212" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-17" cx="399.69463130731185" cy="650.7745751406263" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-18" cx="405.2254248593737" cy="656.3053686926881" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<circle id="cassette-tooth-4-19" cx="408.7764129073788" cy="663.2745751406263" r="3" fill="#122139" style="mask: none !important; clip-path: none !important;" />
+<path id="derailleur-body" d="M373 686 Q343 687 341 708 L351 736 L378 752 L371 780 Q359 788 362 797 Q374 808 394 797 L406 778 L398 752 Q424 741 414 723 Q410 709 388 706 Z" fill="url(#metal)" stroke="#081124" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="derailleur-front" d="M374 704 Q399 707 414 720 L408 738 Q389 741 362 721 Z" fill="#35425a" stroke="#0b1529" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<path id="derailleur-cage" d="M386 749 L375 788" fill="none" stroke="#41516a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" style="mask: none !important; clip-path: none !important;" />
+<circle id="upper-jockey" cx="393" cy="751" r="10" fill="#0d182b" stroke="#34455d" stroke-width="3" style="mask: none !important; clip-path: none !important;" />
+<circle id="lower-jockey" cx="382" cy="787" r="12" fill="#101d31" stroke="#34455d" stroke-width="3" style="mask: none !important; clip-path: none !important;" />
+<circle id="derailleur-bolt" cx="373" cy="694" r="8" fill="#556278" stroke="#101a30" stroke-width="4" style="mask: none !important; clip-path: none !important;" />
+</g>
+<g id="frame-layer" ns1:groupmode="layer" ns1:label="07 · Lime frame / individual tubes" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="saddle-layer" ns1:groupmode="layer" ns1:label="08 · Saddle / seatpost / rails" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+</g>
+<g id="cockpit-layer" ns1:groupmode="layer" ns1:label="09 · Stem / drop bars / brake levers / cables" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+<g id="brakes-layer" ns1:groupmode="layer" ns1:label="10 · Rim brakes and cable housings" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+</g>
+<g id="crankset-layer" ns1:groupmode="layer" ns1:label="11 · Chainrings / crank / chain links" style="mask: none !important; clip-path: none !important;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+</svg>

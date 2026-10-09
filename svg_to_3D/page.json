@@ -1,0 +1,71 @@
+{
+  "documentTitle": "SVGs to 3D scenes — Vikas Thamizharasan",
+  "description": "SVGs to 3D scenes. Explore animated vector artwork, its individual layers, and video results.",
+  "brand": {
+    "name": "SVGs to 3D",
+    "note": "Research notes"
+  },
+  "author": "Vikas Thamizharasan",
+  "date": "October 1, 2026",
+  "footer": "Vikas Thamizharasan / Research notes",
+  "sections": [
+    {
+      "id": "introduction",
+      "type": "hero",
+      "content": "sections/introduction.md",
+      "navLabel": "Introduction"
+    },
+    {
+      "id": "examples",
+      "type": "viewer-triple",
+      "scene": "bird_flying",
+      "navLabel": "Task: novel niew synthesis"
+    },
+    {
+      "id": "other-examples",
+      "type": "viewer",
+      "scene": "pingpong_ball_cup_splash",
+      "navLabel": "Task: bullet time effect"
+    },
+    {
+      "id": "road-bike-desert-editable-example",
+      "type": "viewer",
+      "scene": "road_bike_desert_editable",
+      "navLabel": "Task: hidden geometry"
+    },
+    {
+      "id": "character-running-dribbling-throwing-example",
+      "type": "viewer",
+      "scene": "character_running_dribbling_throwing",
+      "navLabel": "Task: shadows & camera authoring"
+    },
+    {
+      "id": "formulation",
+      "type": "note",
+      "eyebrow": "",
+      "content": "sections/problem_formulation.md",
+      "navLabel": "Formulation"
+    },
+    {
+      "id": "past-efforts",
+      "type": "note",
+      "eyebrow": "",
+      "content": "sections/past_efforts.md",
+      "navLabel": "Past efforts"
+    },
+    {
+      "id": "The Inverse Mapping",
+      "type": "note",
+      "eyebrow": "",
+      "content": "sections/vectorization.md",
+      "navLabel": "Inverse mapping"
+    },
+    {
+      "id": "leaking-wine-animated-example",
+      "type": "viewer",
+      "scene": "leaking_wine_animated",
+      "swapViewers": true,
+      "navLabel": "3D to SVG"
+    }
+  ]
+}

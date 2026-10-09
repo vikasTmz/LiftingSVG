@@ -1,0 +1,13 @@
+# Generated Jekyll output and local dependencies
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+/.bundle/
+/vendor/
+
+# macOS and Python artifacts
+.DS_Store
+__pycache__/
+*.pyc
+

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1">
+    <meta name="description"
+      content="SVGs to 3D scenes. Explore animated vector artwork, its individual layers, and video results.">
+    <meta name="theme-color" content="#fffefa">
+    <title>SVGs to 3D scenes — Vikas Thamizharasan</title>
+    <script src="theme.js"></script>
+    <script defer src="assets/vendor/marked.umd.js"></script>
+    <script defer src="assets/vendor/purify.min.js"></script>
+    <script defer src="math.js"></script>
+    <script defer src="assets/vendor/mathjax/tex-mml-svg-mathjax-tex.js"></script>
+    <script defer src="svg-playback.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body id="top">
+    <a class="skip-link" href="#side-by-side">Skip to interactive
+      viewer</a>
+    <svg width="0" height="0" class="icon-definitions"
+      aria-hidden="true">
+      <defs>
+        <symbol id="i-layers" viewBox="0 0 24 24">
+          <path
+            d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5" />
+        </symbol>
+        <symbol id="i-scene" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="3" />
+          <path d="m4 16 5-6 5 5 3-3 4 5" />
+          <circle cx="16" cy="8" r="1.5" />
+        </symbol>
+        <symbol id="i-controls" viewBox="0 0 24 24">
+          <path d="M5 17C5 7 19 17 19 7M5 17V5m14 2v12" />
+          <circle cx="5" cy="17" r="2" />
+          <circle cx="19" cy="7" r="2" />
+          <path d="M3 3h4v4H3zm14 14h4v4h-4z" />
+        </symbol>
+        <symbol id="i-text" viewBox="0 0 24 24">
+          <path d="M5 5h14M12 5v14M8 19h8M5 5v3m14-3v3" />
+        </symbol>
+        <symbol id="i-up" viewBox="0 0 24 24">
+          <path d="m6 15 6-6 6 6" />
+        </symbol>
+        <symbol id="i-down" viewBox="0 0 24 24">
+          <path d="m6 9 6 6 6-6" />
+        </symbol>
+        <symbol id="i-play" viewBox="0 0 24 24">
+          <path d="m7 4 14 8-14 8Z" />
+        </symbol>
+        <symbol id="i-pause" viewBox="0 0 24 24">
+          <path d="M8 5v14M16 5v14" />
+        </symbol>
+        <symbol id="i-zoom-in" viewBox="0 0 24 24">
+          <path d="M12 5v14M5 12h14" />
+        </symbol>
+        <symbol id="i-zoom-out" viewBox="0 0 24 24">
+          <path d="M5 12h14" />
+        </symbol>
+        <symbol id="i-default-space" viewBox="0 0 24 24">
+          <rect x="4" y="4" width="16" height="16" rx="2" />
+          <path d="M4 12h16M12 4v16" />
+        </symbol>
+        <symbol id="i-canonical-space" viewBox="0 0 24 24">
+          <path
+            d="M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5M4 4l5 5m11-5-5 5m5 11-5-5M4 20l5-5" />
+        </symbol>
+        <symbol id="i-moon" viewBox="0 0 24 24">
+          <path
+            d="M20.5 14.2A9 9 0 0 1 9.8 3.5a9 9 0 1 0 10.7 10.7Z" />
+        </symbol>
+        <symbol id="i-sun" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" />
+        </symbol>
+      </defs>
+    </svg>
+    <header class="masthead wrap">
+      <a class="brand" href="#top"
+        aria-label="SVGs to 3D scenes, back to top"><svg class="icon"
+          aria-hidden="true">
+          <use href="#i-layers" />
+        </svg><span id="brand-name">SVGs to 3D</span><span
+          id="brand-note">Research notes</span></a>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button"
+          aria-label="Switch to dark theme" aria-pressed="false"><svg
+            class="icon moon" aria-hidden="true">
+            <use href="#i-moon" />
+          </svg><svg class="icon sun" aria-hidden="true">
+            <use href="#i-sun" />
+          </svg></button>
+      </div>
+    </header>
+    <nav class="pnav" id="pnav" aria-label="Sections" hidden></nav>
+    <main class="wrap">
+      <p id="page-status" role="status">Loading page…</p>
+      <div id="page-sections" tabindex="-1"></div>
+      <noscript>
+        <p>Please enable JavaScript to read the page and use the
+          viewers.</p>
+      </noscript>
+    </main>
+
+    <!-- Reusable viewer structures. Content and ordering come from page.json. -->
+    <template id="comparison-template">
+      <section class="comparison" id="side-by-side"
+        aria-labelledby="comparison-title" tabindex="-1">
+        <div class="section-heading">
+          <h2 id="comparison-title"><span class="number">[tbd]</span>
+            Transforming SVGs to 3D</h2>
+          <span class="aside">[tbd]]</span>
+        </div>
+        <div class="comparison-grid">
+          <section class="comparison-column comparison-svg"
+            id="side-svg-panel"
+            aria-label="SVG viewer"></section>
+          <button class="comparison-play" id="side-play-first"
+            type="button" aria-label="Generate 3D"
+            aria-controls="side-main-video" title="Generate 3D"><span
+              class="wand" aria-hidden="true">🪄</span></button>
+          <section class="comparison-column comparison-video"
+            id="side-video-panel"
+            aria-labelledby="comparison-video-title">
+            <h3 id="comparison-video-title">Video viewer</h3>
+          </section>
+        </div>
+      </section>
+    </template>
+    <template id="svg-viewer-template">
+      <div class="viewer">
+        <div class="svg-stage" id="svg-stage" tabindex="0"
+          aria-label="SVG viewer. In layer mode, use the slider or up and down arrow keys to change layers.">
+          <div class="stage-info"><svg class="icon"
+              aria-hidden="true">
+              <use href="#i-scene" />
+            </svg><span id="scene-name">SVG scene</span></div>
+          <span class="stage-badge" id="stage-badge">Full
+            composite</span>
+          <div class="svg-mount" id="svg-mount"></div>
+          <div class="stage-status" id="svg-status" role="status"
+            aria-live="polite">Loading artwork…</div>
+          <aside class="layer-rail glass" id="layer-rail"
+            aria-label="Layer navigation" hidden>
+            <p class="widget-title">Layers</p>
+            <button type="button" class="rail-step"
+              id="previous-layer" aria-label="Previous layer"><svg
+                class="icon" aria-hidden="true">
+                <use href="#i-up" />
+              </svg></button>
+            <span class="rail-limit" id="layer-first">—</span>
+            <input type="range" class="layer-slider" id="layer-slider"
+              min="0" max="0" value="0" step="1"
+              aria-label="Layer depth" aria-orientation="vertical">
+            <span class="rail-limit" id="layer-limit">—</span>
+            <button type="button" class="rail-step" id="next-layer"
+              aria-label="Next layer"><svg class="icon"
+                aria-hidden="true">
+                <use href="#i-down" />
+              </svg></button>
+            <output class="rail-current" id="layer-current"
+              for="layer-slider">—</output>
+          </aside>
+          <aside class="variant-panel glass" id="variant-panel"
+            aria-label="Layer variants" hidden>
+            <p class="widget-title">View variant</p>
+            <div class="variant-options" id="variant-options"
+              role="group" aria-label="Layer variant"></div>
+            <div class="coordinates">
+              <p class="widget-title">Coordinates</p>
+              <div class="coordinate-options" role="group"
+                aria-label="Coordinate space"><button
+                  id="scene-coordinates" type="button"
+                  aria-pressed="false">Default</button><button
+                  id="fitted-coordinates" type="button"
+                  aria-pressed="true">Canonical</button></div>
+            </div>
+          </aside>
+          <div class="svg-playback glass" id="svg-playback" role="group"
+            aria-label="SVG animation playback" hidden>
+            <button id="svg-play-pause" type="button" aria-label="Pause animation"
+              title="Pause animation"><svg class="icon" aria-hidden="true"><use href="#i-pause" /></svg></button>
+            <input id="svg-timeline" type="range" min="0" max="1" value="0" step="0.001"
+              aria-label="SVG animation time">
+            <output class="svg-playback-time"><span id="svg-time">0:00.0</span><span
+                class="svg-playback-duration"> / <span id="svg-duration">0:00.0</span></span></output>
+          </div>
+          <div class="view-modes glass" role="group"
+            aria-label="SVG viewing mode">
+            <button id="view-svg" type="button"
+              aria-pressed="true"><svg class="icon"
+                aria-hidden="true">
+                <use href="#i-scene" />
+              </svg>View SVG</button>
+            <button id="view-layers" type="button"
+              aria-pressed="false"><svg class="icon"
+                aria-hidden="true">
+                <use href="#i-layers" />
+              </svg>View Layers</button>
+          </div>
+        </div>
+        <div class="viewer-footer"><span
+            id="svg-description"><strong>SVG scene</strong> · Full
+            composite</span><span class="hint" id="svg-hint">Switch
+            to layers to look closer</span></div>
+      </div>
+    </template>
+    <template id="video-viewer-template">
+      <div class="video-frame">
+        <div class="video-heading" hidden><strong
+            id="video-title">Video result</strong><span
+            id="video-detail"></span></div>
+        <div class="video-stage">
+          <video class="main-video" id="main-video" playsinline loop
+            preload="none" aria-label="Selected result video"></video>
+          <div class="video-idle" id="video-idle">
+            <p>What does this SVG look like in 3D?</p>
+          </div>
+          <div class="video-poster" id="video-poster" hidden><img
+              id="video-poster-image" hidden alt=""><button
+              id="play-video" class="poster-play" type="button"
+              aria-label="Play video"><svg class="icon"
+                aria-hidden="true">
+                <use href="#i-play" />
+              </svg></button></div>
+        </div>
+        <p class="video-error" id="video-error" role="status" hidden>
+        </p>
+      </div>
+      <div class="video-menu" id="video-menu" hidden role="group"
+        aria-label="Choose a video"></div>
+    </template>
+
+    <footer class="site-footer wrap"><span id="footer-text">Vikas
+        Thamizharasan / Research notes</span><a href="#top">Back to
+        top ↑</a></footer>
+  </body>
+
+</html>
