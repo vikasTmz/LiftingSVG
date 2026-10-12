@@ -1,7 +1,7 @@
 [
   {
     "title": "On the left is an SVG of a bird flying. *But what if we want to view this from a different angle?*",
-    "prompt": "Click the magic wand to change the camera angle",
+    "prompt": "Click the button to change the camera angle",
     "svg": "assets/inputs/bird_flying.svg",
     "layers": "assets/inputs/bird_flying",
     "secondarySVG": {
@@ -9,17 +9,27 @@
       "layers": "assets/inputs/bird_flying_hero",
       "svgSource": "",
       "wandLabel": "Vectorize",
-      "prompt": "Click the magic wand to vectorize this view"
+      "prompt": "Click the button to vectorize"
     },
     "videos": [
       {
-        "src": "assets/gpt6_results/bird_flying_turntable.mp4",
-        "title": "Full Render",
+        "src": "assets/gpt6_results/bird_flying_renderpass_view1.mp4",
+        "title": "Cam 01",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/bird_flying_turntable_wireframe.mp4",
-        "title": "Wireframe",
+        "src": "assets/gpt6_results/bird_flying_renderpass_view2.mp4",
+        "title": "CAM 02",
+        "subtitle": ""
+      },
+      {
+        "src": "assets/gpt6_results/bird_flying_renderpass_view3.mp4",
+        "title": "CAM 03",
+        "subtitle": ""
+      },
+      {
+        "src": "assets/gpt6_results/bird_flying_turntable.mp4",
+        "title": "Turn Table",
         "subtitle": ""
       }
     ],
@@ -32,7 +42,7 @@
   },
   {
     "title": "*What if we want to perform a bullet time effect on this 2D fluid simulation?*",
-    "prompt": "Click the magic wand to create a bullet time effect",
+    "prompt": "Click the button to create a bullet time effect",
     "svg": "assets/inputs/pingpong_ball_cup_splash.svg",
     "layers": "assets/inputs/pingpong_ball_cup_splash",
     "videos": [
@@ -56,7 +66,7 @@
   },
   {
     "title": "*Revealing hidden geometry* and the *Dolly zoom effect.*",
-    "prompt": "Click the magic wand to reveal hidden geometry and create a dolly zoom effect",
+    "prompt": "Click the button to reveal hidden geometry and create a dolly zoom effect",
     "svg": "assets/inputs/road_bike_desert_editable.svg",
     "layers": "assets/inputs/road_bike_desert_editable",
     "videos": [
@@ -80,7 +90,7 @@
   },
   {
     "title": "*Adding shadows* and *camera pose authoring.*",
-    "prompt": "Click the magic wand to add shadows and author camera poses",
+    "prompt": "Click the button to add shadows and author camera poses",
     "svg": "assets/inputs/character_running_dribbling_throwing.svg",
     "layers": "assets/inputs/character_running_dribbling_throwing",
     "videos": [
@@ -104,7 +114,7 @@
   },
   {
     "title": "",
-    "prompt": "Click the magic wand to vectorize the 3D scene",
+    "prompt": "Click the button to vectorize the 3D scene",
     "svg": "assets/inputs/leaking_wine_animated.svg",
     "layers": "assets/inputs/leaking_wine_animated",
     "videos": [

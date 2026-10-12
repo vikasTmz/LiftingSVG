@@ -288,3 +288,17 @@ publishing the edited files for the live site.
 Markdown rendering uses locally bundled [Marked](https://github.com/markedjs/marked)
 and [DOMPurify](https://github.com/cure53/DOMPurify); visitors need no CDN access.
 Versions and license notices are retained in `assets/vendor/`.
+
+## Resizing the ChatGPT buttons
+
+In `styles.css`, edit these variables in `.comparison-play`:
+
+```css
+--button-radius: 24px; /* circle diameter = 48px */
+--logo-size: 24px;    /* logo width and height */
+```
+
+Both buttons in the triple layout use these values. Keep `border-radius: 50%`
+to retain the circular shape. The viewer gaps stay equally spaced when the
+buttons shrink. The logo asset is `assets/chatgpt-logo.svg`; its vector path
+comes from [ChatGPT's official favicon](https://cdn.oaistatic.com/assets/favicon-o20kmmos.svg).

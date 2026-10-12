@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "sets": {
+    "leaking_wine_animated": {
+      "variants": [
+        "artwork",
+        "_withCPs"
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer1.svg",
+              "canonical": "leaking_wine_animated_layer1_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer1_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer1_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer2.svg",
+              "canonical": "leaking_wine_animated_layer2_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer2_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer2_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer3.svg",
+              "canonical": "leaking_wine_animated_layer3_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer3_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer3_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer4.svg",
+              "canonical": "leaking_wine_animated_layer4_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer4_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer4_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer5.svg",
+              "canonical": "leaking_wine_animated_layer5_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer5_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer5_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer6.svg",
+              "canonical": "leaking_wine_animated_layer6_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer6_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer6_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer7.svg",
+              "canonical": "leaking_wine_animated_layer7_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer7_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer7_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 8,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer8.svg",
+              "canonical": "leaking_wine_animated_layer8_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer8_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer8_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer9.svg",
+              "canonical": "leaking_wine_animated_layer9_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer9_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer9_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "files": {
+            "artwork": {
+              "default": "leaking_wine_animated_layer10.svg",
+              "canonical": "leaking_wine_animated_layer10_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "leaking_wine_animated_layer10_normalized_withCPs.svg",
+              "default": "leaking_wine_animated_layer10_withCPs.svg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

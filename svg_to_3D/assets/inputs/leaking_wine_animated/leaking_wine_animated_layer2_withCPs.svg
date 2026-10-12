@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 720 916" width="720" height="916" fill="none" data-layer-depth="2" style="mask: none !important; clip-path: none !important;">
+  <title style="mask: none !important; clip-path: none !important;">Leaking wine — a pure SVG animation</title>
+  <desc style="mask: none !important; clip-path: none !important;">A tilted bottle pours red wine into a perforated stemmed glass. The level rises, three streams emerge successively, droplets fall and puddles spread. Six-second introduction followed by continuous flowing detail. Editable vector paths, ellipses, gradients, clips and native SMIL; no images or script.</desc>
+  <defs>
+    <linearGradient id="glass-tint" x1="0%" x2="100%">
+      <stop offset="0" stop-color="#c4d9d8" stop-opacity="0.25" />
+      <stop offset="0.2" stop-color="#ffffff" stop-opacity="0.025" />
+      <stop offset="0.78" stop-color="#d3e3e2" stop-opacity="0.05" />
+      <stop offset="1" stop-color="#819c9b" stop-opacity="0.18" />
+    </linearGradient>
+    <linearGradient id="wine-depth" x1="0%" y1="0%" x2="30%" y2="100%">
+      <stop offset="0" stop-color="#a63150" stop-opacity="1" />
+      <stop offset="0.42" stop-color="#861a38" stop-opacity="1" />
+      <stop offset="1" stop-color="#4f102a" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="flow-red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#c34a62" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#9c2140" stop-opacity="1" />
+      <stop offset="1" stop-color="#6c1330" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="bottle-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0" stop-color="#172f2b" stop-opacity="1" />
+      <stop offset="0.3" stop-color="#40504a" stop-opacity="1" />
+      <stop offset="0.52" stop-color="#243f36" stop-opacity="1" />
+      <stop offset="1" stop-color="#10271f" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="bowl-interior">
+      <path id="bowl-clip-path" d="M237 202 C230 260 209 346 222 399 C235 469 293 520 350 523 C413 520 464 467 477 401 C490 344 470 268 463 202 Z" />
+    </clipPath>
+    <radialGradient id="ground-shadow">
+      <stop offset="0" stop-color="#415951" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#415951" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <g opacity="0.45" data-export-artwork="true"><g id="background" ns1:label="Warm neutral background" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Warm neutral background</title>
+    
+  </g>
+  <g id="contact-shadows" ns1:label="Soft ground contact shadows" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Soft ground contact shadows</title>
+    <ellipse cx="374" cy="783" rx="154" ry="52" fill="url(#ground-shadow)" style="mask: none !important; clip-path: none !important;" />
+  </g>
+  <g id="wine-puddles" ns1:label="Spreading wine puddles and impact ripples" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Spreading wine puddles and impact ripples</title>
+    <g id="right" transform="translate(541 789)" ns1:label="Wine puddle right" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Wine puddle right</title>
+      <g id="right-growth" ns1:label="Puddle spreading" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Puddle spreading</title>
+        <animateTransform attributeName="transform" values=".001 .001;.001 .001;.26 .26;.65 .65;1 1" keyTimes="0;0.4166666666666667;0.47500000000000003;0.65;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" type="scale" style="mask: none !important; clip-path: none !important;" />
+        
+        
+      </g>
+      <g id="right-ripples" opacity="0" ns1:label="Landing ripples" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Landing ripples</title>
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.43333333333333335;0.4466666666666667;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" style="mask: none !important; clip-path: none !important;" />
+        
+        
+      </g>
+    </g>
+    <g id="center" transform="translate(344 838)" ns1:label="Wine puddle center" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Wine puddle center</title>
+      <g id="center-growth" ns1:label="Puddle spreading" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Puddle spreading</title>
+        <animateTransform attributeName="transform" values=".001 .001;.001 .001;.26 .26;.65 .65;1 1" keyTimes="0;0.3;0.35833333333333334;0.5333333333333333;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" type="scale" style="mask: none !important; clip-path: none !important;" />
+        
+        
+      </g>
+      <g id="center-ripples" opacity="0" ns1:label="Landing ripples" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Landing ripples</title>
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3166666666666667;0.33;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" style="mask: none !important; clip-path: none !important;" />
+        
+        
+      </g>
+    </g>
+    <g id="left" transform="translate(265 866)" ns1:label="Wine puddle left" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Wine puddle left</title>
+      <g id="left-growth" ns1:label="Puddle spreading" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Puddle spreading</title>
+        <animateTransform attributeName="transform" values=".001 .001;.001 .001;.26 .26;.65 .65;1 1" keyTimes="0;0.5583333333333333;0.6166666666666667;0.7916666666666666;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" type="scale" style="mask: none !important; clip-path: none !important;" />
+        
+        
+      </g>
+      <g id="left-ripples" opacity="0" ns1:label="Landing ripples" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Landing ripples</title>
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5750000000000001;0.5883333333333334;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" style="mask: none !important; clip-path: none !important;" />
+        
+        
+      </g>
+    </g>
+  </g>
+  <g id="glass-foot-and-stem" ns1:label="Glass foot and slender stem" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Glass foot and slender stem</title>
+    
+    
+    
+    
+  </g>
+  <g id="glass-back" ns1:label="Back rim and transparent bowl" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Back rim and transparent bowl</title>
+    
+    
+  </g>
+  <g id="wine-in-glass" ns1:label="Rising wine and surface" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Rising wine and surface</title>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.125;0.13833333333333334;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" style="mask: none !important; clip-path: none !important;" />
+    
+    <g id="surface-height" transform="translate(0 522)" ns1:label="Wine surface and pouring impact" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Wine surface and pouring impact</title>
+      <animateTransform attributeName="transform" values="0 522;0 522;0 494;0 455;0 427;0 409;0 405" keyTimes="0;0.14;0.2;0.333333;0.5;0.75;1" dur="6s" begin="0s" fill="freeze" calcMode="linear" repeatCount="1" type="translate" style="mask: none !important; clip-path: none !important;" />
+      
+      
+      
+      
+      
+    </g>
+  </g>
+  <g id="leaking-streams" ns1:label="Three leaks through the bowl" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Three leaks through the bowl</title>
+    <g id="center-leak" ns1:label="Center hole, jet and falling droplets" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Center hole, jet and falling droplets</title>
+      
+      
+      
+      <g id="center-drop-0" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="1.4s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="340 747;344 834" keyTimes="0.0;1.0" dur="0.68s" begin="1.4s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-drop-1" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="1.5799999999999998s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="340 747;344 834" keyTimes="0.0;1.0" dur="0.68s" begin="1.5799999999999998s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-drop-2" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="1.7599999999999998s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="340 747;344 834" keyTimes="0.0;1.0" dur="0.68s" begin="1.7599999999999998s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-drop-3" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="1.94s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="340 747;344 834" keyTimes="0.0;1.0" dur="0.68s" begin="1.94s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-drop-4" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="2.12s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="340 747;344 834" keyTimes="0.0;1.0" dur="0.68s" begin="2.12s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-splash-0" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="344 838;354 824;364 840" keyTimes="0;0.45;1" dur="0.7s" begin="1.83s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="1.83s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-splash-1" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="344 838;330 821;320 840" keyTimes="0;0.45;1" dur="0.7s" begin="2.0500000000000003s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="2.0500000000000003s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="center-splash-2" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="344 838;362 818;372 840" keyTimes="0;0.45;1" dur="0.7s" begin="2.27s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="2.27s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+    </g>
+    <g id="right-leak" ns1:label="Right hole, jet and falling droplets" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Right hole, jet and falling droplets</title>
+      
+      
+      
+      <g id="right-drop-0" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="2.15s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="537 698;541 785" keyTimes="0.0;1.0" dur="0.68s" begin="2.15s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-drop-1" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="2.33s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="537 698;541 785" keyTimes="0.0;1.0" dur="0.68s" begin="2.33s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-drop-2" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="2.51s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="537 698;541 785" keyTimes="0.0;1.0" dur="0.68s" begin="2.51s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-drop-3" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="2.69s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="537 698;541 785" keyTimes="0.0;1.0" dur="0.68s" begin="2.69s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-drop-4" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.68s" begin="2.87s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="537 698;541 785" keyTimes="0.0;1.0" dur="0.68s" begin="2.87s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-splash-0" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="541 789;551 775;561 791" keyTimes="0;0.45;1" dur="0.7s" begin="2.58s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="2.58s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-splash-1" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="541 789;527 772;517 791" keyTimes="0;0.45;1" dur="0.7s" begin="2.8000000000000003s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="2.8000000000000003s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="right-splash-2" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="541 789;559 769;569 791" keyTimes="0;0.45;1" dur="0.7s" begin="3.02s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="3.02s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+    </g>
+    <g id="left-leak" ns1:label="Left hole, jet and falling droplets" style="mask: none !important; clip-path: none !important;">
+      <title style="mask: none !important; clip-path: none !important;">Left hole, jet and falling droplets</title>
+      
+      
+      
+      <g id="left-drop-0" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.85s" begin="2.9s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="263 697;265 862" keyTimes="0.0;1.0" dur="0.85s" begin="2.9s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-drop-1" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.85s" begin="3.08s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="263 697;265 862" keyTimes="0.0;1.0" dur="0.85s" begin="3.08s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-drop-2" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.85s" begin="3.26s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="263 697;265 862" keyTimes="0.0;1.0" dur="0.85s" begin="3.26s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-drop-3" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.85s" begin="3.44s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="263 697;265 862" keyTimes="0.0;1.0" dur="0.85s" begin="3.44s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-drop-4" opacity="0" ns1:label="Falling wine droplet" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Falling wine droplet</title>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.85s" begin="3.62s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        <animateTransform attributeName="transform" values="263 697;265 862" keyTimes="0.0;1.0" dur="0.85s" begin="3.62s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-splash-0" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="265 866;275 852;285 868" keyTimes="0;0.45;1" dur="0.7s" begin="3.33s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="3.33s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-splash-1" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="265 866;251 849;241 868" keyTimes="0;0.45;1" dur="0.7s" begin="3.5500000000000003s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="3.5500000000000003s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+      <g id="left-splash-2" opacity="0" ns1:label="Impact splash bead" style="mask: none !important; clip-path: none !important;">
+        <title style="mask: none !important; clip-path: none !important;">Impact splash bead</title>
+        <animateTransform attributeName="transform" values="265 866;283 846;293 868" keyTimes="0;0.45;1" dur="0.7s" begin="3.77s" fill="freeze" calcMode="linear" repeatCount="indefinite" type="translate" style="mask: none !important; clip-path: none !important;" />
+        <animate attributeName="opacity" values="0;0.75;0" keyTimes="0;0.15;1" dur="0.7s" begin="3.77s" fill="freeze" calcMode="linear" repeatCount="indefinite" style="mask: none !important; clip-path: none !important;" />
+        
+      </g>
+    </g>
+  </g>
+  <g id="tilted-bottle" transform="translate(405 66) rotate(-19)" ns1:label="Tilted dark-green bottle" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Tilted dark-green bottle</title>
+    
+    
+    
+    
+    
+  </g>
+  <g id="incoming-wine" ns1:label="Pouring wine from bottle into glass" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Pouring wine from bottle into glass</title>
+    
+    
+    
+  </g>
+  <g id="glass-front" ns1:label="Front rim, edge glints and dry upper holes" style="mask: none !important; clip-path: none !important;">
+    <title style="mask: none !important; clip-path: none !important;">Front rim, edge glints and dry upper holes</title>
+    
+    
+    
+    
+    
+    
+    
+  </g>
+</g><g data-export-controls="true" fill="none" pointer-events="none" style="opacity:1;visibility:visible;display:inline"><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="220" y1="783" x2="220" y2="796.785968" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="220" cy="796.785968" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="265.105556" y1="819.769553" x2="236.23603" y2="810.021401" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="236.23603" cy="810.021401" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="265.105556" y1="819.769553" x2="293.975082" y2="829.517704" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="293.975082" cy="829.517704" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="374" y1="835" x2="333.172325" y2="835" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="333.172325" cy="835" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="374" y1="835" x2="414.827675" y2="835" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="414.827675" cy="835" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="482.894444" y1="819.769553" x2="454.024918" y2="829.517704" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="454.024918" cy="829.517704" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="482.894444" y1="819.769553" x2="511.76397" y2="810.021401" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="511.76397" cy="810.021401" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="528" y1="783" x2="528" y2="796.785968" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="528" cy="796.785968" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="528" y1="783" x2="528" y2="769.214032" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="528" cy="769.214032" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="482.894444" y1="746.230447" x2="511.76397" y2="755.978599" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="511.76397" cy="755.978599" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="482.894444" y1="746.230447" x2="454.024918" y2="736.482296" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="454.024918" cy="736.482296" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="374" y1="731" x2="414.827675" y2="731" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="414.827675" cy="731" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="374" y1="731" x2="333.172325" y2="731" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="333.172325" cy="731" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="265.105556" y1="746.230447" x2="293.975082" y2="736.482296" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="293.975082" cy="736.482296" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="265.105556" y1="746.230447" x2="236.23603" y2="755.978599" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="236.23603" cy="755.978599" /></g><g data-control-kind="handles" data-path-key="1/0" visibility="visible"><line style="stroke:#e38900;stroke-width:1.8;fill:none" x1="220" y1="783" x2="220" y2="769.214032" /><circle r="1.6875" style="fill:#ffab26;stroke:#6b4300;stroke-width:0.7875" cx="220" cy="769.214032" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="220" cy="783" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="265.105556" cy="819.769553" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="374" cy="835" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="482.894444" cy="819.769553" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="528" cy="783" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="482.894444" cy="746.230447" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="374" cy="731" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="265.105556" cy="746.230447" /></g><g data-control-kind="anchors" data-path-key="1/0" visibility="visible"><circle r="2.25" style="fill:#00a7d8;stroke:#00334d;stroke-width:0.9" cx="220" cy="783" /></g></g></svg>

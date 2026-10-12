@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "sets": {
+    "character_running_dribbling_throwing": {
+      "variants": [
+        "artwork",
+        "_withCPs"
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer1.svg",
+              "canonical": "character_running_dribbling_throwing_layer1_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer1_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer1_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer3.svg",
+              "canonical": "character_running_dribbling_throwing_layer3_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer3_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer3_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer4.svg",
+              "canonical": "character_running_dribbling_throwing_layer4_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer4_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer4_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer5.svg",
+              "canonical": "character_running_dribbling_throwing_layer5_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer5_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer5_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer6.svg",
+              "canonical": "character_running_dribbling_throwing_layer6_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer6_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer6_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 8,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer8.svg",
+              "canonical": "character_running_dribbling_throwing_layer8_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer8_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer8_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer9.svg",
+              "canonical": "character_running_dribbling_throwing_layer9_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer9_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer9_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer10.svg",
+              "canonical": "character_running_dribbling_throwing_layer10_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer10_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer10_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 11,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer11.svg",
+              "canonical": "character_running_dribbling_throwing_layer11_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer11_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer11_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 12,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer12.svg",
+              "canonical": "character_running_dribbling_throwing_layer12_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer12_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer12_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 13,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer13.svg",
+              "canonical": "character_running_dribbling_throwing_layer13_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer13_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer13_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 14,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer14.svg",
+              "canonical": "character_running_dribbling_throwing_layer14_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer14_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer14_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 15,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer15.svg",
+              "canonical": "character_running_dribbling_throwing_layer15_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer15_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer15_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 16,
+          "files": {
+            "artwork": {
+              "default": "character_running_dribbling_throwing_layer16.svg",
+              "canonical": "character_running_dribbling_throwing_layer16_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "character_running_dribbling_throwing_layer16_normalized_withCPs.svg",
+              "default": "character_running_dribbling_throwing_layer16_withCPs.svg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
