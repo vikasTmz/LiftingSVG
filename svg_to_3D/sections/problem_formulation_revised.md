@@ -54,9 +54,9 @@ $$
 The nonnegative weights balance four criteria:
 
 - **Appearance:** $D_{\mathrm{img}}$ compares the SVGs rasterized by $\rho$ under common settings.
-- **Correspondence:** $E_{\mathrm{corr}}$ checks whether the linked scene entities explain the SVG features as intended. For example, a path interpreted as a silhouette should match the visible outline of its linked surface from the reference camera. The term penalizes mismatches and SVG features left unexplained.
+- **Correspondence:** $E_{\mathrm{corr}}$ measures how closely each SVG feature matches the projected 3D feature assigned to it by the correspondence $M$. For example, a path interpreted as a silhouette should match the visible outline of its linked surface from the reference camera. The term penalizes mismatches and SVG features left unexplained.
 - **Plausibility:** $E_{\mathrm{prior}}$ expresses assumptions such as smoothness, symmetry, part attachments, and economical constructions.
-- **Stylization:** $E_{\mathrm{style}}$ penalizes permitted departures from physical projection, within the hard bounds of $\mathcal B_{\mathrm{valid}}$.
+- **Stylization:** $E_{\mathrm{style}}$ penalizes the amount and complexity of artistic adjustments applied by $\mathcal A_\phi$, such as shifting projected curves or adding view-specific strokes. This encourages the reconstructed scene to account for the drawing, with stylization providing limited adjustments to its appearance.
 
 Source-view agreement alone is insufficient: even flat parametric patches can reproduce a drawing. Modeling assumptions must reflect the intended use, and additional viewpoints help expose implausible geometry. They cannot establish the correctness of unseen surfaces without further evidence. The objective separates observable agreement from modeling assumptions; its losses must be instantiated for each experiment.
 

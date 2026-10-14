@@ -76,9 +76,11 @@ B^*\in\arg\min_{B\in\mathcal B_{\mathrm{valid}}}
 $$
 
 - $D_{\mathrm{img}}$ compares the SVGs rasterized by $\rho$.
-<!-- - $E_{\mathrm{corr}}$ evaluates correspondence between 3D scene elements a.
-- $E_{\mathrm{prior}}$ expresses assumptions such as smoothness, symmetry, part attachments, and economical constructions.
-- $E_{\mathrm{style}}$ penalizes permitted departures from physical projection, within the hard bounds of $\mathcal B_{\mathrm{valid}}$. -->
+- $E_{\mathrm{corr}}$ measures how closely each SVG feature matches the projected 3D feature assigned to it by the correspondence M.
+- $E_{\mathrm{prior}}$ favors plausible 3D reconstruction.
+- $E_{\mathrm{style}}$.
+
+
 
 <!-- 
 The objective separates observable agreement from modeling assumptions; its losses must be instantiated for each experiment. -->
