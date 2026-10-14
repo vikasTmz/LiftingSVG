@@ -1,5 +1,5 @@
 # The Inverse Mapping
-
+*(ToDo...)*
 <br>
 
 Mapping 3D scenes back to vector graphics—3D vectorization—is also a challenging problem. As we develop methods for lifting SVGs into 3D, we also want a way to convert the resulting scenes back into editable SVGs.

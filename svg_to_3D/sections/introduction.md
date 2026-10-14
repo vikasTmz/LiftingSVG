@@ -1,5 +1,7 @@
 # Lifting SVGs to *3D*
 
-Vector graphics represent images using parametric curves and geometric primitives. They are compact, resolution independent, and easy to edit, making them well suited to model smooth, continuous shapes. These properties make them widely used on the web and in design software for shape editing and animation.
+Vector graphics describe images using parametric curves and geometric primitives. They provide compact, resolution-independent representations with directly editable shapes, making them useful for illustration, design, and animation.
 
-SVGs support a wide range of edits, but what if we want to change the camera viewpoint, adjust the lighting and cast shadows, or reveal hidden/occluded structures? These are natively impossible. In this blog post, we experiment with GPT-6 Astra to lift SVGs into 3D in a principled manner and exlpore the new possibilities this opens up.
+These representations describe an image, but generally do not specify the 3D scene behind it. What would the depicted object look like from another viewpoint? How would its shadows change under a moving light? What shape might its unseen parts have? Answering these questions requires inferring geometry and appearance beyond what the SVG explicitly contains.
+
+In this post, we explore using GPT-6 as a coding agent to lift SVGs into structured, editable 3D scenes. Our target representation consists of parametric surfaces, B-rep faces and edges, 3D curves, and analytic primitives organized into semantic parts and a scene graph. We also seek explicit correspondences between SVG elements and the 3D entities or rendering features they describe, so that supported edits can propagate in either direction. 

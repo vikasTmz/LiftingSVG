@@ -2,29 +2,28 @@
 
 <br>
 
-Operations that depend on depth, surface orientation, viewpoint, lighting, or physical spatial relationships are natural in 3D. These operations are not instrinsic to vector graphics. An SVG can imitate many 3D effects if you precompute them, but it does not possess the underlying 3D scene needed to recompute them generically. 
+<!-- Operations that depend on depth, surface orientation, viewpoint, lighting, or physical spatial relationships are natural in 3D. These operations are not instrinsic to vector graphics. An SVG can imitate many 3D effects if you precompute them, but it does not possess the underlying 3D scene needed to recompute them generically.  -->
 
-Let us start with a general formulation, which treats the 2D vector graphic as an **observation** of an unknown 3D parametric scene, without assuming what any 2D curve “means”:
+We treat an SVG as a structured observation of an unknown 3D scene. Our goal is to infer an **editable parametric scene with semantic structure and explicit correspondence to the source SVG**, so that supported edits can propagate in either direction. A single drawing admits many interpretations; we seek a plausible, controllable reconstruction that matches the source view and behaves coherently under those edits.
 
+Let $G$ denote the SVG document, retaining element identities, geometry, styles, grouping, transforms, compositing order, and supported clipping and masking. Let $\mathcal S$ denote the scene: parametric surfaces, boundary-representation (B-rep) faces and edges, 3D curves, and analytic primitives, together with topology, materials, semantic parts, a scene graph, and editing parameters and constraints. SVG groups provide clues to this organization but need not correspond to physical parts.
+
+Given an SVG $G$ as input, we wish to estimate:
 $$
-\boxed{
-\text{3D scene}
-\xrightarrow{\text{curve/feature generation}}
-\text{3D geometric features}
-\xrightarrow{\text{projection + visibility}}
-\text{2D image-space geometry}
-\xrightarrow{\text{stylization}}
-\text{SVG}
-}
+B=(\mathcal S,\theta,\ell,Z,M,\phi),
 $$
 
-The SVG-to-3D lifting problem is to approximately invert this pipeline.
+where
+- $\theta$ is the reference camera,
+- $\ell$ specifies lighting,
+- $Z$ assigns feature roles,
+- $M$ records correspondence, and
+- $\phi$ controls stylization.
 
-Let
-- $G=\{g_i\}$ is the SVG representation, consisting of paths, primitives, filled regions, groups, colors, strokes, and other vector elements.
-- $\mathcal S=\{S_k\}$ is the unknown 3D scene: parametric surfaces, B-rep faces and edges, 3D curves, analytic primitives, materials, object transforms, etc.
-- $\theta$: camera/view parameters,
-- $Z=\{z_i\}$ specifies which geometric phenomena should generate SVG elements and what their roles are. For example,
+The admissible class $\mathcal B_{\mathrm{valid}}$ enforces representation, topology, correspondence consistency, and stylization bounds.
+
+
+<!-- $Z=\{z_i\}$ specifies which geometric phenomena should generate SVG elements and what their roles are. For example,
 
 $$
 z_i\in
@@ -36,92 +35,79 @@ z_i\in
 \text{intersections},
 \ldots
 \}.
-$$
+$$ -->
 
-- $\mathcal R(\mathcal S,\theta,Z)$: rendering operator producing 2D vector geometry,
-- $\mathcal A_\phi$: artistic/stylization operator with parameters $\phi$. Some objects and operations performed on those objects are unique to SVGs and vice versa. 
+<!-- Note, $Z$ is not fixed. An SVG path might correspond to a 3D boundary, silhouette, intersection curve, surface feature, texture/material boundary, or even a purely artistic stroke. -->
 
-Then the forward model is
+<!-- Feature roles $Z$ are inferred: an SVG path, subpath, or region may depict a boundary, silhouette, surface feature, material transition, shading, shadow, or artistic mark. Correspondence $M$ links these observations to scene entities or generating rules, including parameter bindings and conditions such as visibility. Associations may be partial and many-to-many. Unseen geometry may lack an observed counterpart, while artistic marks may become surface decorations or bounded view-specific overlays. -->
+
+
+The forward model is
+
 $$
-G \approx
-\mathcal A_\phi
-\left(
-\mathcal R(\mathcal S,\theta,Z)
+\widehat G(B)
+=\mathcal A_\phi\!\left(
+\mathcal R_{\mathrm{vec}}(\mathcal S,\theta,\ell;Z)
 \right).
 $$
 
-The lifting problem is therefore
+Here $\mathcal R_{\mathrm{vec}}$ generates projected vector features and regions, accounting for visibility, materials, and lighting. It determines what the 3D scene produces in the image: projected shapes, visible silhouettes, material boundaries, shading regions, and shadows, given the camera and lighting. The operator $\mathcal A_\phi$  determines how those results are drawn in the SVG: stroke widths, curve simplification, stylized colors, or small artistic displacements.
+
+Correspondence is intended to let SVG edits update the associated 3D parts and let scene edits update the SVG, preserving semantic identity wherever possible. Such updates depend on assumptions about how edits should be interpreted. For this initial formulation, we leave those assumptions implicit and defer the precise rules and evaluation of edit propagation to later work.
+
+This gives us an objective:
 
 $$
-
-\mathcal S^*,\theta^*,Z^*,\phi^*
-=
-\arg\min_{\mathcal S,\theta,Z,\phi}
-D\!\left(
-G,\,
-\mathcal A_\phi(\mathcal R(\mathcal S,\theta,Z))
-\right)
-+
-E_{\mathrm{prior}}(\mathcal S,Z).
+\begin{aligned}
+\mathcal L(B;G)
+={}&\lambda_{\mathrm{img}}
+D_{\mathrm{img}}\!\left(\rho(G),\rho(\widehat G(B))\right)\\
+&+\lambda_{\mathrm{corr}}E_{\mathrm{corr}}(G,B)\\
+&+\lambda_{\mathrm{prior}}E_{\mathrm{prior}}(\mathcal S,Z,M)
++\lambda_{\mathrm{style}}E_{\mathrm{style}}(\phi),
+\end{aligned}
 $$
 
-Here $D$ measures how closely the reconstructed 3D scene reproduces the SVG, while $E_{\mathrm{prior}}$ favors plausible or simple 3D explanations.
-Note, $Z$ is not fixed. An SVG path might correspond to a 3D boundary, silhouette, intersection curve, surface feature, texture/material boundary, or even a purely artistic stroke. $\mathcal A_\phi$
+with
+
+$$
+B^*\in\arg\min_{B\in\mathcal B_{\mathrm{valid}}}
+\mathcal L(B;G).
+$$
+
+- $D_{\mathrm{img}}$ compares the SVGs rasterized by $\rho$.
+<!-- - $E_{\mathrm{corr}}$ evaluates correspondence between 3D scene elements a.
+- $E_{\mathrm{prior}}$ expresses assumptions such as smoothness, symmetry, part attachments, and economical constructions.
+- $E_{\mathrm{style}}$ penalizes permitted departures from physical projection, within the hard bounds of $\mathcal B_{\mathrm{valid}}$. -->
 
 <!-- 
-with the **meaning of each SVG element inferred rather than assumed**. This separates the problem nicely into **3D geometry $X$**, **view $\theta$**, **correspondence $M$**, and **artistic interpretation $\Delta$**. -->
+The objective separates observable agreement from modeling assumptions; its losses must be instantiated for each experiment. -->
+
 </br>
 
-### Coding agents approach
+## Coding agents approach
 
-GPT-6 Astra presumably solves this problem as a graphics-program synthesis agent with an execution/rendering feedback loop.
+</br>
+
+We explore the problem through **graphics-program synthesis**: a coding agent constructs an executable scene, runs it, inspects available outputs and diagnostics, and revises the program.
 
 Let the agent generate an executable graphics program $\Gamma=(\gamma_1,\ldots,\gamma_m)$, where the $\gamma_i$ are program statements that construct geometry, hierarchy, materials, animation, constraints, etc. A compiler/interpreter $\mathcal C$ executes the program: $ s_\Gamma = \mathcal C(\Gamma) $, where $s_\Gamma$ is the resulting geometric scene state: curves, surfaces, primitives, topology, hierarchy, transforms, animation, and so on. That state can then be rendered: $I_\Gamma = \mathcal R(s_\Gamma,\theta) $.
 
-The agent can evaluate either the scene state itself or its rendered output:
+The program-level problem uses the same objective:
 
 $$
-L(\Gamma;G)
-=
-\lambda_{\mathrm{img}}
-D_{\mathrm{img}}(G,I_\Gamma)
-+
-\lambda_{\mathrm{geom}}
-D_{\mathrm{geom}}(G,s_\Gamma)
-+
-E.
+\Gamma^*\in
+\arg\min_{\Gamma:\,\mathcal C(\Gamma)\in\mathcal B_{\mathrm{valid}}}
+\mathcal L(\mathcal C(\Gamma);G)
 $$
 
-Here:
-- $D_{\mathrm{img}}$: a metric that measures agreement between the SVG and rendered result,
-- $D_{\mathrm{geom}}$: a metric that measures agreement in geometry, primitives, topology, hierarchy, correspondence, motion, etc.,
-
-Then the lifting problem becomes
-
-$$
-\Gamma^*
-=
-\arg\min_{\Gamma}
-L(\Gamma;G),
-\qquad
-s^*=\mathcal C(\Gamma^*).
-$$
-
-But for an agent, it is more useful to express this as an iterative loop:
+Operationally, let $o^{(k)}$ contain the execution result, available renderings, and diagnostics for program $\Gamma^{(k)}$, including execution failures. The agent revises it through
 
 $$
 \Gamma^{(k+1)}
-=
-\mathcal A_\psi
-\left(
-G,\,
-\Gamma^{(k)},\,
-s^{(k)},\,
-I^{(k)},\,
-e^{(k)}
-\right)
+=\mathcal U_\psi\!\left(
+G,\Gamma^{(k)},o^{(k)},e^{(k)}
+\right),
 $$
-, with 
-$e^{(k)} = \mathcal E \left( G,s^{(k)},I^{(k)} \right)$ the feedback or evaluation signal.
 
-Unsurprisingly, most of these terms and the process through which they are computed are unknown.
+where $e^{(k)}$ is the evaluation feedback actually supplied and $\mathcal U_\psi$ denotes the revision procedure. Feedback may include appearance comparisons, validity checks, and correspondence checks.
