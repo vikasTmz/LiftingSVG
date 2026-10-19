@@ -40,6 +40,12 @@
       "navLabel": "Task: shadows & camera authoring"
     },
     {
+      "id": "camera-curve-network-example",
+      "type": "viewer",
+      "scene": "camera_curve_network",
+      "navLabel": "Task: sketch to 3D articulation"
+    },
+    {
       "id": "formulation",
       "type": "note",
       "eyebrow": "",

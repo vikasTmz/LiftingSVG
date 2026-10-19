@@ -113,6 +113,25 @@
     "svgSource": "https://lottiefiles.com/free-animation/happy-character-throwing-ball-JgemFv5Qaq"
   },
   {
+    "title": "*Sketch to 3D articulation*",
+    "prompt": "Click the button to create 3D curve network",
+    "svg": "assets/inputs/camera_curve_network.svg",
+    "layers": "assets/inputs/camera_curve_network",
+    "videos": [
+      {
+        "src": "assets/gpt6_results/curve_turntable_to_articulation.mp4",
+        "title": "3D Curve Network",
+        "subtitle": ""
+      }
+    ],
+    "id": "camera_curve_network",
+    "videoTitle": "",
+    "wandLabel": "Generate 3D",
+    "aside": "",
+    "numbering": false,
+    "svgSource": "https://www.cs.ubc.ca/labs/imager/tr/2014/True2Form/index.htm"
+  },
+  {
     "title": "",
     "prompt": "Click the button to vectorize the 3D scene",
     "svg": "assets/inputs/leaking_wine_animated.svg",

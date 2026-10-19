@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "sets": {
+    "camera_curve_network": {
+      "variants": [
+        "artwork",
+        "_withCPs"
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "files": {
+            "artwork": {
+              "default": "camera_curve_network_layer1.svg",
+              "canonical": "camera_curve_network_layer1_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "camera_curve_network_layer1_normalized_withCPs.svg",
+              "default": "camera_curve_network_layer1_withCPs.svg"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "files": {
+            "artwork": {
+              "default": "camera_curve_network_layer2.svg",
+              "canonical": "camera_curve_network_layer2_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "camera_curve_network_layer2_normalized_withCPs.svg",
+              "default": "camera_curve_network_layer2_withCPs.svg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
