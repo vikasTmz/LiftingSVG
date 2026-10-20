@@ -302,3 +302,47 @@ Both buttons in the triple layout use these values. Keep `border-radius: 50%`
 to retain the circular shape. The viewer gaps stay equally spaced when the
 buttons shrink. The logo asset is `assets/chatgpt-logo.svg`; its vector path
 comes from [ChatGPT's official favicon](https://cdn.oaistatic.com/assets/favicon-o20kmmos.svg).
+
+## Hiding individual video preview cards
+
+Set `"showPreview": false` on any entry in a scene's `videos` array in
+`scenes.json`:
+
+```json
+{
+  "src": "assets/gpt6_results/bird_flying_renderpass_view1.mp4",
+  "title": "Cam 01",
+  "showPreview": false
+}
+```
+
+Omit the field or set it to `true` to show the thumbnail card. This affects
+only the preview menu; the first video in the array still plays when the
+main button is clicked, even if its preview card is hidden. A hidden card
+cannot be clicked to select that clip. If every video has `showPreview` set
+to `false`, the preview menu stays hidden.
+
+## SVG or video results in swapped viewers
+
+For a scene used with `swapViewers: true`, add a video file path alongside its
+`svg` field in `scenes.json`:
+
+```json
+"svgFallbackVideo": "assets/gpt6_results/my-svg-preview.mp4",
+"preferSVG": false
+```
+
+A small SVG toggle appears above the GPT button. On selects the real SVG;
+off selects the video backup. Configured scenes default to video. Set
+`preferSVG` to `true` if you want their toggle to start on.
+
+The GPT button reveals the chosen result after its usual two-second effect.
+Changing the toggle after a reveal immediately loads the other format.
+The right-hand video has native play/pause, timeline and fullscreen controls,
+and loops muted. Switching formats releases the old SVG or video, including
+any pending SVG fetch, so the large SVG is loaded only when selected.
+
+An empty or omitted `svgFallbackVideo` keeps the existing SVG-only behavior
+and hides the toggle. Wine's path is empty for now; fill it in when ready.
+The whisk and belt scenes use their existing decomposed SVG preview videos.
+This setting does not affect the left-hand input videos or the bird layout.

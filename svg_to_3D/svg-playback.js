@@ -104,11 +104,17 @@ function createSVGPlayback(root, prefix, durationOverride) {
     playing = false; stopClock(); time = Number(slider.value); applyTime();
   });
   slider.addEventListener('keydown', event => event.stopPropagation());
-  document.addEventListener('visibilitychange', () => { stopClock(); startClock(); });
+  const onVisibilityChange = () => { stopClock(); startClock(); };
+  document.addEventListener('visibilitychange', onVisibilityChange);
   const observer = new IntersectionObserver(entries => {
     visible = entries[0].isIntersecting; stopClock(); startClock();
   }, { rootMargin: '100px' });
   observer.observe(stage);
-  window.addEventListener('pagehide', () => { detach(); observer.disconnect(); }, { once: true });
-  return { attach, detach };
+  function destroy() {
+    detach(); observer.disconnect();
+    document.removeEventListener('visibilitychange', onVisibilityChange);
+    window.removeEventListener('pagehide', destroy);
+  }
+  window.addEventListener('pagehide', destroy, { once: true });
+  return { attach, detach, destroy };
 }

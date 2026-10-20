@@ -201,6 +201,8 @@ async function initializePage() {
       sceneId,
       title: scene.title ?? readableName(stem),
       svgSource: scene.svgSource ?? '',
+      svgFallbackVideo: scene.svgFallbackVideo || '',
+      preferSVG: scene.preferSVG === true,
       videoTitle: scene.videoTitle ?? 'Video viewer',
       prompt: scene.prompt,
       wandLabel: scene.wandLabel ?? 'Generate 3D',
@@ -262,7 +264,7 @@ async function initializePage() {
   function createSVGViewer(root, prefix, config) {
     const $ = id => root.querySelector(`#${prefix}${id}`);
     let layers = [], layerIDs = [], variants = [];
-    let mode = 'svg', variant = 0, normalized = true, layerIndex = 0;
+    let mode = 'svg', variant = 0, normalized = true, layerIndex = 0, disposed = false;
     $('view-layers').disabled = true;
     $('view-layers').title = 'Loading layer index…';
     let svgController = null, svgGeneration = 0, pendingFrame = null, layerTimer;
@@ -275,6 +277,7 @@ async function initializePage() {
     zoomControls.innerHTML = `<button id="${prefix}zoom-in" type="button" aria-label="Zoom in" title="Zoom in">${icon('i-zoom-in')}</button><button id="${prefix}zoom-out" type="button" aria-label="Zoom out" title="Zoom out">${icon('i-zoom-out')}</button>`;
     $('svg-stage').append(zoomControls);
     function applyZoom() {
+      if (disposed) return;
       const stage = $('svg-stage'), mount = $('svg-mount');
       // Scale around the canvas center, including when the mount has unequal margins.
       mount.style.transformOrigin = `${stage.clientWidth / 2 - mount.offsetLeft}px ${stage.clientHeight / 2 - mount.offsetTop}px`;
@@ -334,6 +337,7 @@ async function initializePage() {
       $('fitted-coordinates').setAttribute('aria-pressed', String(normalized));
     }
     async function loadSVG(path) {
+      if (disposed) return;
       const generation = ++svgGeneration;
       if (svgController) svgController.abort();
       if (pendingFrame) { pendingFrame.onload = null; pendingFrame.remove(); pendingFrame = null; }
@@ -434,6 +438,7 @@ async function initializePage() {
       }
       try {
         const catalog = await getLayerCatalog(config.layerDirectory);
+        if (disposed) return;
         const sets = catalog.sets || {};
         const stem = filenameStem(config.svg);
         const set = sets[stem] || (Object.keys(sets).length === 1 ? Object.values(sets)[0] : null);
@@ -446,6 +451,7 @@ async function initializePage() {
         $('view-layers').title = layers.length ? 'View individual layers' : 'No layers found in this directory.';
         updateViewerControls();
       } catch (error) {
+        if (disposed) return;
         $('view-layers').disabled = true;
         $('view-layers').title = error.message;
         console.warn(error.message);
@@ -463,13 +469,17 @@ async function initializePage() {
     $('scene-name').textContent = config.name;
     const ready = showViewer();
     initializeLayers();
-    window.addEventListener('pagehide', () => {
-      clearTimeout(layerTimer);
-      zoomObserver.disconnect();
+    function destroy() {
+      if (disposed) return;
+      disposed = true; ++svgGeneration;
+      clearTimeout(layerTimer); zoomObserver.disconnect(); playback.destroy();
       if (svgController) svgController.abort();
       if (pendingFrame) pendingFrame.remove();
-    });
-    return { ready, showComposite() { mode = 'svg'; return showViewer(); } };
+      $('svg-mount').replaceChildren();
+      window.removeEventListener('pagehide', destroy);
+    }
+    window.addEventListener('pagehide', destroy);
+    return { ready, destroy, showComposite() { mode = 'svg'; return showViewer(); } };
   }
 
   function createVideoViewer(root, prefix, videos) {
@@ -478,16 +488,16 @@ async function initializePage() {
     let generating = false, magicTimer = null, magicButton = null;
     const frame = root.querySelector('.video-frame');
     const heading = root.querySelector('.video-heading');
+    const hasPreviews = videos.some(item => item.showPreview !== false);
     mediaMetadata.then(metadata => {
       videos.forEach(item => {
         const data = metadata[item.src] || {};
         if (!item.poster && data.poster) item.poster = data.poster;
         if (!item.duration && data.seconds !== undefined) item.duration = formatDuration(data.seconds);
       });
-      root.querySelectorAll('.video-card').forEach((card, index) => {
-        const item = videos[index];
+      root.querySelectorAll('.video-card').forEach(card => {
+        const item = videos[Number(card.dataset.videoIndex)];
         if (item.poster) { card.querySelector('img').src = item.poster; card.querySelector('img').hidden = false; }
-        card.querySelector('.thumbnail-duration').textContent = item.duration;
       });
     });
     function releaseMagic() {
@@ -520,7 +530,7 @@ async function initializePage() {
       $('video-title').textContent = item.title;
       $('video-detail').textContent = [item.subtitle, item.duration].filter(Boolean).join(' · ');
       $('main-video').setAttribute('aria-label', `${item.title}, result video`);
-      root.querySelectorAll('.video-card').forEach((card, i) => card.setAttribute('aria-pressed', String(i === index)));
+      root.querySelectorAll('.video-card').forEach(card => card.setAttribute('aria-pressed', String(Number(card.dataset.videoIndex) === index)));
       if (play) player.play().catch(() => {
         releaseMagic();
         // Native/poster playback remains available if delayed autoplay is blocked.
@@ -532,12 +542,13 @@ async function initializePage() {
       if (menuBuilt) return;
       menuBuilt = true;
       videos.forEach((item, index) => {
+        if (item.showPreview === false) return;
         const card = document.createElement('button'); card.type = 'button'; card.className = 'video-card';
+        card.dataset.videoIndex = index;
         card.setAttribute('aria-label', `Play ${item.title}`);
         card.setAttribute('aria-pressed', String(index === activeVideo));
-        card.innerHTML = `<div class="video-thumbnail"><img loading="lazy" alt=""><video muted playsinline loop preload="none" aria-hidden="true"></video><span class="thumbnail-play">${icon('i-play')}</span><span class="thumbnail-duration"></span></div><div class="card-copy"><span><b></b><small></small></span><span class="card-index"></span></div>`;
+        card.innerHTML = `<div class="video-thumbnail"><img loading="lazy" alt=""><video muted playsinline loop preload="none" aria-hidden="true"></video></div><div class="card-copy"><span><b></b><small></small></span><span class="card-index"></span></div>`;
         const poster = card.querySelector('img'); poster.hidden = !item.poster; if (item.poster) poster.src = item.poster;
-        card.querySelector('.thumbnail-duration').textContent = item.duration;
         card.querySelector('b').textContent = item.title; card.querySelector('small').textContent = item.subtitle;
         card.querySelector('.card-index').textContent = String(index + 1).padStart(2, '0');
         const preview = card.querySelector('video'); preview.muted = true;
@@ -573,7 +584,7 @@ async function initializePage() {
       started = true;
       $('main-video').preload = 'auto';
       buildMenu();
-      heading.hidden = false; $('video-menu').hidden = false;
+      heading.hidden = false; $('video-menu').hidden = !hasPreviews;
       $('video-idle').hidden = true;
       frame.dataset.state = 'paused';
       selectVideo(0);
@@ -585,7 +596,7 @@ async function initializePage() {
     $('main-video').addEventListener('playing', () => {
       releaseMagic(); started = true; buildMenu();
       frame.dataset.state = 'playing'; heading.hidden = false;
-      $('video-idle').hidden = true; $('video-menu').hidden = false;
+      $('video-idle').hidden = true; $('video-menu').hidden = !hasPreviews;
       $('video-poster').hidden = true;
       // Only the video the visitor is using should keep playing.
       document.querySelectorAll('.main-video').forEach(player => {
@@ -599,14 +610,12 @@ async function initializePage() {
       $('main-video').playbackRate = item.rate || 1;
       if (!item.duration) item.duration = formatDuration($('main-video').duration);
       $('video-detail').textContent = [item.subtitle, item.duration].filter(Boolean).join(' · ');
-      const card = root.querySelectorAll('.video-card')[activeVideo];
-      if (card) card.querySelector('.thumbnail-duration').textContent = item.duration;
     });
     $('main-video').addEventListener('error', () => { releaseMagic(); $('video-idle').hidden = true; $('video-error').textContent = 'This video could not be played. Try another preview, or use an MP4 with a supported codec.'; $('video-error').hidden = false; $('video-poster').hidden = true; });
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) {
         $('main-video').pause(); stopPreview(); releaseMagic();
-        heading.hidden = !started; $('video-menu').hidden = !started;
+        heading.hidden = !started; $('video-menu').hidden = !started || !hasPreviews;
         frame.dataset.state = started ? 'paused' : 'idle';
       }
     });
@@ -725,14 +734,50 @@ async function initializePage() {
     playButton.title = example.swapViewers && example.wandLabel === 'Generate 3D' ? 'View SVG' : example.wandLabel;
     playButton.setAttribute('aria-label', `${playButton.title} for ${titleText.textContent}`);
     playButton.disabled = !example.swapViewers && !example.videos.length;
-    let videoViewer = null, revealedSVG = null, revealTimer = null, revealing = false;
+    let videoViewer = null, revealedSVG = null, resultVideo = null, revealTimer = null, revealing = false, revealGeneration = 0;
     // The swapped layout and the triple layout both reveal an SVG on demand.
     const revealPanel = example.swapViewers ? svgPanel : secondaryPanel;
     const revealViewer = revealPanel?.querySelector('.viewer');
     const revealButton = example.swapViewers ? playButton : secondaryButton;
     const revealPrefix = example.swapViewers ? prefix : secondaryPrefix;
     const revealConfig = example.swapViewers ? example.svg : example.secondarySVG;
+    const hasVideoFallback = example.swapViewers && Boolean(example.svgFallbackVideo);
+    let useSVG = !hasVideoFallback || example.preferSVG;
     const svgIdle = document.createElement('div');
+    let formatSwitch = null;
+    if (hasVideoFallback) {
+      revealViewer.id = `${revealPrefix}result`;
+      const action = document.createElement('div'); action.className = 'comparison-action';
+      const label = document.createElement('label'); label.className = 'result-format-toggle';
+      label.title = 'On: load SVG. Off: load video.';
+      const name = document.createElement('span'); name.textContent = 'SVG';
+      formatSwitch = document.createElement('input'); formatSwitch.type = 'checkbox';
+      formatSwitch.id = `${revealPrefix}use-svg`; formatSwitch.checked = useSVG;
+      formatSwitch.setAttribute('role', 'switch');
+      formatSwitch.setAttribute('aria-label', `${revealConfig.name}: use SVG instead of video`);
+      formatSwitch.setAttribute('aria-controls', revealViewer.id);
+      const track = document.createElement('span'); track.className = 'result-format-track';
+      track.setAttribute('aria-hidden', 'true');
+      label.append(name, formatSwitch, track);
+      revealButton.replaceWith(action); action.append(label, revealButton);
+      function updateFormat() {
+        revealViewer.dataset.resultMode = useSVG ? 'svg' : 'video';
+        revealButton.setAttribute('aria-controls', revealViewer.id);
+        revealButton.title = example.wandLabel === 'Generate 3D' ? (useSVG ? 'View SVG' : 'View video') : example.wandLabel;
+        revealButton.setAttribute('aria-label', `${revealButton.title} for ${titleText.textContent || revealConfig.name}`);
+      }
+      updateFormat();
+      formatSwitch.addEventListener('change', () => {
+        const wasRevealed = revealing || Boolean(revealedSVG || resultVideo);
+        ++revealGeneration; finishReveal(); releaseResult();
+        useSVG = formatSwitch.checked; updateFormat();
+        const shell = cloneViewer(svgTemplate, revealPrefix);
+        revealViewer.replaceChildren(...shell.childNodes);
+        svgIdle.hidden = false; revealViewer.querySelector('.svg-stage').append(svgIdle);
+        revealViewer.dataset.reveal = 'waiting';
+        if (wasRevealed) revealResult(0);
+      });
+    }
     if (revealViewer) {
       revealViewer.dataset.reveal = 'waiting';
       svgIdle.className = 'svg-idle';
@@ -745,14 +790,42 @@ async function initializePage() {
       if (example.swapViewers) videoViewer.loadFirstPaused();
       else createSVGViewer(svgPanel, prefix, example.svg);
     }
+    function releaseResult() {
+      if (revealedSVG) { revealedSVG.destroy(); revealedSVG = null; }
+      if (resultVideo) {
+        resultVideo.pause(); resultVideo.removeAttribute('src'); resultVideo.load();
+        resultVideo.remove(); resultVideo = null;
+      }
+    }
+    function showFallbackVideo() {
+      if (!resultVideo) {
+        const stage = document.createElement('div');
+        stage.className = 'svg-stage result-video-stage';
+        stage.setAttribute('aria-label', `${revealConfig.name}, video preview`);
+        const video = resultVideo = document.createElement('video');
+        video.className = 'result-video'; video.controls = true;
+        video.muted = true; video.playsInline = true; video.loop = true; video.preload = 'none';
+        video.setAttribute('aria-label', `${revealConfig.name}, SVG video preview`);
+        const error = document.createElement('p'); error.className = 'stage-status error';
+        error.setAttribute('role', 'status'); error.hidden = true;
+        error.textContent = 'The video preview could not be loaded. Try switching SVG on.';
+        video.addEventListener('error', () => { error.hidden = false; });
+        const footer = document.createElement('div'); footer.className = 'viewer-footer';
+        footer.textContent = 'Video preview';
+        stage.append(video, error); revealViewer.replaceChildren(stage, footer);
+        video.src = example.svgFallbackVideo;
+      } else resultVideo.currentTime = 0;
+      resultVideo.play().catch(() => { /* Native controls allow manual playback. */ });
+    }
     function finishReveal() {
       clearTimeout(revealTimer); revealTimer = null; revealing = false;
       revealViewer.classList.remove('is-generating'); revealViewer.removeAttribute('aria-busy');
-      revealViewer.dataset.reveal = revealedSVG ? 'ready' : 'waiting';
+      revealViewer.dataset.reveal = revealedSVG || resultVideo ? 'ready' : 'waiting';
       revealButton.disabled = false; revealButton.removeAttribute('aria-busy');
     }
-    function revealSVG() {
+    function revealResult(delay = 2000) {
       if (revealing) return;
+      const generation = ++revealGeneration;
       revealing = true; revealButton.disabled = true; revealButton.setAttribute('aria-busy', 'true');
       revealViewer.dataset.reveal = 'generating'; revealViewer.setAttribute('aria-busy', 'true');
       revealViewer.classList.add('is-generating');
@@ -762,24 +835,37 @@ async function initializePage() {
         revealViewer.classList.remove('is-generating'); revealViewer.dataset.reveal = 'loading';
         svgIdle.hidden = true;
         try {
-          if (revealedSVG) await revealedSVG.showComposite();
+          if (!useSVG) showFallbackVideo();
+          else if (revealedSVG) await revealedSVG.showComposite();
           else {
             revealedSVG = createSVGViewer(revealPanel, revealPrefix, revealConfig);
             await revealedSVG.ready;
           }
-        } finally { finishReveal(); }
-      }, 2000);
+        } finally { if (generation === revealGeneration) finishReveal(); }
+      }, delay);
     }
     playButton.addEventListener('click', () => {
       initialize();
-      if (example.swapViewers) revealSVG();
+      if (example.swapViewers) revealResult();
       else videoViewer.playFirst(playButton);
     });
-    if (secondaryButton) secondaryButton.addEventListener('click', () => { initialize(); revealSVG(); });
+    if (secondaryButton) secondaryButton.addEventListener('click', () => { initialize(); revealResult(); });
     if (revealViewer) {
-      // Cancel a pending reveal when the visitor leaves the page/tab.
-      document.addEventListener('visibilitychange', () => { if (document.hidden && revealTimer !== null) finishReveal(); });
-      window.addEventListener('pagehide', finishReveal);
+      // Stop hidden videos and release iframe clocks, fetches and decoders.
+      const resultObserver = hasVideoFallback ? new IntersectionObserver(entries => {
+        if (!entries[0].isIntersecting) resultVideo?.pause();
+      }) : null;
+      resultObserver?.observe(revealViewer);
+      function onVisibilityChange() {
+        if (!document.hidden) return;
+        if (revealTimer !== null) finishReveal();
+        resultVideo?.pause();
+      }
+      document.addEventListener('visibilitychange', onVisibilityChange);
+      window.addEventListener('pagehide', () => {
+        ++revealGeneration; finishReveal(); releaseResult(); resultObserver?.disconnect();
+        document.removeEventListener('visibilitychange', onVisibilityChange);
+      }, { once: true });
     }
     if (observer) { pendingExamples.set(section, initialize); observer.observe(section); }
     else initialize();

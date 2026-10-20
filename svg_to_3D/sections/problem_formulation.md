@@ -55,14 +55,23 @@ Here $\mathcal R_{\mathrm{vec}}$ generates projected vector features and regions
 
 Correspondence is intended to let SVG edits update the associated 3D parts and let scene edits update the SVG, preserving semantic identity wherever possible. Such updates depend on assumptions about how edits should be interpreted. For this initial formulation, we leave those assumptions implicit and defer the precise rules and evaluation of edit propagation to later work.
 
-This gives us an objective:
+<!-- Across a collection of SVGs, we can express the objective as an expected reconstruction loss. Let $p_{\mathrm{data}}(G)$ describe the input SVG distribution and let $F$ be a reconstruction procedure that maps each SVG to an admissible scene bundle $B=F(G)$. Then
+
+$$
+\mathcal J(F)
+=\mathbb E_{G\sim p_{\mathrm{data}}}
+\left[\mathcal L(F(G);G)\right].
+$$
+
+This expectation averages reconstruction quality over input SVGs. For a finite collection, it can be estimated by the average loss across those inputs. -->
+For an individual SVG $G$ and candidate reconstruction $B$, the loss is
 
 $$
 \begin{aligned}
 \mathcal L(B;G)
 ={}&\lambda_{\mathrm{img}}
-D_{\mathrm{img}}\!\left(\rho(G),\rho(\widehat G(B))\right)\\
-&+\lambda_{\mathrm{corr}}E_{\mathrm{corr}}(G,B)\\
+D_{\mathrm{img}}\!\left(\rho(G),\rho(\widehat G(B))\right)
++\lambda_{\mathrm{corr}}E_{\mathrm{corr}}(G,B)\\
 &+\lambda_{\mathrm{prior}}E_{\mathrm{prior}}(\mathcal S,Z,M)
 +\lambda_{\mathrm{style}}E_{\mathrm{style}}(\phi),
 \end{aligned}
@@ -108,8 +117,8 @@ Operationally, let $o^{(k)}$ contain the execution result, available renderings,
 $$
 \Gamma^{(k+1)}
 =\mathcal U_\psi\!\left(
-G,\Gamma^{(k)},o^{(k)},e^{(k)}
+G, \{ \Gamma^{(k)},o^{(k)},e^{(k)} \}
 \right),
 $$
 
-where $e^{(k)}$ is the evaluation feedback actually supplied and $\mathcal U_\psi$ denotes the revision procedure. Feedback may include appearance comparisons, validity checks, and correspondence checks.
+where $e^{(k)}$ is the evaluation feedback actually supplied and $\mathcal U_\psi$ denotes the revision procedure or the program generation policy. Feedback may include appearance comparisons, validity checks, and correspondence checks. For GPT6 (and other proprietary models), quantities like $\mathcal U_\psi$, $e^{(k)}$, are unkown. Thus, research efforts seek to improve $\mathcal C$ (the harness), $\Gamma$ (the DSL), and $\mathcal R$ (the tools).

@@ -54,6 +54,16 @@
     "seconds": 5.043,
     "poster": "assets/viewer-previews/90cd11c1acbabbce.jpg"
   },
+  "assets/inputs/dirac_belt_trick.gif": {
+    "fingerprint": "4ac1c0e0575a7bcf",
+    "seconds": 3.84,
+    "poster": "assets/viewer-previews/4ac1c0e0575a7bcf.jpg"
+  },
+  "assets/inputs/mechanical_whisk_motion.mp4": {
+    "fingerprint": "fbc0531668052d92",
+    "seconds": 8.0,
+    "poster": "assets/viewer-previews/fbc0531668052d92.jpg"
+  },
   "assets/inputs/wine_scene_2.mp4": {
     "fingerprint": "44f0acc159949ace",
     "seconds": 6.0,

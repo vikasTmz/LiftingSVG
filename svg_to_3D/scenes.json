@@ -134,16 +134,60 @@
   {
     "title": "",
     "prompt": "Click the button to vectorize the 3D scene",
-    "svg": "assets/inputs/leaking_wine_animated.svg",
-    "layers": "assets/inputs/leaking_wine_animated",
+    "svg": "assets/gpt6_results/leaking_wine_animated.svg",
+    "svgFallbackVideo": "",
+    "layers": "assets/gpt6_results/leaking_wine_animated",
     "videos": [
       {
         "src": "assets/inputs/wine_scene_2.mp4",
-        "title": "3D Blender Scene",
-        "subtitle": ""
+        "title": "3D fluid sim",
+        "subtitle": "Blender scene created by GPT-6, conditioned on an image.",
+        "showPreview": false
       }
     ],
     "id": "leaking_wine_animated",
+    "videoTitle": "",
+    "wandLabel": "Generate 3D",
+    "aside": "",
+    "numbering": false,
+    "svgSource": ""
+  },
+  {
+    "title": "",
+    "prompt": "Click the button to vectorize the 3D scene",
+    "svg": "assets/gpt6_results/mechanical_whisk_animated.svg",
+    "svgFallbackVideo": "assets/gpt6_results/mechanical_whisk_animated/mechanical_whisk_animated_decomposed.mp4",
+    "layers": "assets/gpt6_results/mechanical_whisk_animated",
+    "videos": [
+      {
+        "src": "assets/inputs/mechanical_whisk_motion.mp4",
+        "title": "3D rigid articulation",
+        "subtitle": "Blender scene created by GPT-6, conditioned on CAD model.",
+        "showPreview": false
+      }
+    ],
+    "id": "mechanical_whisk_animated",
+    "videoTitle": "",
+    "wandLabel": "Generate 3D",
+    "aside": "",
+    "numbering": false,
+    "svgSource": ""
+  },
+  {
+    "title": "",
+    "prompt": "Click the button to vectorize the 3D scene",
+    "svg": "assets/gpt6_results/dirac_belt_trick.svg",
+    "svgFallbackVideo": "assets/gpt6_results/dirac_belt_trick/dirac_belt_trick_decomposed.mp4",
+    "layers": "assets/gpt6_results/dirac_belt_trick",
+    "videos": [
+      {
+        "src": "assets/inputs/dirac_belt_trick.mp4",
+        "title": "Dirac belt trick",
+        "subtitle": "Source: Jason Hise (Youtube).",
+        "showPreview": false
+      }
+    ],
+    "id": "dirac_belt_trick",
     "videoTitle": "",
     "wandLabel": "Generate 3D",
     "aside": "",

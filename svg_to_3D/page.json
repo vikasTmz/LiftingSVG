@@ -72,6 +72,20 @@
       "scene": "leaking_wine_animated",
       "swapViewers": true,
       "navLabel": "3D to SVG"
+    },
+    {
+      "id": "mechanical-whisk-animated-example",
+      "type": "viewer",
+      "scene": "mechanical_whisk_animated",
+      "swapViewers": true,
+      "navLabel": "3D to SVG"
+    },
+    {
+      "id": "dirac-belt-trick-example",
+      "type": "viewer",
+      "scene": "dirac_belt_trick",
+      "swapViewers": true,
+      "navLabel": "3D to SVG"
     }
   ]
 }
