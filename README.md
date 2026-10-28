@@ -1,7 +1,8 @@
 # Lifting SVGs to 3D
 
-This repository contains a temporary root landing page (`index.html`) and
-the interactive research website in `svg_to_3D/`.
+The interactive research website opens from the root `index.html`. Its
+JavaScript, CSS, configuration, Markdown and media remain in `svg_to_3D/`.
+The temporary landing page is `coming_soon.html`.
 
 ## Local setup
 
@@ -19,8 +20,8 @@ From the repository root:
 The script installs any missing gems, builds the website, and starts Jekyll
 with live reload. It binds to `127.0.0.1` for local development.
 
-- Temporary landing page: <http://127.0.0.1:4000/>
-- Interactive website: <http://127.0.0.1:4000/svg_to_3D/>
+- Interactive website: <http://127.0.0.1:4000/>
+- Temporary landing page: <http://127.0.0.1:4000/coming_soon.html>
 
 Press **Ctrl+C** to stop. To use another port:
 
@@ -42,9 +43,12 @@ Ruby's local web server.
 
 ## Editing the site
 
-The root `index.html` stays independent of the viewer website. Edit text in
+Edit the page structure in the root `index.html`. Edit text in
 `svg_to_3D/sections/*.md`, sections in `svg_to_3D/page.json`, and scene assets
 and labels in `svg_to_3D/scenes.json`. See `svg_to_3D/EDITING.md` for details.
+Paths inside these JSON files remain relative to `svg_to_3D/`: app.js and
+math.js resolve their resources from their own location, so moving the HTML
+does not require changing every JSON entry or Markdown link.
 After changing paths or exporting layers, refresh the viewer metadata:
 
 ```sh

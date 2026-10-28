@@ -11,3 +11,10 @@
 __pycache__/
 *.pyc
 
+# Large SVG files
+svg_to_3D/assets/gpt6_results/dirac_belt_trick/*.svg
+svg_to_3D/assets/gpt6_results/mechanical_whisk_animated/*.svg
+# Other files
+svg_to_3D/assets/inputs/dirac_belt_trick.gif
+svg_to_3D/assets/gpt6_results/dirac_belt_trick/*.json
+svg_to_3D/assets/gpt6_results/mechanical_whisk_animated/*.json

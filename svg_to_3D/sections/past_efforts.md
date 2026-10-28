@@ -11,7 +11,7 @@ Current 3D foundation models like [Trellis2.0](https://microsoft.github.io/TRELL
 - They model shapes as either meshes, implicit fields, or some custom data structure. Converting these shape representations to editable, structured 3D shapes is a hard challenge.
 - Their generative models are conditioned on image tokens (for example, DinoV3 features). These tokenziers are not trained to encode SVGs. In our formulation, we want the 3D reconstruction to be guided by the SVG structure.
 - Their outputs primarily facilitates novel-view-synthesis. Yet, having editable, structured 3D shapes offers many more applications.
-- Mapping back to the SVG domain requires intermediate rasterization, which ignores the structure, heirarchy, and toplogy information of the 3D representation.
+- Mapping back to the SVG domain requires intermediate rasterization, which ignores the structure, heirarchy, and toplogy information contained in the 3D representation.
 
 Foundation models that model 3D worlds implicitly like video generative models and multi-view image generative models, similarly, suffer from the same drawbacks.
 

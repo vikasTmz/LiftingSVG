@@ -1,13 +1,18 @@
 'use strict';
 
+// Configuration and media paths belong to this script's directory, even when
+// the HTML entry point is at the repository root or a GitHub Pages subpath.
+const SVG_APP_BASE = new URL('.', document.currentScript.src);
+const assetURL = path => new URL(path, SVG_APP_BASE).href;
+
 async function loadJSON(path) {
-  const response = await fetch(path);
+  const response = await fetch(assetURL(path));
   if (!response.ok) throw new Error(`${path} returned ${response.status}`);
   return response.json();
 }
 
 async function loadMarkdown(path) {
-  const response = await fetch(path);
+  const response = await fetch(assetURL(path));
   if (!response.ok) throw new Error(`${path} returned ${response.status}`);
   const fragment = DOMPurify.sanitize(marked.parse(await response.text()), {
     USE_PROFILES: { html: true }, RETURN_DOM_FRAGMENT: true,
@@ -16,7 +21,7 @@ async function loadMarkdown(path) {
   fragment.querySelectorAll('[href], [src]').forEach(node => {
     ['href', 'src'].forEach(attribute => {
       const value = node.getAttribute(attribute);
-      if (value && !value.startsWith('#')) node.setAttribute(attribute, new URL(value, new URL(path, document.baseURI)).href);
+      if (value && !value.startsWith('#')) node.setAttribute(attribute, new URL(value, new URL(path, SVG_APP_BASE)).href);
     });
   });
   return fragment;
@@ -182,7 +187,7 @@ function createSectionNavigation(page, examples) {
 }
 
 async function initializePage() {
-  const filenameStem = path => decodeURIComponent(new URL(path, document.baseURI).pathname.split('/').pop()).replace(/\.[^.]+$/, '');
+  const filenameStem = path => decodeURIComponent(new URL(path, SVG_APP_BASE).pathname.split('/').pop()).replace(/\.[^.]+$/, '');
   const readableName = value => value.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim().replace(/\b\w/g, c => c.toUpperCase());
   const formatDuration = seconds => Number.isFinite(seconds) ? `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}` : '';
   const [page, SCENES] = await Promise.all([loadJSON('page.json'), loadJSON('scenes.json')]);
@@ -227,7 +232,7 @@ async function initializePage() {
   const layerCatalogs = new Map();
   function getLayerCatalog(directory) {
     if (!directory) return Promise.reject(new Error('No layer directory configured.'));
-    const url = `${directory.replace(/\/$/, '')}/layers.json`;
+    const url = assetURL(`${directory.replace(/\/$/, '')}/layers.json`);
     if (!layerCatalogs.has(url)) layerCatalogs.set(url, fetch(url).then(response => {
       if (!response.ok) throw new Error('Layer index unavailable. Run python3 prepare_viewer_assets.py and publish layers.json.');
       return response.json();
@@ -235,7 +240,7 @@ async function initializePage() {
     return layerCatalogs.get(url);
   }
   // Small shared metadata index; this never loads a video or a layer SVG.
-  const mediaMetadata = fetch('assets/viewer-media.json').then(response => response.ok ? response.json() : {}).catch(() => ({}));
+  const mediaMetadata = fetch(assetURL('assets/viewer-media.json')).then(response => response.ok ? response.json() : {}).catch(() => ({}));
   const variantInfo = key => ({
     key,
     name: ({ artwork: 'Artwork', _withCPs: 'Controls' })[key] || readableName(key.replace(/^_with/, '')),
@@ -303,7 +308,7 @@ async function initializePage() {
     }
     function layerPath() {
       const file = availableFiles()[normalized ? 'canonical' : 'default'];
-      return new URL(encodeURIComponent(file), new URL(`${config.layerDirectory.replace(/\/$/, '')}/`, document.baseURI)).href;
+      return new URL(encodeURIComponent(file), new URL(`${config.layerDirectory.replace(/\/$/, '')}/`, SVG_APP_BASE)).href;
     }
     function updateViewerControls() {
       const layered = mode === 'layers';
@@ -348,7 +353,7 @@ async function initializePage() {
       $('svg-status').hidden = false;
       $('svg-mount').setAttribute('aria-busy', 'true');
       try {
-        const response = await fetch(path, { signal: controller.signal });
+        const response = await fetch(assetURL(path), { signal: controller.signal });
         if (!response.ok) throw new Error(`Artwork returned ${response.status}`);
         const text = await response.text();
         if (generation !== svgGeneration) return;
@@ -372,7 +377,7 @@ async function initializePage() {
         // Permit its animation engine, then block scripts with CSP instead.
         // Keep stripping script elements and event handlers above as well.
         frame.setAttribute('sandbox', 'allow-same-origin allow-scripts');
-        const base = new URL(path, document.baseURI).href.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+        const base = new URL(path, SVG_APP_BASE).href.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
         frame.srcdoc = `<!doctype html><html><head><meta http-equiv="Content-Security-Policy" content="script-src 'none'; object-src 'none'"><base href="${base}"><style>html,body{margin:0;width:100%;height:100%;overflow:hidden}body>svg{display:block}</style></head><body>${new XMLSerializer().serializeToString(element)}</body></html>`;
         await new Promise((resolve, reject) => {
           controller.signal.addEventListener('abort', () => reject(new DOMException('SVG load cancelled', 'AbortError')), { once: true });
@@ -497,7 +502,7 @@ async function initializePage() {
       });
       root.querySelectorAll('.video-card').forEach(card => {
         const item = videos[Number(card.dataset.videoIndex)];
-        if (item.poster) { card.querySelector('img').src = item.poster; card.querySelector('img').hidden = false; }
+        if (item.poster) { card.querySelector('img').src = assetURL(item.poster); card.querySelector('img').hidden = false; }
       });
     });
     function releaseMagic() {
@@ -513,20 +518,20 @@ async function initializePage() {
     function startPreview(video, item) {
       if (!started || reducedMotion.matches) return;
       stopPreview(); hoveredPreview = video;
-      video.src = item.src; video.playbackRate = item.rate || 1;
+      video.src = assetURL(item.src); video.playbackRate = item.rate || 1;
       video.play().then(() => { if (hoveredPreview === video) video.classList.add('is-playing'); }).catch(() => { });
     }
     function selectVideo(index, play = false) {
       const item = videos[index]; if (!item) return;
       activeVideo = index; stopPreview();
       $('main-video').controls = true;
-      const player = $('main-video'); player.pause(); player.poster = item.poster || '';
+      const player = $('main-video'); player.pause(); player.poster = item.poster ? assetURL(item.poster) : '';
       $('video-error').hidden = true;
       $('video-poster').hidden = Boolean(root.closest('.comparison')) || !item.poster;
       $('video-poster-image').hidden = !item.poster;
-      if (item.poster) $('video-poster-image').src = item.poster; else $('video-poster-image').removeAttribute('src');
+      if (item.poster) $('video-poster-image').src = assetURL(item.poster); else $('video-poster-image').removeAttribute('src');
       $('play-video').setAttribute('aria-label', `Play ${item.title}`);
-      player.src = item.src; player.load(); player.playbackRate = item.rate || 1;
+      player.src = assetURL(item.src); player.load(); player.playbackRate = item.rate || 1;
       $('video-title').textContent = item.title;
       $('video-detail').textContent = [item.subtitle, item.duration].filter(Boolean).join(' · ');
       $('main-video').setAttribute('aria-label', `${item.title}, result video`);
@@ -548,7 +553,7 @@ async function initializePage() {
         card.setAttribute('aria-label', `Play ${item.title}`);
         card.setAttribute('aria-pressed', String(index === activeVideo));
         card.innerHTML = `<div class="video-thumbnail"><img loading="lazy" alt=""><video muted playsinline loop preload="none" aria-hidden="true"></video></div><div class="card-copy"><span><b></b><small></small></span><span class="card-index"></span></div>`;
-        const poster = card.querySelector('img'); poster.hidden = !item.poster; if (item.poster) poster.src = item.poster;
+        const poster = card.querySelector('img'); poster.hidden = !item.poster; if (item.poster) poster.src = assetURL(item.poster);
         card.querySelector('b').textContent = item.title; card.querySelector('small').textContent = item.subtitle;
         card.querySelector('.card-index').textContent = String(index + 1).padStart(2, '0');
         const preview = card.querySelector('video'); preview.muted = true;
@@ -652,7 +657,7 @@ async function initializePage() {
   function appendSVGSource(panel, sourceURL) {
     if (!sourceURL) return;
     try {
-      const url = new URL(sourceURL, document.baseURI);
+      const url = new URL(sourceURL, SVG_APP_BASE);
       if (['http:', 'https:'].includes(url.protocol)) {
         const source = document.createElement('p'); source.className = 'svg-source';
         const link = document.createElement('a');
@@ -813,7 +818,7 @@ async function initializePage() {
         const footer = document.createElement('div'); footer.className = 'viewer-footer';
         footer.textContent = 'Video preview';
         stage.append(video, error); revealViewer.replaceChildren(stage, footer);
-        video.src = example.svgFallbackVideo;
+        video.src = assetURL(example.svgFallbackVideo);
       } else resultVideo.currentTime = 0;
       resultVideo.play().catch(() => { /* Native controls allow manual playback. */ });
     }

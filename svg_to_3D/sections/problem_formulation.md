@@ -121,4 +121,4 @@ G, \{ \Gamma^{(k)},o^{(k)},e^{(k)} \}
 \right),
 $$
 
-where $e^{(k)}$ is the evaluation feedback actually supplied and $\mathcal U_\psi$ denotes the revision procedure or the program generation policy. Feedback may include appearance comparisons, validity checks, and correspondence checks. For GPT6 (and other proprietary models), quantities like $\mathcal U_\psi$, $e^{(k)}$, are unkown. Thus, research efforts seek to improve $\mathcal C$ (the harness), $\Gamma$ (the DSL), and $\mathcal R$ (the tools).
+where $e^{(k)}$ is the evaluation feedback actually supplied and $\mathcal U_\psi$ denotes the revision procedure or the program generation policy. Feedback may include appearance comparisons, validity checks, and correspondence checks. For GPT6 (and other proprietary models), quantities like $\mathcal U_\psi$, $e^{(k)}$, are unkown. Thus, current research efforts seek to improve $\mathcal C$ (the harness), $\Gamma$ (the DSL), and $\mathcal R$ (the tools).

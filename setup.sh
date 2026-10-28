@@ -10,7 +10,7 @@ usage() {
 Usage: ./setup.sh [serve|build|install|help] [additional options]
 
   serve    Install missing dependencies, build, and serve with live reload.
-           Default: http://127.0.0.1:4000/ (viewer: /svg_to_3D/)
+           Default: http://127.0.0.1:4000/ (temporary landing page: /coming_soon.html)
   build    Install missing dependencies and generate the site in _site/.
   install  Install the Ruby dependencies listed in Gemfile.
   help     Show this help.
@@ -59,6 +59,6 @@ if [[ "$ACTION" == build ]]; then
   exec bundle exec jekyll build "$@"
 fi
 
-printf '%s\n' 'Root page: http://127.0.0.1:4000/' 'Viewer site: http://127.0.0.1:4000/svg_to_3D/' 'Use Ctrl+C to stop. A custom --port changes these URLs.'
+printf '%s\n' 'Viewer site: http://127.0.0.1:4000/' 'Temporary landing page: http://127.0.0.1:4000/coming_soon.html' 'Use Ctrl+C to stop. A custom --port changes these URLs.'
 exec bundle exec jekyll serve --host 127.0.0.1 --port 4000 --baseurl "" --livereload "$@"
 

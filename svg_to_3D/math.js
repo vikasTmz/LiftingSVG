@@ -1,5 +1,8 @@
 'use strict';
 
+// Follow math.js rather than the location of the HTML entry point.
+const SVG_MATH_BASE = new URL('.', document.currentScript.src);
+
 // Protect TeX before Markdown can consume backslashes, underscores or ampersands.
 // Code spans and fenced code blocks keep Marked's normal literal rendering.
 function escapeMathHTML(text) {
@@ -39,7 +42,7 @@ marked.use({ extensions: [
 
 window.MathJax = {
   startup: { typeset: false }, // app.js inserts fetched Markdown before typesetting.
-  loader: { paths: { mathjax: new URL('assets/vendor/mathjax/', document.baseURI).href.replace(/\/$/, '') } },
+  loader: { paths: { mathjax: new URL('assets/vendor/mathjax/', SVG_MATH_BASE).href.replace(/\/$/, '') } },
   tex: {
     inlineMath: [['\\(', '\\)'], ['$', '$']],
     displayMath: [['\\[', '\\]'], ['$$', '$$']],
@@ -47,7 +50,7 @@ window.MathJax = {
   },
   output: {
     font: 'mathjax-tex',
-    fontPath: new URL('assets/vendor/mathjax/mathjax-tex-font', document.baseURI).href,
+    fontPath: new URL('assets/vendor/mathjax/mathjax-tex-font', SVG_MATH_BASE).href,
     displayOverflow: 'scroll', // Preserve author-chosen alignment on narrow screens.
   },
   svg: { fontCache: 'local' },
