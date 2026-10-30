@@ -96,7 +96,7 @@ The objective separates observable agreement from modeling assumptions; its loss
 
 </br>
 
-## Coding agents approach
+## Coding Agents Approach
 
 </br>
 
@@ -121,4 +121,41 @@ G, \{ \Gamma^{(k)},o^{(k)},e^{(k)} \}
 \right),
 $$
 
-where $e^{(k)}$ is the evaluation feedback actually supplied and $\mathcal U_\psi$ denotes the revision procedure or the program generation policy. Feedback may include appearance comparisons, validity checks, and correspondence checks. For GPT6 (and other proprietary models), quantities like $\mathcal U_\psi$, $e^{(k)}$, are unkown. Thus, current research efforts seek to improve $\mathcal C$ (the harness), $\Gamma$ (the DSL), and $\mathcal R$ (the tools).
+where $e^{(k)}$ is the evaluation feedback and $\mathcal U_\psi$ denotes the revision procedure or the program generation policy. Feedback may include appearance comparisons, validity checks, and correspondence checks. For GPT6 and other proprietary models, $\mathcal U_\psi$ is not observable. The revision process may involve internal assessments that are not exposed to the user, but we can guide it by augmenting $e^{(k)}$ with explicit evaluation signals. Current research efforts seek to improve the observable quantities like $\mathcal C$ (the harness), $\Gamma$ (the DSL), and $\mathcal R$ (the tools).
+
+## Harness and Tools
+
+</br>
+
+Currently, GPT6 Astra can solve this task to a reasonable extent, given an input SVG and a simple prompt asking to reconstruct a structured, editable 3D scene. Yet, *how do we improve the results, incorporate user feedback and desires not expressible by text, and reduce token usage?*
+
+
+### Constraints and Regularization
+
+Explicitly defining constraints and regularization can steer the agents output to our requirements. These are expressed as programs the agent will be provided as input and can invoke and get scalar or vector outputs that are appended to $e^{(k)}$.
+
+
+<!-- First, the agent has to identify all the parts (semantic or not) in both the SVG and the unknown 3D scene. It has to store this in some structured graph format.
+
+- symmetry constraints: is symmetry preserved? or rather, do we always want to preserve symmetry?
+- parallelism, shape regularity, orthogonality, 
+
+- interprenetations i.e. collision detection.
+-  -->
+
+### Execution Outputs
+
+<!-- 
+## Execution outputs and evaluation feedback
+
+o⁽ᵏ⁾ contains what running the current program produces, while e⁽ᵏ⁾ contains feedback assessing those results.
+
+- how to use these constraints as either outputs or feedback?
+ -->
+
+### DSLs
+
+Structured graphs containing semantic heirarchies, articulation relationships, and other properties. 
+- This graph(s) serves as the working memory of the visual data. For tasks, the agent should refer to this graph and update it.
+- For computing constraints (checking satisfactory) and regularity, this elements in this graph should be accessed to query the given functions.
+- 

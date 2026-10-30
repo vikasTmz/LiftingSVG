@@ -1,0 +1,8 @@
+Citation.js 0.9.0
+https://citation.js.org/
+https://github.com/larsgw/citation.js
+Source package: https://registry.npmjs.org/citation-js/-/citation-js-0.9.0.tgz
+License: MIT; upstream license is included in Citation-LICENSE.
+The upstream browser bundle is wrapped in a function to keep its require
+private and export window.BibliographyCite without affecting MathJax.
+Upstream citation.min.js SHA-256: b12f99a7476e5511b05131c4e2969ac95fee0888c72e0246b24863a1d2ce1cff

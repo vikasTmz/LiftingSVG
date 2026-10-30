@@ -346,3 +346,46 @@ An empty or omitted `svgFallbackVideo` keeps the existing SVG-only behavior
 and hides the toggle. Wine's path is empty for now; fill it in when ready.
 The whisk and belt scenes use their existing decomposed SVG preview videos.
 This setting does not affect the left-hand input videos or the bird layout.
+
+## BibTeX references and citations
+
+Add standard BibTeX entries to `references.bib` beside `page.json`. Each entry
+needs a unique citation key. In Markdown prose, cite it with:
+
+```markdown
+Trellis2.0 [@trellis2], Sparc3D [@sparc3d], and Tripo [@tripo].
+Several works [@trellis2; @sparc3d].
+LaTeX-style citations also work: \cite{trellis2,sparc3d}.
+```
+
+Both syntaxes produce numbered links. Numbers follow the first appearance
+of each citation in page order. Repeated keys reuse their number. Only cited
+entries appear in the bibliography. Citations inside code spans/fences stay
+literal; put citations outside math expressions.
+
+The final section in `page.json` controls the bibliography:
+
+```json
+{
+  "id": "references",
+  "type": "references",
+  "title": "References",
+  "bibliography": "references.bib",
+  "navLabel": "References"
+}
+```
+
+Move this object to reorder the section, or change `bibliography` to another
+file path relative to `svg_to_3D/`. Use one references section per page.
+Citation links jump to their numbered entries; the return arrows jump back
+to the citing paragraph. The section also offers the original BibTeX file.
+
+Unknown keys display a visible missing-reference marker and message. A
+missing or invalid `.bib` file reports an error in the References section
+while the rest of the page remains usable. Entry titles, authors, dates,
+publication details and DOI/URL links are formatted with bundled Citation.js.
+No collaborator needs to install an editor extension, npm package or LaTeX.
+
+The initial entries cite the TRELLIS.2 and Sparc3D preprints and the Tripo
+platform website. Tripo's entry is a website citation because the original
+link did not identify a particular research paper.

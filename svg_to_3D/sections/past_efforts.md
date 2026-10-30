@@ -2,12 +2,12 @@
 
 </br>
 
-This problem of lifting 2D vector graphics to 3D has been explored in the past, including works like [2.5D Cartoon Models](http://www.alecrivers.com/2.5dcartoonmodels/), [True2Form](https://www-sop.inria.fr/reves/Basilic/2014/XCSBMS14/), and [Adobe's Project Turntable](https://research.adobe.com/news/turntable-and-project-turn-style-a-fresh-spin-on-your-original-art/).
+This problem of lifting 2D vector graphics to 3D has been explored in the past, including works like 2.5D Cartoon Models [@alec2010cartoon], True2Form [@Xu:2014:True2Form], and [Adobe's Project Turntable](https://research.adobe.com/news/turntable-and-project-turn-style-a-fresh-spin-on-your-original-art/).
 
 
 ### *Can't this problem be solved with existing 3D priors?*
 
-Current 3D foundation models like [Trellis2.0](https://microsoft.github.io/TRELLIS.2/), [Sparc3D](https://sparc3d.org/), and [Tripo](https://www.tripo3d.ai/) allow us to sample high-fidelity geometry conditioned on an input image. While they produce impressive results and continue to improve at rapid rates, there are limitations in leveraging them to solve the lifting problem:
+Current 3D foundation models like Trellis2.0 [@trellis2], Sparc3D [@sparc3d], and Tripo [@tripo] allow us to sample high-fidelity geometry conditioned on an input image. While they produce impressive results and continue to improve at rapid rates, there are limitations in leveraging them to solve the lifting problem:
 - They model shapes as either meshes, implicit fields, or some custom data structure. Converting these shape representations to editable, structured 3D shapes is a hard challenge.
 - Their generative models are conditioned on image tokens (for example, DinoV3 features). These tokenziers are not trained to encode SVGs. In our formulation, we want the 3D reconstruction to be guided by the SVG structure.
 - Their outputs primarily facilitates novel-view-synthesis. Yet, having editable, structured 3D shapes offers many more applications.

@@ -86,6 +86,13 @@
       "scene": "dirac_belt_trick",
       "swapViewers": true,
       "navLabel": "3D to SVG"
+    },
+    {
+      "id": "references",
+      "type": "references",
+      "title": "References",
+      "bibliography": "references.bib",
+      "navLabel": "References"
     }
   ]
 }

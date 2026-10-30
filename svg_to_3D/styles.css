@@ -2147,3 +2147,22 @@ h1 em {
 @media (max-width: 900px) {
   .comparison-action { grid-column: 1; grid-row: 4; margin: 5px 0; }
 }
+
+/* Bibliography and numbered citations from references.bib. */
+.citation-group { white-space: nowrap; font-size: .9em; font-variant-numeric: tabular-nums; }
+.citation { color: var(--accent); text-underline-offset: 2px; }
+.citation-missing { color: #b44432; }
+.references-section { margin: 68px 0 56px; padding-top: 28px; border-top: 1px solid var(--line); }
+.references-section h2 { margin: 0 0 22px; font: 400 34px/1.2 var(--serif); letter-spacing: -.7px; }
+.reference-list { margin: 0; padding-left: 2.4em; font-size: 13px; line-height: 1.7; }
+.reference-list > li { padding-left: .35em; margin-bottom: 20px; scroll-margin-top: 90px; overflow-wrap: anywhere; }
+.reference-list > li::marker { content: "[" counter(list-item) "] "; color: var(--muted); font-size: 12px; }
+.reference-list > li:focus { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+.references-section a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.reference-backlinks { display: inline-flex; flex-wrap: wrap; gap: 8px; margin-top: 3px; font-size: 11px; }
+.references-download, .references-status { margin-top: 18px; color: var(--muted); font-size: 12px; }
+.references-status.error { color: #b44432; }
+@media (max-width: 460px) {
+  .references-section h2 { font-size: 28px; }
+  .reference-list { font-size: 12px; }
+}

@@ -63,16 +63,19 @@ async function renderPageSections(page, examples) {
     if (!section.id || ids.has(section.id) || document.getElementById(section.id) || examples.some(example => example.id === section.id)) throw new Error('Every page section needs a unique id distinct from viewer/control IDs.');
     ids.add(section.id);
     if (['viewer', 'viewer-triple'].includes(section.type) && typeof section.scene !== 'string') throw new Error(`Viewer section ${section.id} needs a scene ID.`);
-    if (!['hero', ...viewerSectionTypes, 'note', 'text'].includes(section.type)) throw new Error(`Unknown section type: ${section.type}`);
+    if (!['hero', ...viewerSectionTypes, 'note', 'text', 'references'].includes(section.type)) throw new Error(`Unknown section type: ${section.type}`);
     if (section.type === 'viewer-triple' && section.swapViewers) throw new Error('viewer-triple uses the SVG / video / SVG order; use viewer for swapViewers.');
   });
-  const markdown = await Promise.all(sections.map(section => viewerSectionTypes.includes(section.type) ? null : loadMarkdown(section.content)));
+  if (sections.filter(section => section.type === 'references').length > 1) throw new Error('Use one references section per page.');
+  const markdown = await Promise.all(sections.map(section => viewerSectionTypes.includes(section.type) || section.type === 'references' ? null : loadMarkdown(section.content)));
   const container = document.getElementById('page-sections');
   const orderedExamples = [], usedScenes = new Set();
   sections.forEach((item, index) => {
     const section = document.createElement(item.type === 'hero' ? 'header' : 'section');
     section.id = item.id;
-    if (viewerSectionTypes.includes(item.type)) {
+    if (item.type === 'references') {
+      createReferencesSection(section, item);
+    } else if (viewerSectionTypes.includes(item.type)) {
       section.className = 'viewer-section';
       const sceneReferences = item.type === 'viewers' ? item.scenes : [item.scene];
       const selected = sceneReferences ? sceneReferences.map(id => {
@@ -121,6 +124,7 @@ async function renderPageSections(page, examples) {
     }
     container.append(section);
   });
+  await renderReferences(page, container, assetURL);
   return orderedExamples;
 }
 
