@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="960" height="1280" viewBox="0 0 960 1280" version="1.1" role="img" id="viz-shape-0001" data-layer-name="Annotations (optional)"><defs /><g transform="matrix(0.803591445782 0 0 0.803591445782 94.2761060245 119.499918435)" data-export-normalized="true"><g id="annotations" font-family="sans-serif" fill="#294653" ns1:label="03 · Annotations (optional)" ns1:groupmode="layer">
+    <text x="56" y="58" font-size="21" font-weight="600" letter-spacing="2" id="viz-shape-0176">MECHANICAL WHISK</text>
+    <text x="56" y="84" font-size="13" fill="#6e8590" letter-spacing=".8" id="viz-shape-0177">ARTICULATED VECTOR STUDY</text>
+    <text x="56" y="1208" font-size="17" font-weight="600" opacity="1" id="viz-shape-0178">READY<animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0625;0.4375;0.5625;0.9375;1" values="1;0;0;0;0;1" />
+    </text>
+    <text x="56" y="1208" font-size="17" font-weight="600" opacity="0" id="viz-shape-0179">CLOCKWISE<animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0625;0.4375;0.5625;0.9375;1" values="0;1;0;0;0;0" />
+    </text>
+    <text x="56" y="1208" font-size="17" font-weight="600" opacity="0" id="viz-shape-0180">PAUSE / REVERSE<animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0625;0.4375;0.5625;0.9375;1" values="0;0;1;0;0;0" />
+    </text>
+    <text x="56" y="1208" font-size="17" font-weight="600" opacity="0" id="viz-shape-0181">COUNTERCLOCKWISE<animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0625;0.4375;0.5625;0.9375;1" values="0;0;0;1;0;0" />
+    </text>
+    <text x="56" y="1208" font-size="17" font-weight="600" opacity="0" id="viz-shape-0182">COMPLETE<animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0625;0.4375;0.5625;0.9375;1" values="0;0;0;0;1;0" />
+    </text>
+    <text x="56" y="1234" font-size="13" fill="#6e8590" id="viz-shape-0183">Knob-side direction · 1:1 opposite rotation · 8 s loop</text>
+    <line x1="56" y1="1253" x2="904" y2="1253" stroke="#d4dfe2" stroke-width="3" id="viz-shape-0184" />
+    <line x1="56" y1="1253" x2="56" y2="1253" stroke="#6e929e" stroke-width="3" id="viz-shape-0185">
+      <animate attributeName="x2" to="904" dur="8s" repeatCount="indefinite" from="56" />
+    </line>
+  </g>
+</g></svg>

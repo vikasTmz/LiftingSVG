@@ -1,0 +1,105 @@
+{
+  "source": "/Users/vthamizh/.codex/.chatgpt-projects/g-p-6aa05a45227c819181822dfaa3d849e6/outputs/mechanical_whisk_articulated/animated_svg/mechanical_whisk_animated.svg",
+  "title": "Mechanical whisk \u00b7 layer decomposition",
+  "renderer": "headless Inkscape file rendering; no screenshots",
+  "duration_seconds": 8.0,
+  "fps": 24.0,
+  "frames": 192,
+  "classification": "non_rigid",
+  "deformed_paths": 152,
+  "skipped_empty_layers": [],
+  "layers": [
+    {
+      "index": 1,
+      "source": "background",
+      "part": null,
+      "label": "Background",
+      "clean": "mechanical_whisk_animated_layer1.svg",
+      "controls": "mechanical_whisk_animated_layer1_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer1_normalized_withCPs.svg",
+      "max_anchors": 5,
+      "max_handles": 0
+    },
+    {
+      "index": 2,
+      "source": "whisk-rear",
+      "part": null,
+      "label": "Driven spindle \u00b7 rear wire halves",
+      "clean": "mechanical_whisk_animated_layer2.svg",
+      "controls": "mechanical_whisk_animated_layer2_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer2_normalized_withCPs.svg",
+      "max_anchors": 42,
+      "max_handles": 72
+    },
+    {
+      "index": 3,
+      "source": "output-shaft",
+      "part": null,
+      "label": "Driven spindle \u00b7 shaft",
+      "clean": "mechanical_whisk_animated_layer3.svg",
+      "controls": "mechanical_whisk_animated_layer3_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer3_normalized_withCPs.svg",
+      "max_anchors": 23,
+      "max_handles": 32
+    },
+    {
+      "index": 4,
+      "source": "whisk-front",
+      "part": null,
+      "label": "Driven spindle \u00b7 front wire halves",
+      "clean": "mechanical_whisk_animated_layer4.svg",
+      "controls": "mechanical_whisk_animated_layer4_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer4_normalized_withCPs.svg",
+      "max_anchors": 35,
+      "max_handles": 60
+    },
+    {
+      "index": 5,
+      "source": "fixed-assembly",
+      "part": null,
+      "label": "Fixed assembly \u00b7 grip, housing and bearings",
+      "clean": "mechanical_whisk_animated_layer5.svg",
+      "controls": "mechanical_whisk_animated_layer5_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer5_normalized_withCPs.svg",
+      "max_anchors": 104,
+      "max_handles": 162
+    },
+    {
+      "index": 6,
+      "source": "output-gear-assembly",
+      "part": null,
+      "label": "Driven spindle \u00b7 eight-tooth output pinion",
+      "clean": "mechanical_whisk_animated_layer6.svg",
+      "controls": "mechanical_whisk_animated_layer6_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer6_normalized_withCPs.svg",
+      "max_anchors": 305,
+      "max_handles": 32
+    },
+    {
+      "index": 7,
+      "source": "crank-assembly",
+      "part": null,
+      "label": "Crank assembly \u00b7 input gear, rim, pins and handle",
+      "clean": "mechanical_whisk_animated_layer7.svg",
+      "controls": "mechanical_whisk_animated_layer7_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer7_normalized_withCPs.svg",
+      "max_anchors": 676,
+      "max_handles": 80
+    },
+    {
+      "index": 8,
+      "source": "annotations",
+      "part": null,
+      "label": "Annotations (optional)",
+      "clean": "mechanical_whisk_animated_layer8.svg",
+      "controls": "mechanical_whisk_animated_layer8_withCPs.svg",
+      "normalized_controls": "mechanical_whisk_animated_layer8_normalized_withCPs.svg",
+      "max_anchors": 4,
+      "max_handles": 0
+    }
+  ],
+  "render_pending": false,
+  "width": 1080,
+  "height": 1386,
+  "video": "mechanical_whisk_animated_decomposed.mp4"
+}

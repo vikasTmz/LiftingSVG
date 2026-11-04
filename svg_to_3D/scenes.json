@@ -13,22 +13,22 @@
     },
     "videos": [
       {
-        "src": "assets/gpt6_results/bird_flying_renderpass_view1.mp4",
+        "src": "assets/results/gpt6/bird_flying_renderpass_view1.mp4",
         "title": "Cam 01",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/bird_flying_renderpass_view2.mp4",
+        "src": "assets/results/gpt6/bird_flying_renderpass_view2.mp4",
         "title": "CAM 02",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/bird_flying_renderpass_view3.mp4",
+        "src": "assets/results/gpt6/bird_flying_renderpass_view3.mp4",
         "title": "CAM 03",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/bird_flying_turntable.mp4",
+        "src": "assets/results/gpt6/bird_flying_turntable.mp4",
         "title": "Turn Table",
         "subtitle": ""
       }
@@ -47,12 +47,12 @@
     "layers": "assets/inputs/pingpong_ball_cup_splash",
     "videos": [
       {
-        "src": "assets/gpt6_results/pingpong_splash_turntable.mp4",
+        "src": "assets/results/gpt6/pingpong_splash_turntable.mp4",
         "title": "Full Render",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/pingpong_splash_turntable_wireframe.mp4",
+        "src": "assets/results/gpt6/pingpong_splash_turntable_wireframe.mp4",
         "title": "Wireframe",
         "subtitle": ""
       }
@@ -71,12 +71,12 @@
     "layers": "assets/inputs/road_bike_desert_editable",
     "videos": [
       {
-        "src": "assets/gpt6_results/road_bike_desert_editable.mp4",
+        "src": "assets/results/gpt6/road_bike_desert_editable.mp4",
         "title": "Reveal Hidden Geometry",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/road_bike_desert_dolly_zoom.mp4",
+        "src": "assets/results/gpt6/road_bike_desert_dolly_zoom.mp4",
         "title": "Dolly Zoom Effect",
         "subtitle": ""
       }
@@ -95,12 +95,12 @@
     "layers": "assets/inputs/character_running_dribbling_throwing",
     "videos": [
       {
-        "src": "assets/gpt6_results/character_running_dribbling_throwing_1.mp4",
+        "src": "assets/results/gpt6/character_running_dribbling_throwing_1.mp4",
         "title": "Rendering Passes",
         "subtitle": ""
       },
       {
-        "src": "assets/gpt6_results/character_running_dribbling_throwing_2.mp4",
+        "src": "assets/results/gpt6/character_running_dribbling_throwing_2.mp4",
         "title": "Camera Authoring",
         "subtitle": ""
       }
@@ -119,7 +119,7 @@
     "layers": "assets/inputs/camera_curve_network",
     "videos": [
       {
-        "src": "assets/gpt6_results/curve_turntable_to_articulation.mp4",
+        "src": "assets/results/gpt6/curve_turntable_to_articulation.mp4",
         "title": "3D Curve Network",
         "subtitle": ""
       }
@@ -134,9 +134,9 @@
   {
     "title": "",
     "prompt": "Click the button to vectorize the 3D scene",
-    "svg": "assets/gpt6_results/leaking_wine_animated.svg",
+    "svg": "assets/results/gpt6/leaking_wine_animated.svg",
     "svgFallbackVideo": "",
-    "layers": "assets/gpt6_results/leaking_wine_animated",
+    "layers": "assets/results/gpt6/leaking_wine_animated",
     "videos": [
       {
         "src": "assets/inputs/wine_scene_2.mp4",
@@ -155,9 +155,9 @@
   {
     "title": "",
     "prompt": "Click the button to vectorize the 3D scene",
-    "svg": "assets/gpt6_results/mechanical_whisk_animated.svg",
-    "svgFallbackVideo": "assets/gpt6_results/mechanical_whisk_animated/mechanical_whisk_animated_decomposed.mp4",
-    "layers": "assets/gpt6_results/mechanical_whisk_animated",
+    "svg": "assets/results/gpt6/mechanical_whisk_animated.svg",
+    "svgFallbackVideo": "assets/results/gpt6/mechanical_whisk_animated/mechanical_whisk_animated_decomposed.mp4",
+    "layers": "assets/results/gpt6/mechanical_whisk_animated",
     "videos": [
       {
         "src": "assets/inputs/mechanical_whisk_motion.mp4",
@@ -176,9 +176,9 @@
   {
     "title": "",
     "prompt": "Click the button to vectorize the 3D scene",
-    "svg": "assets/gpt6_results/dirac_belt_trick.svg",
-    "svgFallbackVideo": "assets/gpt6_results/dirac_belt_trick/dirac_belt_trick_decomposed.mp4",
-    "layers": "assets/gpt6_results/dirac_belt_trick",
+    "svg": "assets/results/gpt6/dirac_belt_trick.svg",
+    "svgFallbackVideo": "assets/results/gpt6/dirac_belt_trick/dirac_belt_trick_decomposed.mp4",
+    "layers": "assets/results/gpt6/dirac_belt_trick",
     "videos": [
       {
         "src": "assets/inputs/dirac_belt_trick.mp4",

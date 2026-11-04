@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="960" height="1280" viewBox="0 0 960 1280" version="1.1" role="img" id="viz-shape-0001" data-layer-name="Fixed assembly · grip, housing and bearings"><defs><linearGradient id="grip" x1="0%" y1="0%" x2="100%" y2="20%">
+      <stop offset="0" stop-color="#253740" />
+      <stop offset="0.5" stop-color="#455b65" />
+      <stop offset="1" stop-color="#293d47" />
+    </linearGradient>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="20%">
+      <stop offset="0" stop-color="#879aa4" />
+      <stop offset="0.38" stop-color="#d5dfe2" />
+      <stop offset="1" stop-color="#94a7b0" />
+    </linearGradient>
+    </defs><g transform="matrix(1.89991094167 0 0 1.89991094167 -383.701413996 -73.1999687515)" data-export-normalized="true"><g id="mechanism" stroke-linejoin="round" stroke-linecap="round" ns1:label="02 · Mechanical whisk" ns1:groupmode="layer"><g id="fixed-assembly" ns1:label="Fixed assembly · grip, housing and bearings" ns1:groupmode="layer">
+      <circle cx="0" cy="0" r="1" transform="matrix(22.808 -10.715 -30.73 -7.953 450.979 612.73)" fill="url(#steel)" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0026" />
+      <path d="M489.248 612.73L489.248 598.616L412.71 598.616L412.71 612.73Z" fill="url(#steel)" stroke="#637d89" stroke-width=".7" id="viz-shape-0027" />
+      <circle cx="0" cy="0" r="1" transform="matrix(22.808 -10.715 -30.73 -7.953 450.979 598.616)" fill="#c3d1d6" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0028" />
+      <circle cx="0" cy="0" r="1" transform="matrix(19.745 -9.276 -26.603 -6.885 450.979 590.148)" fill="url(#steel)" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0029" />
+      <path d="M484.108 590.148L484.108 401.025L417.85 401.025L417.85 590.148Z" fill="url(#steel)" stroke="#637d89" stroke-width=".7" id="viz-shape-0030" />
+      <circle cx="0" cy="0" r="1" transform="matrix(19.745 -9.276 -26.603 -6.885 450.979 401.025)" fill="#c3d1d6" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0031" />
+      <circle cx="0" cy="0" r="1" transform="matrix(0 -7.057 -4.487 2.108 474.625 533.035)" fill="url(#steel)" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0032" />
+      <path d="M472.739 540.324L505.387 548.774L509.16 534.196L476.512 525.746Z" fill="url(#steel)" stroke="#637d89" stroke-width=".7" id="viz-shape-0033" />
+      <circle cx="0" cy="0" r="1" transform="matrix(0 -7.057 -4.487 2.108 507.274 541.485)" fill="#c3d1d6" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0034" />
+      <path id="fixed-grip" d="M414.333 331.907C413.114 300.187 413.212 268.43 413.494 236.694C413.869 218.416 415.191 200.051 419.302 182.194C421.372 173.039 423.993 164.011 427.034 155.132C428.95 149.567 431.015 144.051 433.36 138.651C434.931 135.054 436.636 131.508 438.616 128.117C439.433 126.788 440.24 125.448 441.26 124.257C442.141 123.23 443.156 122.268 444.328 121.584C449.522 119.665 456.727 119.374 460.569 124.094C461.212 124.903 461.844 125.724 462.397 126.597C463.378 128.099 464.25 129.669 465.08 131.257C466.008 133.045 466.895 134.853 467.727 136.687C475.589 154.702 481.373 173.652 484.81 193.008C485.783 198.69 486.51 204.413 487.048 210.152C487.6 216.106 487.971 222.076 488.208 228.05C488.97 268.43 489.001 308.873 486.753 349.21C486.321 356.61 485.818 364.005 485.281 371.398C484.968 375.711 484.641 380.023 484.306 384.334C483.971 388.645 483.629 392.956 483.285 397.266C483.22 399.551 483.353 402.45 481.598 404.268C480.487 405.527 479.054 406.451 477.58 407.228C475.944 408.078 474.216 408.739 472.46 409.296C457.8 413.338 441.731 413.367 427.261 408.516C425.431 407.805 423.636 406.956 422.046 405.792C420.786 404.854 419.583 403.665 419.132 402.115C417.099 378.754 415.36 355.342 414.333 331.907Z" fill="url(#grip)" stroke="#263d47" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="0.1065" transform="matrix(241.841 62.591 179.5 -84.33 450.979 400.884)" fill="none" stroke="#233b46" stroke-width="1.2" vector-effect="non-scaling-stroke" id="viz-shape-0035" />
+    </g>
+    </g></g><g data-export-labels="true"><text id="tile-title" x="32" y="83.2" style="font-family:Arial,sans-serif;font-size:51.2px;font-weight:600;text-anchor:start;fill:#172333;stroke:white;stroke-width:6.4;paint-order:stroke;opacity:1;visibility:visible;display:inline">Fixed assembly · grip, housing and bearings</text><text id="layer-id" x="928" y="83.2" style="font-family:Arial,sans-serif;font-size:38.4px;font-weight:600;text-anchor:end;fill:#172333;stroke:white;stroke-width:6.4;paint-order:stroke;opacity:1;visibility:visible;display:inline">5</text><text id="tile-description" x="32" y="1248" style="font-family:Arial,sans-serif;font-size:38.4px;font-weight:400;text-anchor:start;fill:#172333;stroke:white;stroke-width:6.4;paint-order:stroke;opacity:1;visibility:visible;display:inline">Editable vector layer</text></g></svg>

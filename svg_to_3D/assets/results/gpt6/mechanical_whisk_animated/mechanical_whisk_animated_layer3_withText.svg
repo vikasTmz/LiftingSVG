@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="960" height="1280" viewBox="0 0 960 1280" version="1.1" role="img" id="viz-shape-0001" data-layer-name="Driven spindle · shaft"><defs><linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="20%">
+      <stop offset="0" stop-color="#879aa4" />
+      <stop offset="0.38" stop-color="#d5dfe2" />
+      <stop offset="1" stop-color="#94a7b0" />
+    </linearGradient>
+    </defs><g id="mechanism" stroke-linejoin="round" stroke-linecap="round" ns1:label="02 · Mechanical whisk" ns1:groupmode="layer"><g id="output-shaft" ns1:label="Driven spindle · shaft" ns1:groupmode="layer">
+      <circle cx="0" cy="0" r="1" transform="matrix(4.487 -2.108 -6.046 -1.565 450.979 629.666)" fill="url(#steel)" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0013" />
+      <path d="M458.508 629.666L458.508 415.139L443.45 415.139L443.45 629.666Z" fill="url(#steel)" stroke="#637d89" stroke-width=".7" id="viz-shape-0014" />
+      <circle cx="0" cy="0" r="1" transform="matrix(4.487 -2.108 -6.046 -1.565 450.979 415.139)" fill="#c3d1d6" stroke="#637d89" stroke-width=".7" vector-effect="non-scaling-stroke" id="viz-shape-0015" />
+    </g>
+    </g><g data-export-labels="true"><text id="tile-title" x="32" y="83.2" style="font-family:Arial,sans-serif;font-size:51.2px;font-weight:600;text-anchor:start;fill:#172333;stroke:white;stroke-width:6.4;paint-order:stroke;opacity:1;visibility:visible;display:inline">Driven spindle · shaft</text><text id="layer-id" x="928" y="83.2" style="font-family:Arial,sans-serif;font-size:38.4px;font-weight:600;text-anchor:end;fill:#172333;stroke:white;stroke-width:6.4;paint-order:stroke;opacity:1;visibility:visible;display:inline">3</text><text id="tile-description" x="32" y="1248" style="font-family:Arial,sans-serif;font-size:38.4px;font-weight:400;text-anchor:start;fill:#172333;stroke:white;stroke-width:6.4;paint-order:stroke;opacity:1;visibility:visible;display:inline">Editable vector layer</text></g></svg>

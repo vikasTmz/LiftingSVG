@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="1100" height="900" viewBox="0 0 1100 900" role="img" data-layer-name="Six fixed outer attachments"><defs /><g transform="matrix(1.2116400345 0 0 1.2116400345 -116.402018975 -107.35441587)" data-export-normalized="true"><g id="fixed-mounts" ns1:groupmode="layer" ns1:label="03 · Six fixed outer attachments">
+<g id="mount-x-positive"><circle r="1" transform="matrix(0.00000 -19.71066 -12.50294 9.09723 804.141 542.184)" fill="#e0e8e6" stroke="#9baead" stroke-width=".06" id="viz-shape-0006" />
+<circle cx="804.141" cy="542.184" r="3" fill="#607e82" id="viz-shape-0007" /></g>
+<g id="mount-x-negative"><circle r="1" transform="matrix(0.00000 -19.71066 12.50294 -9.09723 295.859 377.816)" fill="#e0e8e6" stroke="#9baead" stroke-width=".06" id="viz-shape-0008" />
+<circle cx="295.859" cy="377.816" r="3" fill="#607e82" id="viz-shape-0009" /></g>
+<g id="mount-y-positive"><circle r="1" transform="matrix(18.75441 6.06482 0.00000 19.71066 719.428 336.723)" fill="#e0e8e6" stroke="#9baead" stroke-width=".06" id="viz-shape-0010" />
+<circle cx="719.428" cy="336.723" r="3" fill="#607e82" id="viz-shape-0011" /></g>
+<g id="mount-y-negative"><circle r="1" transform="matrix(18.75441 6.06482 0.00000 -19.71066 380.572 583.277)" fill="#e0e8e6" stroke="#9baead" stroke-width=".06" id="viz-shape-0012" />
+<circle cx="380.572" cy="583.277" r="3" fill="#607e82" id="viz-shape-0013" /></g>
+<g id="mount-z-positive"><circle r="1" transform="matrix(12.50294 -9.09723 -18.75441 -6.06482 550.000 192.900)" fill="#e0e8e6" stroke="#9baead" stroke-width=".06" id="viz-shape-0014" />
+<circle cx="550.000" cy="192.900" r="3" fill="#607e82" id="viz-shape-0015" /></g>
+<g id="mount-z-negative"><circle r="1" transform="matrix(12.50294 -9.09723 18.75441 6.06482 550.000 727.100)" fill="#e0e8e6" stroke="#9baead" stroke-width=".06" id="viz-shape-0016" />
+<circle cx="550.000" cy="727.100" r="3" fill="#607e82" id="viz-shape-0017" /></g>
+</g>
+</g></svg>

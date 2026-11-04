@@ -1,0 +1,138 @@
+{
+  "source": "/Users/vthamizh/.codex/.chatgpt-projects/g-p-6aa05a45227c819181822dfaa3d849e6/outputs/vector_graphics/dirac_belt_trick/dirac_belt_trick.svg",
+  "renderer": "headless Inkscape file rendering; no screenshots",
+  "duration_seconds": 8.0,
+  "fps": 30.0,
+  "frames": 240,
+  "classification": "non_rigid",
+  "deformed_paths": 191,
+  "layers": [
+    {
+      "index": 1,
+      "source": "background-layer",
+      "part": null,
+      "label": "Background",
+      "clean": "dirac_belt_trick_layer1.svg",
+      "controls": "dirac_belt_trick_layer1_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer1_normalized_withCPs.svg",
+      "max_anchors": 14,
+      "max_handles": 16
+    },
+    {
+      "index": 2,
+      "source": "titles",
+      "part": null,
+      "label": "Typography",
+      "clean": "dirac_belt_trick_layer2.svg",
+      "controls": "dirac_belt_trick_layer2_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer2_normalized_withCPs.svg",
+      "max_anchors": 0,
+      "max_handles": 0
+    },
+    {
+      "index": 3,
+      "source": "fixed-mounts",
+      "part": null,
+      "label": "Six fixed outer attachments",
+      "clean": "dirac_belt_trick_layer3.svg",
+      "controls": "dirac_belt_trick_layer3_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer3_normalized_withCPs.svg",
+      "max_anchors": 108,
+      "max_handles": 192
+    },
+    {
+      "index": 4,
+      "source": "animated-assembly",
+      "part": "x-positive",
+      "label": "X+ belt",
+      "clean": "dirac_belt_trick_layer4.svg",
+      "controls": "dirac_belt_trick_layer4_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer4_normalized_withCPs.svg",
+      "max_anchors": 160,
+      "max_handles": 128
+    },
+    {
+      "index": 5,
+      "source": "animated-assembly",
+      "part": "x-negative",
+      "label": "X\u2212 belt",
+      "clean": "dirac_belt_trick_layer5.svg",
+      "controls": "dirac_belt_trick_layer5_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer5_normalized_withCPs.svg",
+      "max_anchors": 160,
+      "max_handles": 128
+    },
+    {
+      "index": 6,
+      "source": "animated-assembly",
+      "part": "y-positive",
+      "label": "Y+ belt",
+      "clean": "dirac_belt_trick_layer6.svg",
+      "controls": "dirac_belt_trick_layer6_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer6_normalized_withCPs.svg",
+      "max_anchors": 160,
+      "max_handles": 128
+    },
+    {
+      "index": 7,
+      "source": "animated-assembly",
+      "part": "y-negative",
+      "label": "Y\u2212 belt",
+      "clean": "dirac_belt_trick_layer7.svg",
+      "controls": "dirac_belt_trick_layer7_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer7_normalized_withCPs.svg",
+      "max_anchors": 160,
+      "max_handles": 128
+    },
+    {
+      "index": 8,
+      "source": "animated-assembly",
+      "part": "z-positive",
+      "label": "Z+ belt",
+      "clean": "dirac_belt_trick_layer8.svg",
+      "controls": "dirac_belt_trick_layer8_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer8_normalized_withCPs.svg",
+      "max_anchors": 160,
+      "max_handles": 128
+    },
+    {
+      "index": 9,
+      "source": "animated-assembly",
+      "part": "z-negative",
+      "label": "Z\u2212 belt",
+      "clean": "dirac_belt_trick_layer9.svg",
+      "controls": "dirac_belt_trick_layer9_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer9_normalized_withCPs.svg",
+      "max_anchors": 160,
+      "max_handles": 128
+    },
+    {
+      "index": 10,
+      "source": "animated-assembly",
+      "part": "cube",
+      "label": "Rotating cube",
+      "clean": "dirac_belt_trick_layer10.svg",
+      "controls": "dirac_belt_trick_layer10_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer10_normalized_withCPs.svg",
+      "max_anchors": 15,
+      "max_handles": 0
+    },
+    {
+      "index": 11,
+      "source": "cycle-guide",
+      "part": null,
+      "label": "Rotation phase and legend",
+      "clean": "dirac_belt_trick_layer11.svg",
+      "controls": "dirac_belt_trick_layer11_withCPs.svg",
+      "normalized_controls": "dirac_belt_trick_layer11_normalized_withCPs.svg",
+      "max_anchors": 28,
+      "max_handles": 32
+    }
+  ],
+  "video": "dirac_belt_trick_decomposed.mp4",
+  "width": 1920,
+  "height": 1692,
+  "source_sha256": "42c2b56e364060cb33f599071ec72b9ab4e3828f60f287f86cfb944854750aac",
+  "control_endpoint_sampling": "left limit before loop reset",
+  "svg_variant_count": 66
+}

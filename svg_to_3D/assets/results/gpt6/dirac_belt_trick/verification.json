@@ -1,0 +1,17 @@
+{
+  "layer_svg_files": 66,
+  "all_vector_and_internal_references_valid": true,
+  "unique_ids_in_every_export": true,
+  "SMIL_value_keyTime_counts_valid": true,
+  "control_coordinates_checked": 2088,
+  "max_control_error_svg_units": 6.621067067425297e-06,
+  "unit_tests": "7 passed",
+  "video": {
+    "frames": 240,
+    "fps": 30,
+    "duration": 8,
+    "width": 1920,
+    "height": 1692,
+    "full_decode": "passed"
+  }
+}

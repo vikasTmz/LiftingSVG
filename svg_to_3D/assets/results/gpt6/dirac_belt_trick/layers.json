@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "sets": {
+    "dirac_belt_trick": {
+      "variants": [
+        "artwork",
+        "_withCPs",
+        "_withText"
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer1.svg",
+              "canonical": "dirac_belt_trick_layer1_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer1_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer1_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer1_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer1_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer2.svg",
+              "canonical": "dirac_belt_trick_layer2_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer2_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer2_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer2_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer2_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer3.svg",
+              "canonical": "dirac_belt_trick_layer3_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer3_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer3_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer3_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer3_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer4.svg",
+              "canonical": "dirac_belt_trick_layer4_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer4_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer4_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer4_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer4_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer5.svg",
+              "canonical": "dirac_belt_trick_layer5_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer5_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer5_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer5_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer5_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer6.svg",
+              "canonical": "dirac_belt_trick_layer6_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer6_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer6_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer6_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer6_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer7.svg",
+              "canonical": "dirac_belt_trick_layer7_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer7_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer7_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer7_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer7_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 8,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer8.svg",
+              "canonical": "dirac_belt_trick_layer8_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer8_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer8_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer8_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer8_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer9.svg",
+              "canonical": "dirac_belt_trick_layer9_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer9_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer9_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer9_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer9_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer10.svg",
+              "canonical": "dirac_belt_trick_layer10_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer10_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer10_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer10_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer10_withText.svg"
+            }
+          }
+        },
+        {
+          "id": 11,
+          "files": {
+            "artwork": {
+              "default": "dirac_belt_trick_layer11.svg",
+              "canonical": "dirac_belt_trick_layer11_normalized.svg"
+            },
+            "_withCPs": {
+              "canonical": "dirac_belt_trick_layer11_normalized_withCPs.svg",
+              "default": "dirac_belt_trick_layer11_withCPs.svg"
+            },
+            "_withText": {
+              "canonical": "dirac_belt_trick_layer11_normalized_withText.svg",
+              "default": "dirac_belt_trick_layer11_withText.svg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
