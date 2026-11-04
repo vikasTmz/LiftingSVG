@@ -1,4 +1,7 @@
-# Formulation
+***
+
+# Formulation 
+
 
 <br>
 
@@ -88,7 +91,7 @@ $$
 
 </br>
 
-# Coding Agents Approach
+## Coding Agents Approach
 
 </br>
 
@@ -128,7 +131,7 @@ In our preliminary experiments, we observed GPT6 Astra can solve - to a reasonab
 
 ### Persistent Representation and DSLs
 
-We maintain the reconstruction as a persistent graph of geometric entities, semantic parts, parameters, and constraints, and optionally, with explicit correspondence to the source SVG. This graph would provide shared state for the agent and its tools across iterations. Different relations would describe part hierarchies, geometric connectivity, articulation, and construction dependencies. Named parameters exposes properties such as radii, control points, thicknesses, and joint angles, while constraints would record their targets, tolerances, and whether they express requirements or inferred preferences. Persistent identifiers and construction history would let feedback and user edits refer to the same parts across agent revisions, with explicit remapping when geometry splits or merges.
+We maintain the reconstruction as a persistent graph of geometric entities, semantic parts, parameters, and constraints, and optionally, with explicit correspondence to the source SVG. This graph would provide shared state for the agent i.e. a editable memory, and its tools across iterations. Different relations would describe part hierarchies, geometric connectivity, articulation, and construction dependencies. Named parameters exposes properties such as radii, control points, thicknesses, and joint angles, while constraints would record their targets, tolerances, and whether they express requirements or inferred preferences. Persistent identifiers and construction history would let feedback and user edits refer to the same parts across agent revisions, with explicit remapping when geometry splits or merges.
 
 DSL would define operations for constructing, querying, and editing this graph. Local edits could trigger rebuilding and evaluation of only the affected dependencies, while versioned state would support rollback and prevent stale feedback from guiding later revisions. User interactions, such as dragging a handle or marking a contact region, could become parameter updates or constraints on identified parts. The research question is whether this explicit structure improves reconstruction quality, correspondence, and editing reliability while reducing repeated code and context. These benefits should be measured against ordinary Python using the same backend and evaluations, including token usage and execution time.
 
