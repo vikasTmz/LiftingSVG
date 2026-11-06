@@ -1,6 +1,4 @@
-***
-
-# Formulation 
+## Formulation 
 
 
 <br>
@@ -131,9 +129,9 @@ In our preliminary experiments, we observed GPT6 Astra can solve - to a reasonab
 
 ### Persistent Representation and DSLs
 
-We maintain the reconstruction as a persistent graph of geometric entities, semantic parts, parameters, and constraints, and optionally, with explicit correspondence to the source SVG. This graph would provide shared state for the agent i.e. a editable memory, and its tools across iterations. Different relations would describe part hierarchies, geometric connectivity, articulation, and construction dependencies. Named parameters exposes properties such as radii, control points, thicknesses, and joint angles, while constraints would record their targets, tolerances, and whether they express requirements or inferred preferences. Persistent identifiers and construction history would let feedback and user edits refer to the same parts across agent revisions, with explicit remapping when geometry splits or merges.
+We maintain the reconstruction as a persistent graph of geometric entities, semantic parts, parameters, and constraints, and optionally, with explicit correspondence to the source SVG. This graph would provide shared state for the agent i.e. a **editable memory**, and its tools across iterations. Different relations would describe part hierarchies, geometric connectivity, articulation, and construction dependencies. Named parameters exposes properties such as radii, control points, thicknesses, and joint angles, while constraints would record their targets, tolerances, and whether they express requirements or inferred preferences. Persistent identifiers and construction history would let feedback and user edits refer to the same parts across agent revisions, with explicit remapping when geometry splits or merges.
 
-DSL would define operations for constructing, querying, and editing this graph. Local edits could trigger rebuilding and evaluation of only the affected dependencies, while versioned state would support rollback and prevent stale feedback from guiding later revisions. User interactions, such as dragging a handle or marking a contact region, could become parameter updates or constraints on identified parts. The research question is whether this explicit structure improves reconstruction quality, correspondence, and editing reliability while reducing repeated code and context. These benefits should be measured against ordinary Python using the same backend and evaluations, including token usage and execution time.
+DSL defines operations for constructing, querying, and editing this graph. Local edits could trigger rebuilding and evaluation of only the affected dependencies, while versioned state would support rollback and prevent stale feedback from guiding later revisions. The research question is whether this explicit structure improves reconstruction quality and reduces context size, token usage, and execution time.
 
 <!-- REVIEW: The graph idea is useful; sharpen what makes it a language.
 
@@ -182,6 +180,26 @@ Useful harness additions include persistent entity IDs, versioned scene snapshot
 To test benefit, compare the same tasks and model settings with: (1) the existing workflow, (2) added checks, (3) checks plus solver-assisted repairs, and (4) the proposed structured language. Repeat stochastic runs and report quality alongside tokens, elapsed time, and tool calls. Any token savings from structured queries or compact edits are hypotheses to measure, including the cost of tool schemas and feedback.
 -->
 
+### Execution Outputs
+
+Execution outputs o^(k) include the parametric scene, its correspondence records, rendered views, and execution diagnostics. Evaluation feedback e^(k) assesses these artifacts through appearance comparisons, geometric checks, and correspondence checks.
+
+<!-- REVIEW: Suggested text and concrete tool interface.
+
+"  Although a collision Boolean is technically a tool output, we classify it as evaluation feedback because it assesses a requirement of the scene."
+
+Useful inspection outputs include reference-camera renders, silhouette and part-ID passes, selected novel views, and local frames or control curves. These can make failures visible without requiring the agent to repeatedly inspect the entire scene. A novel view supplies diagnostic evidence, not a ground-truth target for hidden geometry.
+
+Prefer structured feedback over an unlabelled scalar. An illustrative record is:
+{check: "forbidden_overlap", entities: ["wheel", "frame"], status: "fail", scene_revision: 12, witness_region: "...", tolerance: "..."}
+
+When possible, add a magnitude with units and a visualization. Keep validity failure, solver failure, and "not evaluated" distinct. Associate feedback with the exact scene revision and invalidate affected results after edits; stale checks should not be mistaken for evidence about the updated scene.
+-->
+
+<!-- 
+## Execution outputs and evaluation feedback
+ -->
+
 ### Constraints and Regularization
 
 Geometric checks provide explicit feedback on relations such as symmetry, parallelism, orthogonality, smooth curve joins, and unwanted interpenetration. Each check applies to identified scene entities and returns a result together with the affected parts and relevant measurements. Explicitly defining constraints and regularization can steer the agents output to our requirements. These are expressed as programs the agent will be provided as input and can invoke and get scalar or vector outputs that are appended to $e^{(k)}$.
@@ -210,28 +228,6 @@ Separate three operations in the prose: a checker measures a relation, a regular
 
 -->
 
-### Execution Outputs
 
-Execution outputs o^(k) include the parametric scene, its correspondence records, rendered views, and execution diagnostics.
 
-<!-- REVIEW: Suggested text and concrete tool interface.
-
-" Evaluation feedback e^(k) assesses these artifacts through appearance comparisons, geometric checks, and correspondence checks. Although a collision Boolean is technically a tool output, we classify it as evaluation feedback because it assesses a requirement of the scene."
-
-Useful inspection outputs include reference-camera renders, silhouette and part-ID passes, selected novel views, and local frames or control curves. These can make failures visible without requiring the agent to repeatedly inspect the entire scene. A novel view supplies diagnostic evidence, not a ground-truth target for hidden geometry.
-
-Prefer structured feedback over an unlabelled scalar. An illustrative record is:
-{check: "forbidden_overlap", entities: ["wheel", "frame"], status: "fail", scene_revision: 12, witness_region: "...", tolerance: "..."}
-
-When possible, add a magnitude with units and a visualization. Keep validity failure, solver failure, and "not evaluated" distinct. Associate feedback with the exact scene revision and invalidate affected results after edits; stale checks should not be mistaken for evidence about the updated scene.
--->
-
-<!-- 
-## Execution outputs and evaluation feedback
-
-o⁽ᵏ⁾ contains what running the current program produces, while e⁽ᵏ⁾ contains feedback assessing those results.
-
-- how to use these constraints as either outputs or feedback?
- -->
-
-###  Harness and Tools
+<!-- ###  Harness and Tools -->
