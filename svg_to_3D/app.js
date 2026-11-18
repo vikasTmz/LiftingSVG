@@ -124,8 +124,80 @@ async function renderPageSections(page, examples) {
     }
     container.append(section);
   });
+  createExampleMenus(page);
   await renderReferences(page, container, assetURL);
   return orderedExamples;
+}
+
+// Consecutive viewer sections share a menu at their position in page.json.
+// Text sections and changes of direction start a separate group.
+function createExampleMenus(page) {
+  const groups = [];
+  let current = null;
+  page.sections.filter(item => item.enabled !== false).forEach(item => {
+    if (item.type !== 'viewer') { current = null; return; }
+    if (!current || (current[0].swapViewers === true) !== (item.swapViewers === true)) {
+      current = []; groups.push(current);
+    }
+    current.push(item);
+  });
+  groups.forEach(createExampleMenu);
+}
+
+function createExampleMenu(items) {
+  const panels = items.map(item => document.getElementById(item.id));
+  const group = document.createElement('section'); group.className = 'example-menu-section';
+  const label = items[0].swapViewers === true ? 'Video to SVG examples' : 'SVG to video examples';
+  group.setAttribute('aria-label', label);
+  const menu = document.createElement('div'); menu.className = 'example-menu';
+  menu.setAttribute('role', 'tablist'); menu.setAttribute('aria-label', label);
+  panels[0].before(group);
+  group.append(menu, ...panels);
+  let selected = -1;
+  const buttons = items.map((item, index) => {
+    const button = document.createElement('button'); button.type = 'button';
+    button.id = `${item.id}-menu-tab`; button.setAttribute('role', 'tab');
+    button.textContent = item.menuLabel || item.navLabel || item.scene;
+    button.setAttribute('aria-controls', item.id);
+    panels[index].setAttribute('role', 'tabpanel');
+    panels[index].setAttribute('aria-labelledby', button.id);
+    panels[index].tabIndex = 0;
+    button.addEventListener('click', () => select(index));
+    button.addEventListener('keydown', event => {
+      let next;
+      if (event.key === 'ArrowRight') next = (index + 1) % items.length;
+      if (event.key === 'ArrowLeft') next = (index + items.length - 1) % items.length;
+      if (event.key === 'Home') next = 0;
+      if (event.key === 'End') next = items.length - 1;
+      if (next === undefined) return;
+      event.preventDefault(); select(next); buttons[next].focus({ preventScroll: true });
+      const rect = buttons[next].getBoundingClientRect(), bounds = menu.getBoundingClientRect();
+      if (rect.left < bounds.left) menu.scrollLeft += rect.left - bounds.left;
+      else if (rect.right > bounds.right) menu.scrollLeft += rect.right - bounds.right;
+    });
+    menu.append(button); return button;
+  });
+  function select(index) {
+    if (selected === index) return;
+    if (selected >= 0) panels[selected].dispatchEvent(new Event('example-deactivate'));
+    selected = index;
+    panels.forEach((panel, i) => {
+      panel.hidden = i !== index;
+      buttons[i].setAttribute('aria-selected', String(i === index));
+      buttons[i].tabIndex = i === index ? 0 : -1;
+    });
+    panels[index].dispatchEvent(new Event('example-activate'));
+  }
+  function selectHash() {
+    let target;
+    try { target = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (_) { return; }
+    const index = panels.findIndex(panel => panel === target || panel.contains(target));
+    if (index >= 0) { select(index); return true; }
+  }
+  if (!selectHash()) select(0);
+  window.addEventListener('hashchange', () => {
+    if (selectHash()) panels[selected].scrollIntoView({ block: 'start' });
+  });
 }
 
 function createSectionNavigation(page, examples) {
@@ -603,6 +675,7 @@ async function initializePage() {
     });
     $('video-poster-image').addEventListener('error', () => { $('video-poster').hidden = true; });
     $('main-video').addEventListener('playing', () => {
+      if (root.closest('[role="tabpanel"][hidden]')) { suspend(); return; }
       releaseMagic(); started = true; buildMenu();
       frame.dataset.state = 'playing'; heading.hidden = false;
       $('video-idle').hidden = true; $('video-menu').hidden = !hasPreviews;
@@ -639,7 +712,12 @@ async function initializePage() {
     $('video-title').textContent = videos[0]?.title || 'Video result';
     $('video-detail').textContent = '';
     heading.hidden = true; frame.dataset.state = 'idle';
-    return { playFirst, loadFirstPaused };
+    function suspend() {
+      $('main-video').pause(); stopPreview(); releaseMagic();
+      heading.hidden = !started; $('video-menu').hidden = !started || !hasPreviews;
+      frame.dataset.state = started ? 'paused' : 'idle';
+    }
+    return { playFirst, loadFirstPaused, suspend };
   }
 
   // Clone the inert templates, prefixing IDs to keep every viewer independent.
@@ -682,7 +760,7 @@ async function initializePage() {
   const pendingExamples = new Map();
   const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
+      if (!entry.isIntersecting || entry.target.closest('[role="tabpanel"][hidden]')) return;
       observer.unobserve(entry.target);
       pendingExamples.get(entry.target)?.();
       pendingExamples.delete(entry.target);
@@ -794,7 +872,7 @@ async function initializePage() {
       svgIdle.append(question); revealViewer.querySelector('.svg-stage').append(svgIdle);
     }
     function initialize() {
-      if (videoViewer) return;
+      if (videoViewer || example.container.hidden) return;
       videoViewer = createVideoViewer(videoPanel, prefix, example.videos);
       if (example.swapViewers) videoViewer.loadFirstPaused();
       else createSVGViewer(svgPanel, prefix, example.svg);
@@ -876,6 +954,13 @@ async function initializePage() {
         document.removeEventListener('visibilitychange', onVisibilityChange);
       }, { once: true });
     }
+    example.container.addEventListener('example-activate', initialize);
+    example.container.addEventListener('example-deactivate', () => {
+      videoViewer?.suspend();
+      ++revealGeneration;
+      if (revealViewer) finishReveal();
+      resultVideo?.pause();
+    });
     if (observer) { pendingExamples.set(section, initialize); observer.observe(section); }
     else initialize();
   });
@@ -885,11 +970,18 @@ async function initializePage() {
   skip.textContent = firstViewer ? 'Skip to interactive viewer' : 'Skip to page content';
   const navigation = createSectionNavigation(page, EXAMPLES);
   $('page-status').hidden = true;
+  // Enhance the article's editable SVG without coupling it to the media viewers.
+  const graphDetails = document.querySelector('[data-reconstruction-graph]')
+    ? import(assetURL('reconstruction-graph.js'))
+      .then(module => module.mountReconstructionGraphs())
+      .catch(error => { console.warn('The static graph remains available:', error); return []; })
+    : Promise.resolve([]);
   // Math is a separate async pass so equations cannot delay viewer setup.
-  typesetPageMath().then(() => {
+  Promise.all([typesetPageMath(), graphDetails]).then(async ([, details]) => {
+    if (details.length) await MathJax.typesetPromise(details);
     // A bookmarked section only exists after fetched Markdown has been inserted.
     const target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
-    if (target && target.parentElement === $('page-sections')) target.scrollIntoView();
+    if (target && (target.parentElement === $('page-sections') || target.getAttribute('role') === 'tabpanel')) target.scrollIntoView();
     navigation.refresh();
   }).catch(error => console.warn('Equations could not be typeset:', error));
 }

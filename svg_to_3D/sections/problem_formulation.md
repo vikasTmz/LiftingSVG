@@ -120,14 +120,21 @@ Current research efforts seek to improve the observable quantities: the geometri
 
 </br>
 
-## Practical Considerations
+## Can GPT6 *one-shot* this?
 
 </br>
 
 In our preliminary experiments, we observed GPT6 Astra can solve - to a reasonable extent - the the task of lifting an input SVG to a structured, editable 3D scene, given just a simple prompt. The results, while only qualitatively evaluated, are incredible to say the least, specifically the reconstruction quality, semantic structure, parametric geometry, and image-based similarity. Yet, *how do we improve the results, incorporate user feedback and desires not expressible by text, and reduce token usage?*
 
+## Practical Considerations
+
 
 ### Persistent Representation and DSLs
+
+<!-- <figure class="reconstruction-graph" data-reconstruction-graph="flying-bird">
+  <img src="../assets/diagrams/flying-bird-graph.svg" alt="Persistent graph for the flying bird: source SVG correspondence, semantic parts, editable wing geometry and pose, execution outputs, and evaluation feedback." width="1080" height="828" loading="lazy">
+  <figcaption>A proposed persistent representation for the flying bird. SVG layer names come from the source artwork; the 3D constructions and checks are illustrative. Arrows distinguish hierarchy, correspondence, and downstream use. The front wing is expanded to show its editable records.</figcaption>
+</figure> -->
 
 We maintain the reconstruction as a persistent graph of geometric entities, semantic parts, parameters, and constraints, and optionally, with explicit correspondence to the source SVG. This graph would provide shared state for the agent i.e. a **editable memory**, and its tools across iterations. Different relations would describe part hierarchies, geometric connectivity, articulation, and construction dependencies. Named parameters exposes properties such as radii, control points, thicknesses, and joint angles, while constraints would record their targets, tolerances, and whether they express requirements or inferred preferences. Persistent identifiers and construction history would let feedback and user edits refer to the same parts across agent revisions, with explicit remapping when geometry splits or merges.
 
@@ -204,14 +211,14 @@ When possible, add a magnitude with units and a visualization. Keep validity fai
 
 Geometric checks provide explicit feedback on relations such as symmetry, parallelism, orthogonality, smooth curve joins, and unwanted interpenetration. Each check applies to identified scene entities and returns a result together with the affected parts and relevant measurements. Explicitly defining constraints and regularization can steer the agents output to our requirements. These are expressed as programs the agent will be provided as input and can invoke and get scalar or vector outputs that are appended to $e^{(k)}$.
 
-
+<!-- 
 | Candidate | Where it can help | What must be specified or inferred |
 | --- | --- | --- |
 | Local symmetry | Repeated or approximately mirrored parts, symmetric cross-sections | Which neighborhoods correspond, the reflection plane or axis, and the coordinate frame. Articulated parts can be symmetric in their local/rest frames while having different poses. Use a soft preference for inferred symmetry; stylized or deliberately asymmetric parts should remain possible. |
 | Parallelism / orthogonality | Wheel axes, frame members, planar faces, mechanical assemblies | Constrain named 3D axes, directions, or normals. Perspective does not preserve parallelism in general, and projection does not preserve right angles in general. Apparent 2D alignment is evidence for a hypothesis, not sufficient proof of a 3D relation. |
 | Tangent orthogonality at intersections | Curve networks intended to describe orthogonal surface directions or known perpendicular connections | First determine whether the curves truly meet in 3D. A crossing in the SVG may instead be occlusion or a decorative mark. A real intersection alone does not imply perpendicular tangents. Apply this only to selected intersections with supporting geometric or semantic evidence. |
 | Tangent parallelism / continuity | Smooth joins between curve segments and aligned directions at selected points | For a smooth join, enforce endpoint coincidence as well as aligned tangents. Parallel tangents at distant points do not establish a join. Geometric tangent continuity (G1) does not require equal derivative magnitudes; parametric C1 continuity does. Neither condition should be imposed across an intended corner. |
-| Avoiding interpenetration | Separate rigid parts and self-intersecting surfaces | Identify forbidden overlaps, permitted contact, intended unions, and attachment regions. Solid-volume overlap, surface intersection, and curve clearance require different checks. Curves and open sheets need an explicit thickness or intersection policy if they represent physical parts. |
+| Avoiding interpenetration | Separate rigid parts and self-intersecting surfaces | Identify forbidden overlaps, permitted contact, intended unions, and attachment regions. Solid-volume overlap, surface intersection, and curve clearance require different checks. Curves and open sheets need an explicit thickness or intersection policy if they represent physical parts. | -->
 
 <!-- REVIEW: Feasibility, ambiguity, and suggested elaboration.
 

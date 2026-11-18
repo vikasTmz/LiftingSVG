@@ -86,8 +86,10 @@ viewer sections use the scene's readable SVG name. Disabled or empty sections
 do not appear in the navigation. Links use the section ID, so they can also be
 bookmarked or shared.
 
-Move objects in the `sections` array in `page.json`. Their array order is their
-page order. For viewers first, followed by the introduction and notes:
+Move objects in the `sections` array in `page.json` to change the page order.
+Consecutive single-pair `viewer` sections share a menu at the first viewer's
+position. A text section or a change in `swapViewers` starts a separate menu.
+Button order follows the array order within each group. For viewers first, followed by the introduction and notes:
 
 ```json
 "sections": [
@@ -104,7 +106,7 @@ Keep JSON strings in double quotes and avoid trailing commas.
 The available section types are:
 
 - `hero`: large centered title, author/date, and description. Set `"byline": false` to hide author/date.
-- `viewer`: one side-by-side SVG/video pair, selected by its `scene` ID.
+- `viewer`: one side-by-side SVG/video pair in the example menu, selected by its `scene` ID; `menuLabel` sets its button text.
 - `viewer-triple`: SVG, wand, video, wand, and a second SVG in one row; selected by its `scene` ID.
 - `viewers`: optional group using a `scenes` list; older configurations still work.
 - `note`: title at left, body at right; stacks on small screens.
@@ -122,8 +124,9 @@ An optional `eyebrow` supplies a small label above a text section's title.
 ## Calling individual viewers
 
 Each scene in `scenes.json` describes one complete SVG/video viewer pair.
-Use its `id` in a `viewer` section in `page.json`. Move that section object to
-place the viewer anywhere among your Markdown sections:
+Use its `id` in a `viewer` section in `page.json`. Each such section becomes
+a menu button alongside adjacent viewers with the same `swapViewers` setting.
+Rearrange these objects to change the button order:
 
 ```json
 "sections": [
@@ -389,3 +392,65 @@ No collaborator needs to install an editor extension, npm package or LaTeX.
 The initial entries cite the TRELLIS.2 and Sparc3D preprints and the Tripo
 platform website. Tripo's entry is a website citation because the original
 link did not identify a particular research paper.
+
+## Flying bird reconstruction graph
+
+The figure under **Practical Considerations → Persistent Representation and DSLs**
+is an editable SVG with progressive interactive enhancement. Hover, tap, or focus
+a node to inspect its record and notation; the relation buttons filter the edges.
+The node selector provides an alternative on small screens. Download links expose
+the standalone SVG and the graph's JSON source.
+
+- `assets/diagrams/flying-bird-graph.json`: node labels, positions, descriptions,
+  LaTeX, entity fields, source SVG IDs, and typed edges. Explicit edge `path`
+  values are SVG path data; other edges are routed between node centers.
+- `assets/diagrams/generate_bird_graph.py`: generates the standalone SVG and a
+  static thumbnail from the initial pose of `assets/inputs/bird_flying.svg`.
+- `reconstruction-graph.js` and `reconstruction-graph.css`: interactions and
+  page styling. Paths resolve relative to the module for subpath hosting.
+- `sections/problem_formulation.md`: the figure's placement and caption.
+
+After editing the JSON, regenerate the figure from this directory:
+
+```sh
+python3 assets/diagrams/generate_bird_graph.py
+```
+
+The SVG also opens directly in a vector editor. Regeneration overwrites direct
+SVG edits, so retain a separate copy if using that workflow. Keep node IDs and
+edge endpoints consistent when editing the JSON. The diagram describes a proposed
+representation, not a verified export of the existing Blender reconstruction.
+
+## Example menu
+
+Consecutive enabled `"type": "viewer"` sections share a horizontal menu. Each
+menu stays at its group's position in `page.json`; a non-viewer section or a
+change in `swapViewers` starts a new menu. Currently, SVG-to-video examples sit
+below the bird, and video-to-SVG examples sit after the text in "The Inverse
+Mapping." Each menu has its own selected pair. `viewer-triple` and legacy
+`viewers` groups remain standalone.
+
+```json
+{
+  "id": "wine-example",
+  "type": "viewer",
+  "scene": "leaking_wine_animated",
+  "menuLabel": "Wine",
+  "swapViewers": true
+}
+```
+
+Edit `menuLabel` for each button's plain text; it falls back to `navLabel`, then
+`scene` if omitted. Keep paths and viewer descriptions in `scenes.json`.
+Add or reorder `viewer` objects to add or reorder buttons. `enabled: false`
+removes a button. Put a group of viewer objects after a text section to place
+its menu below that text.
+
+The first button is selected initially (a URL fragment targeting another pair
+selects that pair). Media for unopened pairs is loaded only when selected.
+Switching pauses the outgoing video and cancels pending reveal effects;
+opened pairs retain their controls and selection state. Videos stay paused
+when returning. On narrow screens the menu scrolls horizontally. Keyboard
+users can navigate tabs with Left/Right, Home, and End.
+
+Menu appearance lives under `.example-menu` at the end of `styles.css`.

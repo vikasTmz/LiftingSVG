@@ -1,8 +1,8 @@
 {
-  "documentTitle": "SVGs to 3D scenes — Vikas Thamizharasan",
-  "description": "SVGs to 3D scenes. Explore animated vector artwork, its individual layers, and video results.",
+  "documentTitle": "SVGs to 3D scenes \u2014 Vikas Thamizharasan",
+  "description": "SVGs to 3D scenes.",
   "brand": {
-    "name": "SVGs to 3D",
+    "name": "SVGs ↔ 3D",
     "note": "Research notes"
   },
   "author": "Vikas Thamizharasan",
@@ -25,25 +25,29 @@
       "id": "other-examples",
       "type": "viewer",
       "scene": "pingpong_ball_cup_splash",
-      "navLabel": "Task: bullet time effect"
+      "navLabel": "Task: bullet time effect",
+      "menuLabel": "Bullet time"
     },
     {
       "id": "road-bike-desert-editable-example",
       "type": "viewer",
       "scene": "road_bike_desert_editable",
-      "navLabel": "Task: hidden geometry"
+      "navLabel": "Task: hidden geometry",
+      "menuLabel": "Hidden geometry"
     },
     {
       "id": "character-running-dribbling-throwing-example",
       "type": "viewer",
       "scene": "character_running_dribbling_throwing",
-      "navLabel": "Task: shadows & camera authoring"
+      "navLabel": "Task: shadows & camera authoring",
+      "menuLabel": "Shadows & cameras"
     },
     {
       "id": "camera-curve-network-example",
       "type": "viewer",
       "scene": "camera_curve_network",
-      "navLabel": "Task: sketch to 3D articulation"
+      "navLabel": "Task: sketch to 3D articulation",
+      "menuLabel": "Sketch to 3D"
     },
     {
       "id": "formulation",
@@ -71,21 +75,24 @@
       "type": "viewer",
       "scene": "leaking_wine_animated",
       "swapViewers": true,
-      "navLabel": "3D to SVG"
+      "navLabel": "3D to SVG",
+      "menuLabel": "Wine"
     },
     {
       "id": "mechanical-whisk-animated-example",
       "type": "viewer",
       "scene": "mechanical_whisk_animated",
       "swapViewers": true,
-      "navLabel": "3D to SVG"
+      "navLabel": "3D to SVG",
+      "menuLabel": "Mechanical whisk"
     },
     {
       "id": "dirac-belt-trick-example",
       "type": "viewer",
       "scene": "dirac_belt_trick",
       "swapViewers": true,
-      "navLabel": "3D to SVG"
+      "navLabel": "3D to SVG",
+      "menuLabel": "Belt trick"
     },
     {
       "id": "references",
