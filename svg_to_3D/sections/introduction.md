@@ -1,4 +1,4 @@
-# Lifting SVGs to *3D*
+# [WIP] Lifting SVGs to 3D
 
 Vector graphics describe images using parametric curves and geometric primitives. They provide compact, resolution-independent representations with directly editable shapes, making them useful for illustration, design, and animation.
 

@@ -454,3 +454,21 @@ when returning. On narrow screens the menu scrolls horizontally. Keyboard
 users can navigate tabs with Left/Right, Home, and End.
 
 Menu appearance lives under `.example-menu` at the end of `styles.css`.
+
+## Reading typography
+
+Article paragraphs and headings use Georgia. Controls and navigation use the
+system sans-serif font. MathJax uses locally hosted STIX Two, with a 1.1 scale
+factor for readability; its font files are in `assets/vendor/mathjax/mathjax-stix2-font/`.
+
+At the top of `styles.css`, adjust:
+
+- `--article-size: 18px` for article text size.
+- `--reading-width: 680px` for the maximum centered text-column width.
+- `--serif` and `--sans` for article and interface font families.
+
+The introduction, article sections, and references use the reading column.
+Viewer rows and their example menus retain the full page width. On small
+screens the reading column fits the available space without reducing the body
+font size. The `.markdown-body` rule sets line spacing to 1.65; references use
+16px text. Long display equations scroll within their own blocks.

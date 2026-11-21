@@ -49,8 +49,9 @@ window.MathJax = {
     processEscapes: true,
   },
   output: {
-    font: 'mathjax-tex',
-    fontPath: new URL('assets/vendor/mathjax/mathjax-tex-font', SVG_MATH_BASE).href,
+    font: 'mathjax-stix2',
+    scale: 1.1, // Slightly larger equations alongside the 18px article text.
+    fontPath: new URL('assets/vendor/mathjax/mathjax-stix2-font', SVG_MATH_BASE).href,
     displayOverflow: 'scroll', // Preserve author-chosen alignment on narrow screens.
   },
   svg: { fontCache: 'local' },

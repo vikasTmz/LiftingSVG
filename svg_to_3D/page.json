@@ -26,7 +26,7 @@
       "type": "viewer",
       "scene": "pingpong_ball_cup_splash",
       "navLabel": "Task: bullet time effect",
-      "menuLabel": "Bullet time"
+      "menuLabel": "Fluids"
     },
     {
       "id": "road-bike-desert-editable-example",
@@ -55,6 +55,13 @@
       "eyebrow": "",
       "content": "sections/problem_formulation.md",
       "navLabel": "Formulation"
+    },
+    {
+      "id": "inpractice",
+      "type": "note",
+      "eyebrow": "",
+      "content": "sections/practical_considerations.md",
+      "navLabel": "Practical considerations"
     },
     {
       "id": "past-efforts",
